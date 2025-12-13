@@ -1,0 +1,10047 @@
+import type { Episode } from '../types';
+
+/**
+ * YouTube EnglishPod Episodes
+ * Auto-generated from YouTube video descriptions
+ * 
+ * Total Episodes: 99
+ * Generated: /Users/tringuyen/dev/code/podcast-for-newbie
+ */
+
+export const youtubeEpisodes: Episode[] = [
+  {
+    id: 1,
+    videoId: "video_001",
+    title: "EnglishPod 1 - Elementary - Difficult Customer",
+    level: "Elementary",
+    description: "Learn difficult customer through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_001",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Good evening. My name is Fabio. I'll be your waiter for tonight. May I take your order?" },
+      { speaker: "B", text: "No, I'm still working on it. This menu isn't even in English. What's good here?" },
+      { speaker: "A", text: "For you sir, I would recommend  spaghetti and meatballs." },
+      { speaker: "B", text: "Does it come with coke and fries?" },
+      { speaker: "A", text: "It comes with either soup or salad and a complimentary glass of wine, sir." },
+      { speaker: "B", text: "I'll go with the spaghetti and meatballs, salad and the wine." },
+      { speaker: "A", text: "Excellent choice. Your order will be ready soon." },
+      { speaker: "B", text: "How soon is soon?" },
+      { speaker: "A", text: "Twenty minutes?" },
+      { speaker: "B", text: "You know what? I'll just go grab a burger across the street." }
+      ],
+      vocabulary: [
+      {
+        word: "Grab",
+        definition: "Get quickly",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Go with",
+        definition: "To choose, pick",
+        category: "phrase"
+      },
+      {
+        word: "Would recommend",
+        definition: "Suggest"
+      },
+      {
+        word: "Complimentary",
+        definition: "Free",
+        category: "adjective"
+      },
+      {
+        word: "Still working on",
+        definition: "Not yet completed, need more time",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Impatient",
+        definition: "Uncomfortable waiting, wanting to go"
+      },
+      {
+        word: "Fast food",
+        definition: "Food prepared and served quickly",
+        category: "phrase"
+      },
+      {
+        word: "Waitress",
+        definition: "Female server at a restaurant or bar",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Fancy",
+        definition: "Nice, expensive, up-scale",
+        category: "adjective"
+      },
+      {
+        word: "Casual",
+        definition: "Relaxed, not dressy",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 2,
+    videoId: "video_002",
+    title: "EnglishPod 2 - Elementary - Calling in Sick",
+    level: "Elementary",
+    description: "Learn calling in sick through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_002",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hello, Daniel speaking, how may I help you?" },
+      { speaker: "B", text: "Hi, Daniel, Julie here." },
+      { speaker: "A", text: "Hi, Julie, how are you?" },
+      { speaker: "B", text: "Actually, I'm feeling quite ill today." },
+      { speaker: "A", text: "I'm sorry to hear that. What's wrong?" },
+      { speaker: "B", text: "I think I'm coming down with the flu.  I have a headache, a sore throat a runny nose and I'm feeling slightly feverish." },
+      { speaker: "A", text: "I see... so you're calling in sick?" },
+      { speaker: "B", text: "Yes, I was hoping to take the day off to recover." },
+      { speaker: "A", text: "OK, then. Try and get some rest." }
+      ],
+      vocabulary: [
+      {
+        word: "Was hoping",
+        definition: "To kindly expect",
+        category: "phrase"
+      },
+      {
+        word: "Calling in sick",
+        definition: "Report that you will not go to work because you are sick",
+        category: "phrase"
+      },
+      {
+        word: "Coming down",
+        definition: "Getting, acquiring",
+        category: "phrase"
+      },
+      {
+        word: "Quite ill",
+        definition: "Very sick",
+        category: "phrase"
+      },
+      {
+        word: "How may I help you?",
+        definition: "Polite offer to help",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Impolite",
+        definition: "Rude",
+        category: "adjective"
+      },
+      {
+        word: "Permission",
+        definition: "Allow",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Symptom",
+        definition: "A sign, indication",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Sick day",
+        definition: "Day off because you're sick",
+        category: "phrase"
+      },
+      {
+        word: "Make it into work",
+        definition: "Go to work",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 3,
+    videoId: "video_003",
+    title: "EnglishPod 3 - Elementary - Hotel Upgrade",
+    level: "Elementary",
+    description: "Learn hotel upgrade through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_003",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Good afternoon. What can I do for you?" },
+      { speaker: "B", text: "I'd like to check in please. I have a reservation under the name Anthony Roberts." },
+      { speaker: "A", text: "All right R.O.B.E.R.T.S... Oh, Mr. Roberts we've been expecting you… and here is your keycard to the presidential suite." },
+      { speaker: "B", text: "But there must be some mistake; my reservation was for a standard room." },
+      { speaker: "A", text: "Are you sure? Let me double check ." },
+      { speaker: "B", text: "Yeah…Here, this is my confirmation number." },
+      { speaker: "A", text: "You're right Mr. Roberts, there seems to be a mix-up, unfortunately we're overbooked at the moment ." },
+      { speaker: "B", text: "So…" },
+      { speaker: "A", text: "Not to worry. We're pleased to offer you a complimentary upgrade." },
+      { speaker: "B", text: "Presidential suite baby!" }
+      ],
+      vocabulary: [
+      {
+        word: "Check in",
+        definition: "Register at a hotel or airport",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "Under the name",
+        definition: "Name used for the reservation",
+        category: "phrase"
+      },
+      {
+        word: "Reservation",
+        definition: "Booking",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Confirmation",
+        definition: "An approval, verification",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Mix-up",
+        definition: "Confusion",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Complimentary upgrade",
+        definition: "Free improvement of quality",
+        category: "phrase"
+      },
+      {
+        word: "Overbooked",
+        definition: "Full",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Check out",
+        definition: "Pay and leave a hotel",
+        category: "verb"
+      },
+      {
+        word: "Booking",
+        definition: "Reservation",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Concierge",
+        definition: "Hotel employee that helps guests",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Deluxe room",
+        definition: "Hotel room, better than standard",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Receipt",
+        definition: "Paper showing payment details",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 4,
+    videoId: "video_004",
+    title: "EnglishPod 4 - Elementary - I need an assistant",
+    level: "Elementary",
+    description: "Learn i need an assistant through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_004",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "...like I told you before, we just don't have the resources to hire you an assistant." },
+      { speaker: "B", text: "I understand that, but the fact is we're understaffed." },
+      { speaker: "A", text: "The timing is just not right. The economy is bad, and it's too risky to take on new staff." },
+      { speaker: "B", text: "Yeah, I guess you're right.... here's an idea, what if we hire an intern? She would take some of the weight off my shoulders." },
+      { speaker: "A", text: "She?" },
+      { speaker: "B", text: "Yeah, you know, a recent graduate. She could give me a hand with some of these projects and we could keep our costs down." },
+      { speaker: "A", text: "That sounds reasonable... let me see what I can do." },
+      { speaker: "A", text: "Tony, I'd like to introduce you to your new assistant." },
+      { speaker: "B", text: "OK, great! Let's meet her!" },
+      { speaker: "C", text: "Hi, I'm Adam." },
+      { speaker: "B", text: "Oh... hi... I'm Tony..." }
+      ],
+      vocabulary: [
+      {
+        word: "Resources",
+        definition: "Money",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Understaffed",
+        definition: "Not enough people to do the job",
+        category: "adjective"
+      },
+      {
+        word: "The timing is just not right",
+        definition: "It is not a good time now",
+        category: "phrase"
+      },
+      {
+        word: "Weight off my shoulders",
+        definition: "Remove pressure or stress",
+        category: "phrase"
+      },
+      {
+        word: "Give me a hand",
+        definition: "Help",
+        category: "phrase"
+      },
+      {
+        word: "That sounds reasonable",
+        definition: "Is OK",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Recruit",
+        definition: "Hire",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "Overworked",
+        definition: "Working too much",
+        category: "adjective"
+      },
+      {
+        word: "Short staffed",
+        definition: "Not enough people to do the job",
+        category: "adjective"
+      },
+      {
+        word: "Cut costs",
+        definition: "Reduce spending",
+        category: "phrase"
+      },
+      {
+        word: "Overstaffed",
+        definition: "Having too many employees",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 5,
+    videoId: "video_005",
+    title: "EnglishPod 5 - Elementary - Cut in Line",
+    level: "Elementary",
+    description: "Learn cut in line through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_005",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "I can't believe it took us two hours to get here. The traffic in New York is unbelievable." },
+      { speaker: "B", text: "Yeah, but just relax honey, we're here and we're going on vacation. In a few hours we'll be in Hawaii, and you'll be on the golf course." },
+      { speaker: "A", text: "Oh no! Look at that line! It must be a mile long! There's no way I'm waiting for another two hours." },
+      { speaker: "B", text: "Honey... don't..." },
+      { speaker: "C", text: "Hey man, the end of the line is over there." },
+      { speaker: "A", text: "Yeah..." },
+      { speaker: "C", text: "No seriously, I was here first, and you can't cut in line like this." },
+      { speaker: "A", text: "Says who?" },
+      { speaker: "C", text: "I do!" },
+      { speaker: "A", text: "So sue me!" },
+      { speaker: "C", text: "Alright...that's it...." }
+      ],
+      vocabulary: [
+      {
+        word: "Unbelievable",
+        definition: "Incredible, amazing",
+        category: "adjective"
+      },
+      {
+        word: "Relax",
+        definition: "Calm down",
+        category: "verb",
+        subcategory: "imperative"
+      },
+      {
+        word: "Be a mile long",
+        definition: "Is very long",
+        category: "phrase"
+      },
+      {
+        word: "Cut in line",
+        definition: "Move in front of someone waiting in line",
+        category: "phrase"
+      },
+      {
+        word: "There's no way",
+        definition: "It's impossible",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Traffic jam",
+        definition: "Many cars not moving on the road",
+        category: "phrase"
+      },
+      {
+        word: "A few hours from now",
+        definition: "Soon, in a couple of hours",
+        category: "phrase"
+      },
+      {
+        word: "Form a queue",
+        definition: "To get in line",
+        category: "phrase"
+      },
+      {
+        word: "Jump the queue",
+        definition: "Cut in line ( Br E)",
+        category: "phrase"
+      },
+      {
+        word: "Stand in line",
+        definition: "Wait in line",
+        category: "phrase"
+      },
+      {
+        word: "Line up",
+        definition: "Form a line",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 6,
+    videoId: "video_006",
+    title: "EnglishPod 6 - Elementary - Road Trip",
+    level: "Elementary",
+    description: "Learn road trip through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_006",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "So, are we all ready to go?" },
+      { speaker: "B", text: "Yup, I think so. The car's packed; we have munchies and music, and the map's in the car." },
+      { speaker: "A", text: "Did you get the camera?" },
+      { speaker: "B", text: "Got it! Did you fill up the tank?" },
+      { speaker: "A", text: "Yup, it's all set." },
+      { speaker: "B", text: "You're sure we're not forgetting anything?" },
+      { speaker: "A", text: "I'm sure... we've got all our bases covered." },
+      { speaker: "B", text: "Well… let's get going then! I love road trips!" },
+      { speaker: "B", text: "Um... do you think we can make a pit stop?" },
+      { speaker: "A", text: "But we've only been on the road for ten minutes." },
+      { speaker: "B", text: "I know, but I forgot to go to the bathroom before we left." }
+      ],
+      vocabulary: [
+      {
+        word: "All ready to go",
+        definition: "Prepared, ready to leave",
+        category: "phrase"
+      },
+      {
+        word: "Packed",
+        definition: "Full, everything is inside",
+        category: "adjective"
+      },
+      {
+        word: "Munchies",
+        definition: "Snacks, food",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Fill up the tank",
+        definition: "Put gas in the car",
+        category: "phrase"
+      },
+      {
+        word: "All set",
+        definition: "Ready",
+        category: "phrase"
+      },
+      {
+        word: "Got all the bases covered",
+        definition: "Have everything ready",
+        category: "phrase"
+      },
+      {
+        word: "Get going",
+        definition: "Start, leave, depart",
+        category: "phrase"
+      },
+      {
+        word: "Road trip",
+        definition: "Long car trip",
+        category: "phrase"
+      },
+      {
+        word: "Pit stop",
+        definition: "Quick stop for food or gas",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Trunk",
+        definition: "The luggage area of a car",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Passenger",
+        definition: "Person in a car, not the driver",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Freeway",
+        definition: "Highway",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Rental car",
+        definition: "A car you rent, a car you pay to borrow",
+        category: "phrase"
+      },
+      {
+        word: "Highway toll",
+        definition: "Fee paid for using the highway",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 7,
+    videoId: "video_007",
+    title: "EnglishPod 7 - Elementary - Virus",
+    level: "Elementary",
+    description: "Learn virus through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_007",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Oh great! This stupid computer froze again! That’s the third time today! Hey Samuel, can you come take a look at my PC? It’s acting up again. It must have a virus or something." },
+      { speaker: "B", text: "Just give me a second; I’ll be right up." },
+      { speaker: "B", text: "I ran a virus scan on your computer, and it turns out that you have a lot of infected files!" },
+      { speaker: "A", text: "But I’m quite careful when I’m browsing the internet, I have no idea how I could have picked up a virus." },
+      { speaker: "B", text: "Well, you have to make sure that your anti-virus software is updated regularly; yours wasn't up to date, that's probably what was causing your problems." },
+      { speaker: "A", text: "Ok. Anything else?" },
+      { speaker: "B", text: "Yeah, try not to kick or hit the computer!" },
+      { speaker: "A", text: "Um yeah… Sorry about that." }
+      ],
+      vocabulary: [
+      {
+        word: "Freeze",
+        definition: "To stop working properly",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Take a look",
+        definition: "See, revise",
+        category: "phrase"
+      },
+      {
+        word: "Act up",
+        definition: "Not working properly",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Be right up",
+        definition: "Go upstairs soon",
+        category: "phrase"
+      },
+      {
+        word: "Pick up",
+        definition: "Get, acquire",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Browse",
+        definition: "Look, search",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Up to date",
+        definition: "Having all the most recent information",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Monitor",
+        definition: "Computer screen",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Computer tech",
+        definition: "Person in a company who fixes computers",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Corrupt file",
+        definition: "Damaged or broken computer file that can't be opened",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Surf the net",
+        definition: "Look for information on the internet",
+        category: "phrase"
+      },
+      {
+        word: "Web browser",
+        definition: "Computer program that allows you to go on the internet",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 8,
+    videoId: "video_008",
+    title: "EnglishPod 8 - Elementary - What is your name again",
+    level: "Elementary",
+    description: "Learn what is your name again through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_008",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Nick! How's it going?" },
+      { speaker: "B", text: "Oh, hey..." },
+      { speaker: "A", text: "What are you doing in this neightbourhood? Do you live around here?" },
+      { speaker: "B", text: "Actually, my office is right around the corner." },
+      { speaker: "A", text: "It was great to meet you last week at the conference. I really enjoyed our conversation about foreign investment." },
+      { speaker: "B", text: "Yeah, yeah, it was really interesting. You know, I'm in a bit of a hurry, but here's my card. We should definitely meet up again and continue our discussion." },
+      { speaker: "A", text: "Sure, you still have my contact details, right ?" },
+      { speaker: "B", text: "You know what, this is really embarrassing, but your name has just slipped my mind. Can you remind me?" },
+      { speaker: "A", text: "Sure, my name is Ana Ferris. Don't worry about it; it happens to me all the time. I'm terrible with names too." }
+      ],
+      vocabulary: [
+      {
+        word: "How's it going",
+        definition: "How are you",
+        category: "phrase"
+      },
+      {
+        word: "Around here",
+        definition: "Close to here",
+        category: "phrase"
+      },
+      {
+        word: "Around the corner",
+        definition: "On the next street",
+        category: "phrase"
+      },
+      {
+        word: "In bit of a hurry",
+        definition: "Moving quickly, having no time",
+        category: "phrase"
+      },
+      {
+        word: "Contact details",
+        definition: "Information required to contact someone, i.e. telephone number, email address",
+        category: "phrase"
+      },
+      {
+        word: "Slip my mind",
+        definition: "Been forgotten",
+        category: "phrase"
+      },
+      {
+        word: "Terrible with",
+        definition: "Bad at",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Around there",
+        definition: "Close to there",
+        category: "phrase"
+      },
+      {
+        word: "To recognize",
+        definition: "To know and remember someone or something you have seen before",
+        category: "verb",
+        subcategory: "imperative"
+      },
+      {
+        word: "Acquaintance",
+        definition: "Someone you know, but who is not a close friend",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "In a rush",
+        definition: "Move quickly, not have much time",
+        category: "phrase"
+      },
+      {
+        word: "Forgetful",
+        definition: "Forgetting things easily",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 9,
+    videoId: "video_009",
+    title: "EnglishPod 9 - Elementary - Silence please",
+    level: "Elementary",
+    description: "Learn silence please through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_009",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Those people in front of us are making so much noise. It’s so inconsiderate!" },
+      { speaker: "B", text: "Don’t worry about it; it's not such a big deal." },
+      { speaker: "A", text: "Oh... I can’t hear a thing! Excuse me, can you keep it down?" },
+      { speaker: "C", text: "Sure, sorry 'bout that!" },
+      { speaker: "A", text: "Someone’s phone is ringing!" },
+      { speaker: "B", text: "Honey, I think it’s your phone. Did you forget to switch it off?" },
+      { speaker: "A", text: "Oh, no! You’re right. That’s so embarrassing!" },
+      { speaker: "C", text: "Do you mind keeping it down? I’m trying to watch a movie here!" }
+      ],
+      vocabulary: [
+      {
+        word: "Inconsiderate",
+        definition: "Not thinking of the feelings of other people; not thoughtful",
+        category: "adjective"
+      },
+      {
+        word: "Not such a big deal",
+        definition: "Not a big problem",
+        category: "phrase"
+      },
+      {
+        word: "Can't hear a thing",
+        definition: "Unable to hear",
+        category: "phrase"
+      },
+      {
+        word: "Keep it down",
+        definition: "Be quiet",
+        category: "phrase"
+      },
+      {
+        word: "Switch off",
+        definition: "Turn off",
+        category: "phrase"
+      },
+      {
+        word: "Do you mind",
+        definition: "Could you please",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Noisy",
+        definition: "Very loud",
+        category: "adjective"
+      },
+      {
+        word: "Rude",
+        definition: "Impolite",
+        category: "adjective"
+      },
+      {
+        word: "To disturb",
+        definition: "To interrupt, bother, or upset",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "To interrupt",
+        definition: "To speak or make noise when someone else is speaking",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "To whisper",
+        definition: "To speak very softly",
+        category: "verb",
+        subcategory: "infinitive"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 10,
+    videoId: "video_010",
+    title: "EnglishPod 10 - Intermediate - Driving Sales",
+    level: "Intermediate",
+    description: "Learn driving sales through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_010",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "All right, people. We're holding this meeting today because we've got to do something about our sales, and we need to do it NOW! I want concrete solutions. How do you intend to drive sales... Roger?" },
+      { speaker: "B", text: "Well, in fact, we're the most expensive in the market, so maybe we need to lower our prices to match the competitors?" },
+      { speaker: "A", text: "Lower our prices? Not very creative. It'll never fly with Swan. What kind of thinking is that? Geez. Anybody else have a better plan? Natalie?" },
+      { speaker: "C", text: "Um, perhaps, um, a sales promotion. Maybe a two-for-one offer, or something like that!" },
+      { speaker: "A", text: "What? That's the same thing. Bad idea. Really bad idea. Dammit people come on! Think! The CEO will be here any minute." },
+      { speaker: "D", text: "Do we have any ideas yet?" },
+      { speaker: "C", text: "Yes Mr. Swan, we were kind of considering a two-for-one offer to get more competitive." },
+      { speaker: "D", text: "A two-for-one promotion? Hmm. I kind of like the sound of that. It sounds like something we should consider." },
+      { speaker: "A", text: "Yeah, exactly. Just what I was thinking! In fact, that's a brilliant idea! I'm glad we thought of that. Very creative." }
+      ],
+      vocabulary: [
+      {
+        word: "Concrete solutions",
+        definition: "A real or specific solution to a problem",
+        category: "phrase"
+      },
+      {
+        word: "Drive sales",
+        definition: "Increase sales",
+        category: "preposition"
+      },
+      {
+        word: "In the market",
+        definition: "In the industry",
+        category: "phrase"
+      },
+      {
+        word: "To match the competitors",
+        definition: "Be the as good as or better than others companies in the same industry",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "Will never fly",
+        definition: "Will not work, will not be approved",
+        category: "phrase"
+      },
+      {
+        word: "Promotion",
+        definition: "Something done to make people aware of a product",
+        category: "phrase"
+      },
+      {
+        word: "Be here any minute",
+        definition: "Will arrive very soon",
+        category: "phrase"
+      },
+      {
+        word: "To consider",
+        definition: "Thinking about",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "Brilliant",
+        definition: "Excellent",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Competitive",
+        definition: "As good as or better than others of the same type",
+        category: "adjective"
+      },
+      {
+        word: "Win sales",
+        definition: "Make sales successfully",
+        category: "phrase"
+      },
+      {
+        word: "Sales strategy",
+        definition: "Plans for a company's sales activities",
+        category: "phrase"
+      },
+      {
+        word: "Sales cycle",
+        definition: "The process a customer goes though when deciding to buy a product",
+        category: "phrase"
+      },
+      {
+        word: "To outsell",
+        definition: "To sell more than others",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "Customer loyalty",
+        definition: "When a customer buys the same brand over and over",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 11,
+    videoId: "video_011",
+    title: "EnglishPod 11 - Upper Intermediate - New Guy in Town",
+    level: "Intermediate",
+    description: "Learn new guy in town through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_011",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Oh, I don't know if you heard, but someone moved into that old house down the road." },
+      { speaker: "B", text: "Yeah, I know. I met the owner of the house yesterday as he was moving in. His name is Armand." },
+      { speaker: "A", text: "Really? What's he like? You have to fill me in." },
+      { speaker: "B", text: "Actually, he's a bit strange. I don't know... I've got a bad feeling about him." },
+      { speaker: "A", text: "Really? Why?" },
+      { speaker: "B", text: "Well, yesterday I brought over a housewarming gift, but Armand started acting really weird, and then he practically kicked me out! I tried to, sort of, peek into his house, but everything was so dark inside that I couldn't really get a good look." },
+      { speaker: "A", text: "Well, you'll never guess what I saw this morning. A delivery truck pulled into his driveway, and it dropped off a long, rectangular box. It almost looked like a coffin!" },
+      { speaker: "B", text: "You see! Why would he..." },
+      { speaker: "C", text: "Hello ladies..." },
+      { speaker: "B", text: "Ah, Armand! You scared the heck out of me! This is my friend Doris." },
+      { speaker: "C", text: "A pleasure to meet you...If you are not doing anything tonight, I would like to have you both for dinner. I mean...I would like to have you both over for dinner." }
+      ],
+      vocabulary: [
+      {
+        word: "I don't know if you heard",
+        definition: "Phrase used to introduce a piece of information",
+        category: "phrase"
+      },
+      {
+        word: "Fill me in",
+        definition: "Tell me about it",
+        category: "phrase"
+      },
+      {
+        word: "A bad feeling",
+        definition: "A sense or feeling that something bad is going to happen",
+        category: "phrase"
+      },
+      {
+        word: "Weird",
+        definition: "Strange, unusual",
+        category: "adjective"
+      },
+      {
+        word: "Kick out",
+        definition: "Make or force someone leave when they don't want to",
+        category: "verb",
+        subcategory: "past simple"
+      },
+      {
+        word: "Creep me out",
+        definition: "Make me feel uncomfortable and a bit scared",
+        category: "phrase"
+      },
+      {
+        word: "You'll never guess",
+        definition: "Phrase used to introduce a piece of news",
+        category: "phrase"
+      },
+      {
+        word: "Scare the heck out of me",
+        definition: "Cause someone to feel a lot of fear",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Bizarre",
+        definition: "Strange or unusual",
+        category: "adjective"
+      },
+      {
+        word: "Creepy",
+        definition: "Strange or scary, causing people to feel nervous and afraid",
+        category: "adjective"
+      },
+      {
+        word: "Vampire",
+        definition: "A dead person who drinks the blood of living people",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Have you heard",
+        definition: "Phrase used to introduce a piece of gossip",
+        category: "phrase"
+      },
+      {
+        word: "Guess what",
+        definition: "Phrase used to introduce an interesting or surprising piece of information",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 12,
+    videoId: "video_012",
+    title: "EnglishPod 12 - Intermediate - Cleaning the House",
+    level: "Intermediate",
+    description: "Learn cleaning the house through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_012",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Honey, the house is such a mess! I need you to help me tidy up a bit. My boss and her husband are coming over for dinner and the house needs to be spotless!" },
+      { speaker: "B", text: "I'm in the middle of something right now. I'll be there in a second." },
+      { speaker: "A", text: "This can't wait! I need your help now!" },
+      { speaker: "B", text: "Alright, alright. I'm coming." },
+      { speaker: "A", text: "Ok, here's a list of chores we need to get done. I'll do the dishes and get all the groceries for tonight. You can sweep and mop the floors. Oh, and the furniture needs to be dusted." },
+      { speaker: "B", text: "You know what, I have to pick something up at the mall, so why don't you clean the floors and I’ll go to the supermarket and get all the groceries." },
+      { speaker: "A", text: "Sure that's fine. Here is the list of all the things you need to get. Don’t forget anything! And can you pick up a bottle of wine on your way home?" },
+      { speaker: "B", text: "Hey, honey I'm back. Wow, the house looks really good!" },
+      { speaker: "A", text: "Great! Can you set the table?" },
+      { speaker: "B", text: "Just a sec I'm just gonna vacuum this rug real fast" },
+      { speaker: "A", text: "Wait! Don't turn it on..." }
+      ],
+      vocabulary: [
+      {
+        word: "Such a mess",
+        definition: "Very dirty, disordered",
+        category: "phrase"
+      },
+      {
+        word: "Tidy up",
+        definition: "Put things in place, organize",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Spotless",
+        definition: "Perfectly clean",
+        category: "adjective"
+      },
+      {
+        word: "In the middle of something",
+        definition: "Busy doing something at the moment",
+        category: "phrase"
+      },
+      {
+        word: "Chores",
+        definition: "Common house tasks",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Groceries",
+        definition: "Food that you buy at a store",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Immaculate",
+        definition: "Perfectly clean, having no dirt at all",
+        category: "adjective"
+      },
+      {
+        word: "Do the laundry",
+        definition: "Wash the dirty clothes",
+        category: "phrase"
+      },
+      {
+        word: "Dish detergent",
+        definition: "Soap used to wash the plates, knives, forks, bowls, etc.",
+        category: "phrase"
+      },
+      {
+        word: "Trash",
+        definition: "Garbage (AmE)",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Rubbish",
+        definition: "Garbage (BrE)",
+        category: "noun",
+        subcategory: "non-variable"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 13,
+    videoId: "video_013",
+    title: "EnglishPod 13 - Intermediate - Out of Control Spending",
+    level: "Intermediate",
+    description: "Learn out of control spending through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_013",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "OK, so now the last point on our agenda. Jill, let's go over the profit and loss statement." },
+      { speaker: "B", text: "Great. Well, the main issue here, as you can see, is that our expenses are through the roof." },
+      { speaker: "A", text: "Let's see... These numbers are off the charts! What's going on here!" },
+      { speaker: "B", text: "Well, um, sir, the company expenditures on entertainment and travel are out of control. Look at these bills for example. Just this month we've paid over twenty thousand dollars for hotel charges!" },
+      { speaker: "A", text: "OK, thank you. I'll look into it." },
+      { speaker: "B", text: "The list goes on and on. Here, this is a bill for five thousand dollars for spa treatments!" },
+      { speaker: "A", text: "Thank you; that will be all. I'll take care of it." },
+      { speaker: "B", text: "Look at this one sir, eight thousand dollars were spent in one night at a place called \"Wild Things\"?!" },
+      { speaker: "A", text: "OK, I get it!! Thank you for your very thorough analysis!" }
+      ],
+      vocabulary: [
+      {
+        word: "Go over",
+        definition: "Revise, check",
+        category: "phrase"
+      },
+      {
+        word: "Through the roof",
+        definition: "Suddenly very high",
+        category: "phrase"
+      },
+      {
+        word: "Off the charts",
+        definition: "Very high",
+        category: "phrase"
+      },
+      {
+        word: "Expenditures",
+        definition: "Amount of money spent on something",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Out of control",
+        definition: "Not in control",
+        category: "phrase"
+      },
+      {
+        word: "Look into",
+        definition: "Investigate, try to get information about something",
+        category: "verb",
+        subcategory: "will future"
+      },
+      {
+        word: "Go on and on",
+        definition: "Continues",
+        category: "phrase"
+      },
+      {
+        word: "Take care of",
+        definition: "Do something about",
+        category: "verb",
+        subcategory: "will future"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Revenue",
+        definition: "Amount of money paid to a business",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Cash flow",
+        definition: "The movement of money into and out of a business",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "The bottom line",
+        definition: "The net profit;  the amount of money a business makes after expenses",
+        category: "phrase"
+      },
+      {
+        word: "Finances",
+        definition: "The amount of money you have and how well it is organized",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Income",
+        definition: "The amount of money a person or a company makes",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Assets",
+        definition: "Things of value that are owned by a company",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 14,
+    videoId: "video_014",
+    title: "EnglishPod 14 - Elementary - I'm in Debt",
+    level: "Elementary",
+    description: "Learn i'm in debt through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_014",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hello, I’m here to see Mr. Corleone." },
+      { speaker: "B", text: "Right this way, sir." },
+      { speaker: "C", text: "Charlie! What can I do for you?" },
+      { speaker: "B", text: "Mr. Corlone, I’m really sorry to trouble you, but I need your help." },
+      { speaker: "C", text: "Anything for you, Charlie! Your father was like a brother to me." },
+      { speaker: "B", text: "Well, sir, you see, this recession has hit me pretty hard; I lost my job and I’m in a lot of debt." },
+      { speaker: "C", text: "I see……" },
+      { speaker: "B", text: "Yeah, you know, I’ve got credit card bills, car payments, I’ve got to pay my mortgage; and on top of all that, I have to pay my son’s college tuition." },
+      { speaker: "C", text: "So you’re asking for a loan." },
+      { speaker: "B", text: "Well, I just thought maybe you could help me out." },
+      { speaker: "C", text: "What? At a time like this? I’m broke too, you know! You’re not the only one who has been hit by the recession! I lost half my money in the stock market crash! Go on! Get outta here!" }
+      ],
+      vocabulary: [
+      {
+        word: "Trouble",
+        definition: "Disturb or bother",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Recession",
+        definition: "A period of time when the economy of a country is bad",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Hit me pretty hard",
+        definition: "Had a strong, negative affect on me",
+        category: "phrase"
+      },
+      {
+        word: "Debt",
+        definition: "The amount of money you owe to a person, bank, company, etc.",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "On top of all that",
+        definition: "Besides that, in addition to",
+        category: "phrase"
+      },
+      {
+        word: "Broke",
+        definition: "Not have any money",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Borrow",
+        definition: "Take and use some money, and return the equal amount of money at a later time",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Pay back",
+        definition: "Return the money you borrowed",
+        category: "phrase"
+      },
+      {
+        word: "A loan",
+        definition: "Amount of money borrowed",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Take out a loan",
+        definition: "Borrow money",
+        category: "phrase"
+      },
+      {
+        word: "Unemployed",
+        definition: "Having no job",
+        category: "adjective"
+      },
+      {
+        word: "Downturn",
+        definition: "A time when the economy is worse than usual",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 15,
+    videoId: "video_015",
+    title: "EnglishPod 15 - Intermediate - I'm sorry I love you 1",
+    level: "Intermediate",
+    description: "Learn i'm sorry i love you 1 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_015",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Whoa, whoa, what's going on? Watch out!" },
+      { speaker: "B", text: "Hey, watch where you're going!" },
+      { speaker: "A", text: "Oh, no! I'm so sorry! Are you all right?" },
+      { speaker: "B", text: "Oh...I don't know." },
+      { speaker: "A", text: "I feel terrible, I really didn't mean to knock you over. My tire, just exploded, and I lost control of my bike. Really, it was an accident. Please accept my apologies." },
+      { speaker: "B", text: "Just let me try to stand up." },
+      { speaker: "A", text: "Are you okay?" },
+      { speaker: "B", text: "Oh, wait a second, you seem really familiar, I think I know you from somewhere." },
+      { speaker: "A", text: "Yeah, I think we have met somewhere before. That's right! We met at Aaron's place last weekend! What a coincidence! But anyway, I'm glad to see that you're not too badly hurt, and I should probably get going. I have a nine o'clock meeting." },
+      { speaker: "B", text: "Ouch! My ankle! I think it's broken! You can't just leave me like this! Are you calling an ambulance?" },
+      { speaker: "A", text: "Nope, I'm canceling my appointment so that I can stay here with you." }
+      ],
+      vocabulary: [
+      {
+        word: "Feel terrible",
+        definition: "Sorry",
+        category: "phrase"
+      },
+      {
+        word: "Mean",
+        definition: "Intend, plan",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Explode",
+        definition: "Suddenly break apart",
+        category: "verb",
+        subcategory: "past simple"
+      },
+      {
+        word: "Accident",
+        definition: "An event that is not planed or intended",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Familiar",
+        definition: "Probably known, but not clearly remembered",
+        category: "adjective"
+      },
+      {
+        word: "Place",
+        definition: "House",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Coincidence",
+        definition: "Situation when two or more things happen at the same time in an unplanned way",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Knock over",
+        definition: "Make something fall over",
+        category: "verb",
+        subcategory: "infinitive"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Regret",
+        definition: "Feel sad or sorry about something",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Apologetic",
+        definition: "Feeling or showing regret, showing an apology",
+        category: "adjective"
+      },
+      {
+        word: "Feel guilty",
+        definition: "Feel responsible for doing something bad",
+        category: "phrase"
+      },
+      {
+        word: "Unfamiliar",
+        definition: "Not familiar",
+        category: "adjective"
+      },
+      {
+        word: "Love at first sight",
+        definition: "Falling in love the first time you see someone",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 16,
+    videoId: "video_016",
+    title: "EnglishPod 16 - Elementary - Turn Left Here",
+    level: "Elementary",
+    description: "Learn turn left here through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_016",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hurry up, get in!" },
+      { speaker: "B", text: "I'm in , let's go!" },
+      { speaker: "A", text: "OK, make a left here...no wait, I meant make a right. Come on speed up!" },
+      { speaker: "B", text: "Geeze! What's the rush?" },
+      { speaker: "A", text: "Don't worry about it, just drive. Oh, no, the light is about to change... step on it!" },
+      { speaker: "B", text: "Are you nuts? I'm not going to run a red light!" },
+      { speaker: "A", text: "Whatever. Just turn right here. The freeway will be packed at this hour.... let's take a side street. Go on! Get out of our way! Move, move!" },
+      { speaker: "B", text: "What's your problem? Geez. Having a fit is not going to help!" },
+      { speaker: "A", text: "Here, I know a short cut... just go down here and we'll cut through Ashburn Heights. Let's go, let's go! Watch out for that lady!" },
+      { speaker: "B", text: "I'm going as fast as I can!" },
+      { speaker: "A", text: "Yes! We made it." },
+      { speaker: "B", text: "You're such a geek!" }
+      ],
+      vocabulary: [
+      {
+        word: "Hurry up",
+        definition: "Move faster",
+        category: "phrase"
+      },
+      {
+        word: "Make a left",
+        definition: "Turn left",
+        category: "phrase"
+      },
+      {
+        word: "Step on it",
+        definition: "Drive a lot faster",
+        category: "phrase"
+      },
+      {
+        word: "Nuts",
+        definition: "Crazy",
+        category: "adjective"
+      },
+      {
+        word: "Speed up",
+        definition: "Go faster",
+        category: "verb"
+      },
+      {
+        word: "Have a fit",
+        definition: "Get very angry",
+        category: "phrase"
+      },
+      {
+        word: "Cut through",
+        definition: "Quickly go past or though something that blocks you",
+        category: "phrase"
+      },
+      {
+        word: "Packed",
+        definition: "Full, having lots of cars",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Road rage",
+        definition: "Be very angry at other drivers while driving",
+        category: "phrase"
+      },
+      {
+        word: "Back street",
+        definition: "Small street that is away from the main streets",
+        category: "phrase"
+      },
+      {
+        word: "U-turn",
+        definition: "A 180 degree turn in the car",
+        category: "phrase"
+      },
+      {
+        word: "To back up",
+        definition: "To move backwards, the opposite of go forwards",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "To pass",
+        definition: "To drive past another car on the road to pass a car on the road",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "To park",
+        definition: "To stop the car and turn off the engine",
+        category: "verb",
+        subcategory: "infinitive"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 17,
+    videoId: "video_017",
+    title: "EnglishPod 17 - Elementary - Here Comes the Bride",
+    level: "Elementary",
+    description: "Learn here comes the bride through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_017",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "I can't believe that Anthony is finally getting married!" },
+      { speaker: "B", text: "Yeah, well, it's about time. He's been living with his parents for forty years!" },
+      { speaker: "A", text: "Don't be mean. Look, here come the bridesmaids! Their dresses look beautiful!" },
+      { speaker: "B", text: "Who are those kids walking down the aisle?" },
+      { speaker: "A", text: "That's the flower girl and the ring bearer. I'm pretty sure they're the groom's niece and nephew. Oh, they look so cute!" },
+      { speaker: "B", text: "I just hope the priest makes it quick. I'm starving. I hope the food's good at the reception." },
+      { speaker: "A", text: "That’s all you ever think about, food! Oh, I think the bride's coming now! She looks gorgeous. Wait, what's she doing? Where's she going?" },
+      { speaker: "B", text: "Oh, great! Does this mean that the reception is canceled?" }
+      ],
+      vocabulary: [
+      {
+        word: "Married",
+        definition: "Joined in marriage",
+        category: "adjective"
+      },
+      {
+        word: "It's about time",
+        definition: "Finally",
+        category: "phrase"
+      },
+      {
+        word: "Bridesmaid",
+        definition: "Female friends or relatives who helps the bride at a wedding",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Aisle",
+        definition: "A passage between sections of seats",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Flower girl",
+        definition: "A girl at a wedding that throws flower petals down the aisle",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Ring bearer",
+        definition: "A boy at a wedding that holds the wedding rings",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Reception",
+        definition: "Party held to celebrate something or to welcome people",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Groom",
+        definition: "A man who is about to be married",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Bride",
+        definition: "Female who is about to get married",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Gorgeous",
+        definition: "Very beautiful or attractive",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Groomsman",
+        definition: "Male friend or relative who helps the groom on the wedding day",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Maid of honor",
+        definition: "Female fiend or relative who acts as a witness at the wedding",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Best man",
+        definition: "Male friend or relative who acts as a witness at the wedding",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Ushers",
+        definition: "Men who help guest find their seats",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 18,
+    videoId: "video_018",
+    title: "EnglishPod 18 - Upper Intermediate - Protest",
+    level: "Intermediate",
+    description: "Learn protest through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_018",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "This is Action 5 News reporter Sarah O'Connell reporting live from Washington, D. C. where a protest has broken out. Thousands of angry citizens are protesting against the proposed bailout of the auto manufacturing industry! Sir, sir, Sar" },
+      { speaker: "B", text: "Yeah, yeah, we are here because we feel this is an injustice! The financial irresponsibility of big business has to stop! We're here to show the government that we don't like the way that they're spending our tax dolla" },
+      { speaker: "A", text: "Sir, but what exactly is making everyone so angry?" },
+      { speaker: "B", text: "It's an absolute outrage, Sarah, the US government wants to give twenty-five billion dollars of taxpayers' money to the auto industry. These are companies that have been mismanaged and are now nearly bankrupt." },
+      { speaker: "A", text: "I see. But, many supporters of the bailout argue that it could help save the jobs of millions of hardworking Americans." },
+      { speaker: "B", text: "That may be true, and I for one don't want to see anyone lose their job, but how can these CEOs ask for a bailout when they're making millions of dollars? And then they have the nerve to fly to Washington in private jets! This" },
+      { speaker: "A", text: "Good point. This is Sarah O'Connell reporting live from Washington D. C., back to you, Tom." }
+      ],
+      vocabulary: [
+      {
+        word: "Protest",
+        definition: "An event where people gather together to show disapproval of something",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Break out",
+        definition: "Start suddenly",
+        category: "verb",
+        subcategory: "present perfect"
+      },
+      {
+        word: "Bailout",
+        definition: "The act of saving a company form money problems",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Injustice",
+        definition: "An unfair situation",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Outrage",
+        definition: "Something that is morally wrong",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Mismanage",
+        definition: "Manage badly",
+        category: "verb",
+        subcategory: "present perfect"
+      },
+      {
+        word: "Have the nerve",
+        definition: "Dare to",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Placard",
+        definition: "Sign  people hold at protests, usually a piece of cardboard on a stick",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Rally",
+        definition: "Public meeting in support or opposition of something",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Demonstration",
+        definition: "Event where people gather together to show that they support or oppose something",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Demonstrators",
+        definition: "People who go to a demonstration or protest",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Opponent",
+        definition: "A person who opposes something or someone",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Proponent",
+        definition: "Person who supports someone or something",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 19,
+    videoId: "video_019",
+    title: "EnglishPod 19 - Intermediate - Christmas Chronicles 1",
+    level: "Intermediate",
+    description: "Learn christmas chronicles 1 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_019",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "I hate working on Christmas Eve! Whoa! Get a load of this guy! Come in central, I think we've got ourselves a situation here." },
+      { speaker: "B", text: "License and registration please. Have you been drinking tonight, sir?" },
+      { speaker: "A", text: "I had one or two glasses of eggnog, but nothing else." },
+      { speaker: "B", text: "Step out of the vehicle, please. Sir, what do you have in the back?" },
+      { speaker: "A", text: "Just a few Christmas gifts, 'tis the season, after all!" },
+      { speaker: "B", text: "Don't take that tone with me. Do you have an invoice for these items?" },
+      { speaker: "A", text: "Umm...no...I make these in my workshop in the North Pole!" },
+      { speaker: "B", text: "You are under arrest, sir. You have the right to remain silent. You better not pout, you better not cry. Anything you say can and will be used against you. You have the right to an attorney; if you cannot afford one, the state will appoint" },
+      { speaker: "A", text: "You can't take me to jail! What about my sleigh? It's Christmas Eve! I have presents to deliver! Rudolph! Prancer! Dancer! Get help!" }
+      ],
+      vocabulary: [
+      {
+        word: "Get a load of",
+        definition: "Look at (informal)",
+        category: "phrase"
+      },
+      {
+        word: "License",
+        definition: "Official document that shows you have permission to drive a car",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Eggnog",
+        definition: "Traditional Christmas drink containing eggs, cream, sugar and rum",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Vehicle",
+        definition: "Machine use to carry people, i.e. a car or truck",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Step out",
+        definition: "Briefly go out of a place",
+        category: "verb",
+        subcategory: "imperative"
+      },
+      {
+        word: "Take that tone",
+        definition: "Speak in that tone of voice",
+        category: "phrase"
+      },
+      {
+        word: "Invoice",
+        definition: "Official document that shows you have paid for something you bought",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Arrest",
+        definition: "The act of legally taking someone to jail",
+        category: "phrase"
+      },
+      {
+        word: "Pout",
+        definition: "Push out your lips to show that you are unhappy",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Sleigh",
+        definition: "Large, open vehicle that is pulled by horses over snow or ice",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Handcuffs",
+        definition: "A set of two metal rings that are used to join a persons hands together, esp. by police",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Prison",
+        definition: "A building where criminals are kept as punishment",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Read someone's rights",
+        definition: "Tell someone their legal rights, usually when they are arrested",
+        category: "phrase"
+      },
+      {
+        word: "DUI",
+        definition: "Driving under the influence of alcohol or drugs",
+        category: "phrase"
+      },
+      {
+        word: "Speeding ticket",
+        definition: "A piece of paper the police give if you are diving too fast",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 20,
+    videoId: "video_020",
+    title: "EnglishPod 20 - Elementary - I can see clearly now",
+    level: "Elementary",
+    description: "Learn i can see clearly now through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_020",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hello, Arthur. What seems to be the problem?" },
+      { speaker: "B", text: "Hey doc. Well, I think I might need glasses. I'm getting headaches, and I really struggle to see things that are far away. But I have always had 20/20 vision." },
+      { speaker: "A", text: "Sounds like you may be far-sighted. OK, then, cover your left eye and read the chart in front of you." },
+      { speaker: "B", text: "Mmm… X, E, R, 3, a question mark, and I can't quite make out the other symbol but I think it's the peace sign." },
+      { speaker: "A", text: "Wow, Arthur! You're as blind as a bat!" },
+      { speaker: "B", text: "Yeah, I know, my vision is really blurry at times." },
+      { speaker: "A", text: "Ok, then, head on over to the other room and pick out some frames while I fill out your prescription." },
+      { speaker: "B", text: "Thanks, doc!" },
+      { speaker: "A", text: "Arthur, that's the bathroom." }
+      ],
+      vocabulary: [
+      {
+        word: "Seem to be",
+        definition: "Appears or is",
+        category: "phrase"
+      },
+      {
+        word: "Struggle",
+        definition: "Try very hard",
+        category: "verb"
+      },
+      {
+        word: "20/20 vision",
+        definition: "Perfect eyesight",
+        category: "phrase"
+      },
+      {
+        word: "Make out",
+        definition: "See",
+        category: "verb"
+      },
+      {
+        word: "Far sighted",
+        definition: "See far-away things more clearly than things nearby",
+        category: "phrase"
+      },
+      {
+        word: "As blind as a bat",
+        definition: "Have really poor vision",
+        category: "phrase"
+      },
+      {
+        word: "Vision",
+        definition: "Ability to see things",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Blurry",
+        definition: "Not clear",
+        category: "adjective"
+      },
+      {
+        word: "Pick out",
+        definition: "Choose",
+        category: "phrase"
+      },
+      {
+        word: "Prescription",
+        definition: "A message written by a doctor that tells people what medicine to take",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Check-up",
+        definition: "Regular examination by a doctor to make sure a person is healthy",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Short sighted",
+        definition: "Unable to see things far away (AmE)",
+        category: "adjective"
+      },
+      {
+        word: "Nearsighted",
+        definition: "Unable to see things far away (BrE)",
+        category: "adjective"
+      },
+      {
+        word: "Contacts",
+        definition: "Lenses you wear directly on your eyes to help you see",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Optometrist",
+        definition: "Eye doctor",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Prescribe",
+        definition: "Officially tell someone to use a medicine or treatment",
+        category: "verb"
+      },
+      {
+        word: "Lenses",
+        definition: "Clear, curved piece of glass that helps people see better",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 21,
+    videoId: "video_021",
+    title: "EnglishPod 21 - Intermediate - What do you do",
+    level: "Intermediate",
+    description: "Learn what do you do through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_021",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Oh, look, there's Veronica and her boyfriend. She's always going on about him at the office. Oh, great, they saw us. They're coming this way." },
+      { speaker: "B", text: "Oh, man..." },
+      { speaker: "C", text: "Jessica! Arthur! Hi! I'd like you to meet my boyfriend Greg, he's the V. P. of quality and safety for a top Fortune 500 food company." },
+      { speaker: "A", text: "Nice to meet you. This is my husband, Arthur." },
+      { speaker: "B", text: "Hey, how's it going?" },
+      { speaker: "D", text: "Hello." },
+      { speaker: "A", text: "Veronica talks about you all the time. I guess you must be pretty busy at work." },
+      { speaker: "D", text: "Well, yeah, a V. P. position is not easy, you know! I implement policies and procedures nationwide. of various departments, as well as train junior managers in FDA and EPA regulations. I also have to oversee daily ope" },
+      { speaker: "B", text: "Wow, yeah... that sounds exciting." },
+      { speaker: "D", text: "And what about you, Arthur? What do you do for a living?" },
+      { speaker: "B", text: "Oh, I'm a Top Gun pilot!" }
+      ],
+      vocabulary: [
+      {
+        word: "Go on about",
+        definition: "Talk about something a lot",
+        category: "phrase"
+      },
+      {
+        word: "Fortune 500",
+        definition: "Top 500 companies, rated by revenue",
+        category: "phrase"
+      },
+      {
+        word: "Implement",
+        definition: "Begin to do something, put into action",
+        category: "verb",
+        subcategory: "present progressive"
+      },
+      {
+        word: "Responsible",
+        definition: "Have the duty or job of taking care of something",
+        category: "adjective"
+      },
+      {
+        word: "Nationwide",
+        definition: "In the whole country",
+        category: "adjective"
+      },
+      {
+        word: "Look after",
+        definition: "Take care of",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "Oversee",
+        definition: "Watch and direct to make sure a job is done correctly",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Quality control",
+        definition: "Checking goods to make sure that they are good enough to sell",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Under me",
+        definition: "Working for me",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Develop relationships",
+        definition: "Make good relationships",
+        category: "phrase"
+      },
+      {
+        word: "Handle complaints",
+        definition: "Look after or take care of complaints",
+        category: "phrase"
+      },
+      {
+        word: "Coordinate",
+        definition: "Make arrangements or plans with a group of people",
+        category: "verb"
+      },
+      {
+        word: "Monitor",
+        definition: "Watch and check",
+        category: "verb"
+      },
+      {
+        word: "Supervise",
+        definition: "Be in charge of something , watch and direct",
+        category: "verb"
+      },
+      {
+        word: "Ensure",
+        definition: "Make sure",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 22,
+    videoId: "video_022",
+    title: "EnglishPod 22 - Intermediate - Christmas Chronicles 2",
+    level: "Intermediate",
+    description: "Learn christmas chronicles 2 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_022",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Really, gentlemen, you can't take me to jail! Don't you know who I am? Kris Kringle, you know, Papa Noel, Pere Noel, Babbo Natale, sheng dan lao ren!" },
+      { speaker: "B", text: "Yeah, Yeah, we've heard that one before, haven't we Joe?" },
+      { speaker: "C", text: "Yeah, last week we booked this guy who claimed to be the tooth fairy! Can you believe that?" },
+      { speaker: "A", text: "It's Christmas Eve and I have all these presents to deliver! Where is your Christmas spirit? What will happen when all the children wake up tomorrow and don't find any gifts in their stockings?" },
+      { speaker: "B", text: "Sorry buddy, you were parked in a no-parking zone, you were speeding, and you have no ID!" },
+      { speaker: "C", text: "Besides that, even if we let you go now, your sleigh has been impounded and those reindeer were taken to the city zoo." },
+      { speaker: "A", text: "What! This is unbelievable! What's this world coming to? Christmas is ruined!" },
+      { speaker: "C", text: "What's that up ahead? It looks like... elves!! Elves!! Whoa, they're shooting candy canes! Mayday, Mayday, we are under heavy attack! We need backup!" }
+      ],
+      vocabulary: [
+      {
+        word: "Take someone to jail",
+        definition: "Take someone who is arrested to a place where other criminals are kept",
+        category: "phrase"
+      },
+      {
+        word: "Book",
+        definition: "Arrest (informal)",
+        category: "verb"
+      },
+      {
+        word: "Claim",
+        definition: "Say something is true when some people say it may not be true",
+        category: "verb"
+      },
+      {
+        word: "Stocking",
+        definition: "Large sock; traditionally, Christmas gifts are put inside on the Christmas Eve",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Speed",
+        definition: "Drive faster than legal speed limit",
+        category: "verb"
+      },
+      {
+        word: "Impound",
+        definition: "Held by the police",
+        category: "verb"
+      },
+      {
+        word: "Ruined",
+        definition: "Damaged or destroyed",
+        category: "adjective"
+      },
+      {
+        word: "Reindeer",
+        definition: "Large deer that lives in the north part of the globe",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Elf",
+        definition: "Small creature (in stories) that have pointed ears and magic powers",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Candy cane",
+        definition: "A stick-shaped candy with red and white curves on the top",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Under heavy",
+        definition: "Being attacked or hurt",
+        category: "phrase"
+      },
+      {
+        word: "Backup",
+        definition: "Help",
+        category: "noun",
+        subcategory: "non-variable"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Charge",
+        definition: "Formally accuse someone of a crime",
+        category: "verb"
+      },
+      {
+        word: "Pull someone over",
+        definition: "Make a moving car move to the side of the road",
+        category: "phrase"
+      },
+      {
+        word: "Ambush",
+        definition: "A sudden attack",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Stocking stuffer",
+        definition: "Small gifts that are put in the Christmas stocking",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Christmas ornament",
+        definition: "Decoration that is used to make the Christmas tree beautiful",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 23,
+    videoId: "video_023",
+    title: "EnglishPod 23 - Elementary - Making an Appointment",
+    level: "Elementary",
+    description: "Learn making an appointment through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_023",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hello, Fairbrook Consulting, how may I help you?" },
+      { speaker: "B", text: "Yes, this is Julianne Horton, and I'm calling to arrange an appointment with Ms. McNealy." },
+      { speaker: "A", text: "Certainly, what day were you thinking of?" },
+      { speaker: "B", text: "How's Thursday? Does she have any time available then?" },
+      { speaker: "A", text: "Um... let me double check...unfortunately, she's booked solid on Thursday, how does next Monday work for you?" },
+      { speaker: "B", text: "Actually, I've got something scheduled on Monday. Can she do Tuesday?" },
+      { speaker: "A", text: "Sure, Tuesday's perfect. May I ask where you're calling from?" },
+      { speaker: "B", text: "Sure, Merton Financial Advisors." },
+      { speaker: "A", text: "Oh, actually, Tuesday's no good. Sorry 'bout that." }
+      ],
+      vocabulary: [
+      {
+        word: "Appointment",
+        definition: "An agreement to meet someone at a particular time",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Available",
+        definition: "Not busy, willing to talk to someone",
+        category: "adjective"
+      },
+      {
+        word: "Double check",
+        definition: "Check again",
+        category: "phrase"
+      },
+      {
+        word: "Booked solid",
+        definition: "Having no available place or time",
+        category: "phrase"
+      },
+      {
+        word: "Work for you",
+        definition: "Be okay with you",
+        category: "phrase"
+      },
+      {
+        word: "Scheduled",
+        definition: "Planned at a specific time",
+        category: "verb"
+      },
+      {
+        word: "No good",
+        definition: "Not okay",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Fully booked",
+        definition: "Booked solid; having no space or time available",
+        category: "phrase"
+      },
+      {
+        word: "Fit you in",
+        definition: "Find time to see someone in a busy schedule",
+        category: "phrase"
+      },
+      {
+        word: "Unavailable",
+        definition: "Not available",
+        category: "adjective"
+      },
+      {
+        word: "Occupied",
+        definition: "Busy doing something",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 24,
+    videoId: "video_024",
+    title: "EnglishPod 24 - Elementary - Where Should We Eat",
+    level: "Elementary",
+    description: "Learn where should we eat through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_024",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Do you two have any plans for the evening?" },
+      { speaker: "B", text: "We were thinking of checking out a restaurant in the neigbourhood. Do you have any suggestions?" },
+      { speaker: "A", text: "I know this really nice Italian place. The food is fantastic, and the décor is beautiful. I'd recommend giving it a try." },
+      { speaker: "C", text: "Actually, I'm not all that crazy aboutItalian Italian food; I’m in the mood for something a bit lighter." },
+      { speaker: "A", text: "In that case, I know a great little bistro. They make a really tasty seafood platter; the fish is outstanding." },
+      { speaker: "B", text: "It sounds fantastic, but I’m allergic to seafood, so..." },
+      { speaker: "A", text: "Okay, well, let me think... Oh, I know this great little place. It's just a hole in the wall, but they do the most amazing sandwiches. You gotta give them a try." },
+      { speaker: "C", text: "Ella, you took me there last time I visited, and I got food poisoning, remember?" }
+      ],
+      vocabulary: [
+      {
+        word: "Check out",
+        definition: "Look at something that is attractive",
+        category: "phrase"
+      },
+      {
+        word: "Fantastic",
+        definition: "Extremely good",
+        category: "adjective"
+      },
+      {
+        word: "Décor",
+        definition: "Decoration",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "In the mood for",
+        definition: "Have a desire for something or to do something",
+        category: "phrase"
+      },
+      {
+        word: "Light",
+        definition: "Not heavy on stomach, easy to digest",
+        category: "adjective"
+      },
+      {
+        word: "Bistro",
+        definition: "Small, trendy restaurant or bar",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Tasty",
+        definition: "Delicious, tasting good",
+        category: "adjective"
+      },
+      {
+        word: "Outstanding",
+        definition: "Excellent",
+        category: "adjective"
+      },
+      {
+        word: "A hole in the wall",
+        definition: "A very small, usually cheap restaurant or bar",
+        category: "phrase"
+      },
+      {
+        word: "Food poisoning",
+        definition: "Becoming sick because of bacteria in food",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Yummy",
+        definition: "Tasting good",
+        category: "adjective"
+      },
+      {
+        word: "Crazy about",
+        definition: "Like very much",
+        category: "phrase"
+      },
+      {
+        word: "Not fond of",
+        definition: "Don't like (polite)",
+        category: "phrase"
+      },
+      {
+        word: "Enjoyable",
+        definition: "Tasting good",
+        category: "adjective"
+      },
+      {
+        word: "Yum",
+        definition: "Expression you use when you're enjoying food or drink"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 25,
+    videoId: "video_025",
+    title: "EnglishPod 25 - Upper Intermediate - Planning for the Worst",
+    level: "Intermediate",
+    description: "Learn planning for the worst through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_025",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Well, right, let’s move to our next order of business, as many of you are aware, in recent weeks there has been a lot of media coverage surrounding this bird flu issue. And it's come to my attention that our company lacks any sort of bird flu c" },
+      { speaker: "B", text: "Basically, we need to come up with a clear plan; we need to outline specific actions that our company can take to maintain critical business functions in case a pandemic strikes." },
+      { speaker: "A", text: "So, what I’d like to do is: first appoint someone to look after drafting our plan; Ralph, I’d like you to head up this project." },
+      { speaker: "C", text: "Sure, no problem. What issues do you want me to consider?" },
+      { speaker: "B", text: "Well, let’s see, there are a few points we need to be thinking about... first, I’ll need you to analyze our numbers and figure out what kind of financial impact an outbreak might have." },
+      { speaker: "A", text: "You’ll also need to think about how we can avoid any of our employees getting infected; think of ways to reduce employee-customer contact, perhaps some IT solutions that will allow our people to work from home." },
+      { speaker: "C", text: "I guess you’ll need me to forecast employee absences as well, right? And I’ll think about the impact this will have on our clients. Hey, what about vaccines? Should we be thinking about getting vaccines for our employees?" },
+      { speaker: "A", text: "Exactly right. So, I’ll leave this to you, and we’ll review the draft plan in two weeks. Okay, so, anyone want to order some KFC for lunch?" }
+      ],
+      vocabulary: [
+      {
+        word: "Order of business",
+        definition: "An issue that must be discussed",
+        category: "phrase"
+      },
+      {
+        word: "Bird flu",
+        definition: "Flu originated from birds that carry virus",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Contingency plan",
+        definition: "A plan that prepares for a situation where things can go wrong",
+        category: "phrase"
+      },
+      {
+        word: "Critical",
+        definition: "Extremely important",
+        category: "adjective"
+      },
+      {
+        word: "Pandemic",
+        definition: "A situation where a disease is spread out very quickly, and affects many people in many countries",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Draft",
+        definition: "Make a first version of something",
+        category: "verb"
+      },
+      {
+        word: "Impact",
+        definition: "Major influence or effect on something",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Outbreak",
+        definition: "A sudden start of disease affecting many people",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Head up",
+        definition: "Lead and be responsible for",
+        category: "verb"
+      },
+      {
+        word: "Forecast",
+        definition: "Predict what is going to happen based on available information",
+        category: "verb"
+      },
+      {
+        word: "Vaccine",
+        definition: "Medical substance that protect people or animal against diseases",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Epidemic",
+        definition: "Event where a disease spreads really quickly and affects a large number of people"
+      },
+      {
+        word: "Backup plan",
+        definition: "A plan made in case events go badly",
+        category: "phrase"
+      },
+      {
+        word: "Pandemic preparedness plan",
+        definition: "A plan to prepare for the possible outbreak of a pandemic",
+        category: "phrase"
+      },
+      {
+        word: "Transmit disease",
+        definition: "Pass disease from one individual to another",
+        category: "phrase"
+      },
+      {
+        word: "Avian influenza",
+        definition: "Bird flu"
+      },
+      {
+        word: "Influenza",
+        definition: "Flu; illness caused by a virus",
+        category: "noun",
+        subcategory: "non-variable"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 26,
+    videoId: "video_026",
+    title: "EnglishPod 26 - Elementary - New Year Resolution",
+    level: "Elementary",
+    description: "Learn new year resolution through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_026",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "So, did I tell you about my New Year's resolution? I've decided to go on a diet." },
+      { speaker: "B", text: "And you're going to completely transform your eating habits, right?" },
+      { speaker: "A", text: "Exactly! I'm going to cut out all that junk I eat; no more chips, no more soda, no more fried food." },
+      { speaker: "B", text: "I've heard this one before." },
+      { speaker: "A", text: "But this time I'm going to stick to it. I really mean it! Trust me, Carol, I'm going to be a new man in one year's time!" },
+      { speaker: "B", text: "Well, I guess we'll just have to wait and see." },
+      { speaker: "A", text: "Thanks, honey, that was a great meal. I'm stuffed. Do we have any chips left?" }
+      ],
+      vocabulary: [
+      {
+        word: "Diet",
+        definition: "Eating plan to help you lose weight",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Transform",
+        definition: "Change",
+        category: "verb"
+      },
+      {
+        word: "Cut out",
+        definition: "Remove, eliminate",
+        category: "verb"
+      },
+      {
+        word: "Eating habits",
+        definition: "Usual ways of behaving",
+        category: "phrase"
+      },
+      {
+        word: "Stick to",
+        definition: "Continue doing something",
+        category: "verb"
+      },
+      {
+        word: "Wait and see",
+        definition: "Remain in a state in which you expect something to happen, and see if it does",
+        category: "phrase"
+      },
+      {
+        word: "Stuffed",
+        definition: "Filled with food; no longer hungry",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Calorie",
+        definition: "Unit of energy in food",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Vegetarian",
+        definition: "Person who does not eat meat",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Fast food",
+        definition: "Food that is prepared and served quickly (i.e. McDonald's, KFC, Burger King, etc.)",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Work out",
+        definition: "Exercise at a gym",
+        category: "verb"
+      },
+      {
+        word: "Lifestyle change",
+        definition: "Change the way you live",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 27,
+    videoId: "video_027",
+    title: "EnglishPod 27 - Elementary - Asking for time Off",
+    level: "Elementary",
+    description: "Learn asking for time off through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_027",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Mr. McKenna, do you have a second? I need to talk to you about something." },
+      { speaker: "B", text: "Sure, Liv, what can I do for you?" },
+      { speaker: "A", text: "Well, I was just wondering... you see, I know I've used up all my vacation days this year, but my sister is getting married, and the wedding is overseas, and, well..." },
+      { speaker: "B", text: "You wanna take some time off, is that right?" },
+      { speaker: "A", text: "Well, sir, I was just hoping that I might be able to take some unpaid leave this year." },
+      { speaker: "B", text: "What dates are you planning on taking off? I'll need at least two months notice, so that I can plan for your absence." },
+      { speaker: "A", text: "I was thinking of taking off from September first until the thirtieth. Would you be okay with that?" },
+      { speaker: "B", text: "Well, I guess so." }
+      ],
+      vocabulary: [
+      {
+        word: "Have a second",
+        definition: "Have some time, not busy",
+        category: "phrase"
+      },
+      {
+        word: "Use up",
+        definition: "Take all of something",
+        category: "verb"
+      },
+      {
+        word: "Overseas",
+        definition: "In an other country, across the ocean",
+        category: "adjective"
+      },
+      {
+        word: "Take some time off",
+        definition: "Stop working for a short time",
+        category: "phrase"
+      },
+      {
+        word: "Notice",
+        definition: "Information that tells you about something or warns about something",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Be okay with that",
+        definition: "Agree",
+        category: "phrase"
+      },
+      {
+        word: "Unpaid leave",
+        definition: "Time away from work that is not paid",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Take a leave of absence",
+        definition: "Stay away from work for a long period of time, without getting paid",
+        category: "phrase"
+      },
+      {
+        word: "Sick leave",
+        definition: "Time away from work when sick",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Personal leave",
+        definition: "Time away from work for personal reasons (i.e. doctor's appointment, etc.)",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Maternity leave",
+        definition: "Time away from work for a mother to care for a new baby",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Bank holiday",
+        definition: "Public holiday recognized by law (BrE)",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 28,
+    videoId: "video_028",
+    title: "EnglishPod 28 - Intermediate - I'm sorry I love you 2",
+    level: "Intermediate",
+    description: "Learn i'm sorry i love you 2 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_028",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "I'm so relieved that your ankle wasn't broken! I feel just awful about this whole thing. I wanna make it up to you. Let me take you out to dinner tonight. My treat." },
+      { speaker: "B", text: "That sounds great! I'd love to! Here is my address. Pick me up at eight?" },
+      { speaker: "A", text: "Perfect!" },
+      { speaker: "B", text: "Thank you for such a lovely evening! The food was amazing, and I had a great time." },
+      { speaker: "A", text: "Me too. You look so beautiful tonight! I wish this night would never end. There's something I have to tell you..." },
+      { speaker: "B", text: "What is it?" },
+      { speaker: "A", text: "I woke up today thinking this would be just like any other ordinary day, but I was wrong. A twist of fate brought us together. I crashed into your life and you into mine, and this may sound crazy, but I'm falling" }
+      ],
+      vocabulary: [
+      {
+        word: "Relieved",
+        definition: "Relaxed and happy that something difficult has been stopped",
+        category: "adjective"
+      },
+      {
+        word: "Make it up",
+        definition: "Do something good as a balance to a bad or hurtful action",
+        category: "verb"
+      },
+      {
+        word: "My treat",
+        definition: "I will pay",
+        category: "phrase"
+      },
+      {
+        word: "Pick up",
+        definition: "Go somewhere in order to get someone or something",
+        category: "verb"
+      },
+      {
+        word: "Ordinary",
+        definition: "Normal",
+        category: "adjective"
+      },
+      {
+        word: "Twist of fate",
+        definition: "Unplanned events that has a big impact on the future",
+        category: "phrase"
+      },
+      {
+        word: "Crash",
+        definition: "Hit something causing serious damage",
+        category: "verb"
+      },
+      {
+        word: "Fall in love",
+        definition: "Start being in love",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Go on a date",
+        definition: "Go to an event or activity with a boyfriend or girlfriend",
+        category: "phrase"
+      },
+      {
+        word: "Ask you out",
+        definition: "Invite or ask someone to go on a date (informal)",
+        category: "verb"
+      },
+      {
+        word: "Take you out",
+        definition: "Invite someone to go and do something",
+        category: "verb"
+      },
+      {
+        word: "Turn down",
+        definition: "Decline an invitation",
+        category: "verb"
+      },
+      {
+        word: "Look forward to",
+        definition: "An expression to show excitement about something",
+        category: "verb"
+      },
+      {
+        word: "See someone",
+        definition: "Be in a relationship with someone",
+        category: "verb"
+      },
+      {
+        word: "Flirt",
+        definition: "Behave in a way that expresses a sexual attraction for someone",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 29,
+    videoId: "video_029",
+    title: "EnglishPod 29 - Advanced - Investing in Emerging Markets",
+    level: "Advanced",
+    description: "Learn investing in emerging markets through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_029",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Dad, I'd like to borrow some money." },
+      { speaker: "B", text: "Sure, Johnny, how much do you need? Five bucks?" },
+      { speaker: "A", text: "Come on, Dad, I need thirty thousand. I wanna get into the market. You know, I'm tired of hearing all this news about the economic downturn, the inevitable recession, people stuffing their money in their mattresse" },
+      { speaker: "B", text: "I don't know about that; with all the uncertainty in the market right now, it would be a very unwise decision to invest. I don't know if you're aware son, but there has been a lot of turmoil in the markets recentl" },
+      { speaker: "A", text: "But look at it this way, every challenge is an opportunity. And anyway, I'm not talking about investing in the domestic market. There are emerging markets that promise great returns. Look at China, for example; th" },
+      { speaker: "B", text: "Come on son, you're looking at this too naively, the Chinese market has exhibited a great deal of instability, and their currency has been devalued by almost a whole percentage point." },
+      { speaker: "A", text: "Fine, then! If that's the way you feel, so be it. But you're losing out on a great opportunity here. I'm going to go hit up Mom for the cash." }
+      ],
+      vocabulary: [
+      {
+        word: "Inevitable",
+        definition: "Unavoidable",
+        category: "adjective"
+      },
+      {
+        word: "Nest egg",
+        definition: "Money that is saved to pay for something in the future, usually a house, or retirement",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Turmoil",
+        definition: "A state of confusion, disorder, disturbance",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Stimulus package",
+        definition: "Amount of money the government uses to improve the economy",
+        category: "phrase"
+      },
+      {
+        word: "Emerging market",
+        definition: "Nations undergoing quick industrialization",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Devalue",
+        definition: "Reduced in value",
+        category: "verb"
+      },
+      {
+        word: "Hit up",
+        definition: "Ask for money",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Depreciation",
+        definition: "An decrease in the value of something",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Appreciation",
+        definition: "An increase in the value of something",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Inflation",
+        definition: "An continual increase in price",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Developing economy",
+        definition: "Growing economy",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Rapidly developing country",
+        definition: "Countries undergoing quick industrialization",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Industrialized nation",
+        definition: "Nations that have developed factories and businesses",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 30,
+    videoId: "video_030",
+    title: "EnglishPod 30 - Intermediate - New Guy in Town 2",
+    level: "Intermediate",
+    description: "Learn new guy in town 2 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_030",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Oh, Armand, thank you for such a thoughtful invitation! It's really very nice of you to invite us over for dinner, don't you think so, Ellen?" },
+      { speaker: "B", text: "Oh, yes of course! We'd love to come over. Can I bring anything?" },
+      { speaker: "C", text: "No, don't worry about it; I'll take care of everything. I'll see you tonight. Come with an appetite... I know I will!" },
+      { speaker: "B", text: "I don't want go over to his place for dinner! He gives me the creeps! Why on earth did you accept?" },
+      { speaker: "A", text: "Oh come on Ellen, it will be nice to get to know him. Besides, he's new to the neighborhood, and it would be rude to decline his invitation." },
+      { speaker: "B", text: "I guess so... You always rope me into things like this!" },
+      { speaker: "C", text: "Ladies! Thank you for coming! You look delicious... I mean beautiful. Please come in." },
+      { speaker: "A", text: "Oh Oh Armand! You are too kind!" },
+      { speaker: "B", text: "How did I get myself into this..." }
+      ],
+      vocabulary: [
+      {
+        word: "Thoughtful",
+        definition: "Showing concern for the needs and feelings of other people",
+        category: "adjective"
+      },
+      {
+        word: "Appetite",
+        definition: "A physical desire of food",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Give the creeps",
+        definition: "Make someone to feel scared and uncomfortable",
+        category: "phrase"
+      },
+      {
+        word: "Get to know",
+        definition: "Start to know, become familiar with someone",
+        category: "verb"
+      },
+      {
+        word: "Why on earth",
+        definition: "(expression to emphasize surprise or frustration)",
+        category: "phrase"
+      },
+      {
+        word: "Decline",
+        definition: "Say you will not or cannot do something",
+        category: "verb"
+      },
+      {
+        word: "Rope into",
+        definition: "Convince someone to do something",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Make yourself at home",
+        definition: "Polite way to ask guests to make themselves comfortable",
+        category: "phrase"
+      },
+      {
+        word: "Hospitable",
+        definition: "Being a friendly and caring host to the guests",
+        category: "adjective"
+      },
+      {
+        word: "Potluck",
+        definition: "A party that requires everybody to bring food",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Housewaming",
+        definition: "A party to celebrate moving into a new home",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 31,
+    videoId: "video_031",
+    title: "EnglishPod 31 - Elementary - Canceling an Appointment",
+    level: "Elementary",
+    description: "Learn canceling an appointment through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_031",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hello, Samantha speaking." },
+      { speaker: "B", text: "Hi Samantha. This is Angela calling." },
+      { speaker: "A", text: "Oh, hi Angela, what's up?" },
+      { speaker: "B", text: "I'm just calling about our meeting today. I wonder, is it possible to reschedule our appointment in the afternoon? I have a bit of an emergency that I need to take care of." },
+      { speaker: "A", text: "Let me see, it shouldn't be too much of a problem..." },
+      { speaker: "B", text: "I'm really sorry, I hope it doesn't inconvenience you too much, it's just this thing came up, and ..." },
+      { speaker: "A", text: "Angela, you know what, I can't make it to our meeting, either. Why don't we postpone it to tomorrow afternoon at the same time?" },
+      { speaker: "B", text: "Sounds great. See you tomorrow." },
+      { speaker: "C", text: "Angela... Angela, look up! See that lady over there who is trying on a red leather jacket? Isn't that Samantha?" },
+      { speaker: "B", text: "What? No wonder she told me she couldn't make it to the meeting, oh, no, I think she saw me..." }
+      ],
+      vocabulary: [
+      {
+        word: "What's up",
+        definition: "What is the matter",
+        category: "phrase"
+      },
+      {
+        word: "Reschedule",
+        definition: "Schedule something for a different time",
+        category: "verb"
+      },
+      {
+        word: "Inconvenience",
+        definition: "Cause problem or trouble",
+        category: "verb"
+      },
+      {
+        word: "Come up",
+        definition: "Occur in an unexpected way",
+        category: "verb"
+      },
+      {
+        word: "Make it",
+        definition: "Come",
+        category: "verb"
+      },
+      {
+        word: "Postpone",
+        definition: "Decide to do something at a later time",
+        category: "verb"
+      },
+      {
+        word: "No wonder",
+        definition: "Not surprisingly",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Scheduling conflict",
+        definition: "Two or more appointments scheduled at the same time",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Call off",
+        definition: "Cancel",
+        category: "verb"
+      },
+      {
+        word: "Double-book",
+        definition: "Have two appointments or meetings at the same time",
+        category: "verb"
+      },
+      {
+        word: "Push back",
+        definition: "Move a meeting or appointment to a later time",
+        category: "phrase"
+      },
+      {
+        word: "Rain check",
+        definition: "A promise or offer to do something in the future that is not possible to do now",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 32,
+    videoId: "video_032",
+    title: "EnglishPod 32 - Intermediate - Opening a Bank Account",
+    level: "Intermediate",
+    description: "Learn opening a bank account through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_032",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Next, please. May I help you, sir?" },
+      { speaker: "B", text: "Hello, yes, I'd like to open a bank account." },
+      { speaker: "A", text: "Certainly, I can can help you with that. What type of account would you like to open? A chequing or a savings account?" },
+      { speaker: "B", text: "What What features do they offer?" },
+      { speaker: "A", text: "Well, if you just take a look here, see, with our chequing account, you can have unlimited daily transactions for a small monthly fee, and our savings account has a higher interest rate, but you must carry a minimum balance of $ 10,000 dollars." },
+      { speaker: "B", text: "I see, well, I think I'm more interested in a chequing account; I like to have easy access to my money." },
+      { speaker: "A", text: "Alright, then, with this chequing account you'll be issued a debit card and a cheque book. Will you require overdraft protection? There is an extra fee for that." },
+      { speaker: "B", text: "No, that won't be necessary." },
+      { speaker: "A", text: "In that case, I'll get you to fill out this paperwork; I'll need your social insurance number, and two pieces of government ID. If you could just sign here, and here, and here; we'll be all set. Would you like to make a deposit today?" },
+      { speaker: "B", text: "Yes, I'd like to deposit one billion dollars." }
+      ],
+      vocabulary: [
+      {
+        word: "Feature",
+        definition: "Interesting or important quality",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Chequing account",
+        definition: "A regular account for daily transactions",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Transaction",
+        definition: "An occurrence in which money is transferred from one person, or one account, to another",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Savings account",
+        definition: "An account for people to keep their money, usually offers a higher interest rate",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Balance",
+        definition: "The amount of money in a bank account",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Access",
+        definition: "A way to get to something",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Debit card",
+        definition: "A card for you to take money out of your bank account",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Overdraft",
+        definition: "Taking out more money than what is available in the account",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "I'll get you",
+        definition: "(a way to ask people to do things)",
+        category: "phrase"
+      },
+      {
+        word: "I'll need your",
+        definition: "(a way to request people to provide something)",
+        category: "phrase"
+      },
+      {
+        word: "If you could just",
+        definition: "(a polite way of asking people to do things)",
+        category: "phrase"
+      },
+      {
+        word: "Deposit",
+        definition: "An amount of money that is put in a bank account",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Credit card",
+        definition: "A card to buy things and pay for them later",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Online banking",
+        definition: "A service that allows people to do transactions online",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Telephone banking",
+        definition: "A service that allows people to do transactions by phone",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Cheque book",
+        definition: "A book of cheques for use with a chequing account",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Terms and conditions",
+        definition: "An outline of the rules and company policies of a particular product or service",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "High interest account",
+        definition: "A savings account that offers higher than usual interest rate",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Teller",
+        definition: "A person working in a bank, who helps customers with daily transactions",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 33,
+    videoId: "video_033",
+    title: "EnglishPod 33 - Elementary - Foul",
+    level: "Elementary",
+    description: "Learn foul through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_033",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Has the game started yet?" },
+      { speaker: "B", text: "Yeah, about 5 minutes ago." },
+      { speaker: "A", text: "Who’s winning?" },
+      { speaker: "B", text: "The Bulls, of course!" },
+      { speaker: "A", text: "What! That wasn’t a foul! C'mon, ref!" },
+      { speaker: "B", text: "Don't worry, Shaq always screws up free throws." },
+      { speaker: "A", text: "You were right! He didn't make the shot!" },
+      { speaker: "B", text: "That was a great shot! A three pointer, yeah!" },
+      { speaker: "A", text: "Did you see that? He traveled and the ref didn't call it!" },
+      { speaker: "B", text: "This ref needs glasses. Hey ref, open your eyes! I can't believe he didn't see that!" },
+      { speaker: "A", text: "Okay... end of the first quarter... Alright, I'm gonna make a beer run." }
+      ],
+      vocabulary: [
+      {
+        word: "Foul",
+        definition: "An act in sports that is against the rules",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Referee",
+        definition: "Person who makes sure that players act according to the rules in a game or sport (informal)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Screw up",
+        definition: "Make a mistake",
+        category: "verb"
+      },
+      {
+        word: "Free throw",
+        definition: "A chance to shoot the ball due to a foul made by the opponent",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Make the shot",
+        definition: "Successfully throw a ball toward a goal (sports)",
+        category: "verb"
+      },
+      {
+        word: "Three pointer",
+        definition: "A shot that scores three points in a game",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Travel",
+        definition: "Take more steps with the basketball than the rule allows",
+        category: "verb"
+      },
+      {
+        word: "Beer run",
+        definition: "The act of quickly going to get beer",
+        category: "noun",
+        subcategory: "non-variable"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Court",
+        definition: "Place where basketball is played",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Assist",
+        definition: "An action where the ball is passed that helps score a goal",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Block",
+        definition: "Put your body between an opposing player and the ball",
+        category: "verb"
+      },
+      {
+        word: "Jump shot",
+        definition: "Jump in the air and shoot the ball while",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Rebound",
+        definition: "Grab and control the ball after the other team missed a shot",
+        category: "verb"
+      },
+      {
+        word: "Steal",
+        definition: "Intercept a pass between two players of the opposite team",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 34,
+    videoId: "video_034",
+    title: "EnglishPod 34 - Upper Intermediate - Live from Washington",
+    level: "Intermediate",
+    description: "Learn live from washington through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_034",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "This is Madeline Wright, for BCC News reporting live from Washington D. C. where, very shortly, the new President will deliver his inaugural address. Just moments ago, the President was sworn in to office; following the United States Constitution the president swore an oath to faithfully execute the office of the presidency." },
+      { speaker: "B", text: "And what exactly is going on now, Madeline?" },
+      { speaker: "A", text: "Well, Tom, true to American tradition, the band has just played Hail to the Chief, and the President has been honored by a 21 gun salute. Now we're waiting for the President to take to the stage and deliver his speech. Tom, it's like a who's who of the political world here on Capital Hill, with dignitaries representing several different countries." },
+      { speaker: "B", text: "What's the mood on the ground like, Madeline?" },
+      { speaker: "A", text: "In a word, the mood here is electric. The excitement in the air is palpable; I've never seen a larger crowd here on Capital Hill, and the audience is shouting crying, and embracing each other. On this, a most historic day, you can feel the hope and the excitement in the air. The twentieth of January will go down in history as the... Oh, Tom, it looks like the President is about to to begin..." },
+      { speaker: "C", text: "My fellow Americans, I stand before you..." }
+      ],
+      vocabulary: [
+      {
+        word: "Deliver",
+        definition: "Give information by speaking; say something officially",
+        category: "verb"
+      },
+      {
+        word: "Swear in",
+        definition: "Place someone in a new position by holding an official ceremony where he promises to do the job well",
+        category: "verb"
+      },
+      {
+        word: "Oath",
+        definition: "Official, serious promise",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Who's who",
+        definition: "Important and famous people in a particular industry",
+        category: "phrase"
+      },
+      {
+        word: "Dignitary",
+        definition: "Person with a high rank or position, especially in government or religion",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Palpable",
+        definition: "So strong you can feel it, obvious",
+        category: "adjective"
+      },
+      {
+        word: "In a word",
+        definition: "To describe something in one word",
+        category: "phrase"
+      },
+      {
+        word: "Fellow",
+        definition: "Used to describe people of the same group",
+        category: "adjective"
+      },
+      {
+        word: "Go down in history",
+        definition: "Be remembered",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Ceremony",
+        definition: "Activity or action that are the official part of a formal official state or social occasion",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Festivities",
+        definition: "Celebration, enjoyment, and happiness",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "President-elect",
+        definition: "A person who has been voted president, but not yet officially  made president",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Parade",
+        definition: "A public celebration of an event where many people move down a street in groups or on vehicles; usually involves a marching band",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Term",
+        definition: "Time allowed for one person to remain President after one election; in America a presidential term is four years",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Affirmation",
+        definition: "A show of agreement or dedication",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Inaugural luncheon",
+        definition: "Formal lunch celebrating the inauguration",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 35,
+    videoId: "video_035",
+    title: "EnglishPod 35 - Intermediate - He's not a good fit",
+    level: "Intermediate",
+    description: "Learn he's not a good fit through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_035",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "So, Lauren, I just wanted to talk to you quickly about our new customer support representative, Jason Huntley." },
+      { speaker: "B", text: "Sure, what's up?" },
+      { speaker: "A", text: "Basically, I've got a few concerns about him, and the bottom line is, I don't think he's a good fit for our company." },
+      { speaker: "B", text: "Okay... what makes you say that? I thought you were pleased with his overall performance. Didn't you just tell me last week how impressed you were with his attitude?" },
+      { speaker: "A", text: "Yeah, his attitude is great, but he's really unreliable. Sometimes he's really productive, but then other times... take last Tuesday for instance, he was forty-five minutes late for our morning meeting!" },
+      { speaker: "B", text: "Well, I'm sure he had a perfectly good reason..." },
+      { speaker: "A", text: "But that's not the only thing... you know, he really doesn't have the best work ethic, I'm constantly catching him on MSN and Facebook when he should be talking to clients." },
+      { speaker: "B", text: "Yeah, but come on, Geoff, as if you don't check Facebook at work. Look, you hired this guy, we've invested a lot of time and money in his training, so now it's up to you to coach him. Make it work, Geoff!" },
+      { speaker: "A", text: "Make it work, Geoff. You would say that, wouldn't you, he is your cousin; what a jerk, make me hire your stupid, useless, cousin." }
+      ],
+      vocabulary: [
+      {
+        word: "Concern",
+        definition: "Worry",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Overall",
+        definition: "General",
+        category: "adjective"
+      },
+      {
+        word: "Performance",
+        definition: "How well someone does their job",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Unreliable",
+        definition: "Not able to be trusted",
+        category: "adjective"
+      },
+      {
+        word: "Productive",
+        definition: "Doing a lot in a short amount of time",
+        category: "adjective"
+      },
+      {
+        word: "Perfectly good",
+        definition: "Having no problems, just fine",
+        category: "phrase"
+      },
+      {
+        word: "Work ethic",
+        definition: "Attitude to work",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Coach",
+        definition: "Teach and train someone new skills",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Poor judgment",
+        definition: "Regularly makes bad decisions",
+        category: "phrase"
+      },
+      {
+        word: "Poor work ethic",
+        definition: "Bad attitude to work",
+        category: "phrase"
+      },
+      {
+        word: "Dependable",
+        definition: "Able to be trusted and relied upon",
+        category: "adjective"
+      },
+      {
+        word: "A bad apple",
+        definition: "A bad member of a group who makes things more difficult for others",
+        category: "phrase"
+      },
+      {
+        word: "Unproductive",
+        definition: "Not productive, not doing a lot",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 36,
+    videoId: "video_036",
+    title: "EnglishPod 36 - Elementary - I'm sorry I love you 3",
+    level: "Elementary",
+    description: "Learn i'm sorry i love you 3 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_036",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Steven! Where have you been? I've been trying to get a hold of you for hours!" },
+      { speaker: "B", text: "I... um... there was an emergency at work, so..." },
+      { speaker: "A", text: "I was waiting for you in the restaurant for three hours! And you didn't even have the decency to call me! Do you have any idea how embarrassed I was?" },
+      { speaker: "B", text: "Honey, I promise this won't happen again, it's just that I..." },
+      { speaker: "A", text: "Yeah, right. I've heard it all before. I'm not going to take any more of your empty promises. This is the fifth time you've stood me up in two weeks! You need to get your priorities straight. I'm tired of you putting your job first all the time!" },
+      { speaker: "B", text: "Come on, Veronica, that's not fair. I do care about you a lot, you know that. I tried to ..." },
+      { speaker: "A", text: "You know what? Maybe we should just take a break. I need some time to think about where this relationship is heading." },
+      { speaker: "B", text: "But...Veronica, would you just listen to me? There was a fire alarm at my office building today and I was stuck..." }
+      ],
+      vocabulary: [
+      {
+        word: "Get hold of",
+        definition: "Find or contact someone",
+        category: "verb"
+      },
+      {
+        word: "Decency",
+        definition: "Polite or moral behavior",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Do you have any idea",
+        definition: "Do you know",
+        category: "phrase"
+      },
+      {
+        word: "Stand",
+        definition: "Fail to keep the appointment to meet someone"
+      },
+      {
+        word: "Get your priorities straight",
+        definition: "Realize what is more important",
+        category: "phrase"
+      },
+      {
+        word: "Head",
+        definition: "Go towards a specified direction or place",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Break up",
+        definition: "End a relationship",
+        category: "verb"
+      },
+      {
+        word: "Cheat on",
+        definition: "Kiss or have sex with someone who is not your boyfriend, girlfriend, wife or husband"
+      },
+      {
+        word: "Get back together",
+        definition: "Restart a relationship that ended",
+        category: "phrase"
+      },
+      {
+        word: "Ex-boyfriend",
+        definition: "Person who used to be your boyfriend",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 37,
+    videoId: "video_037",
+    title: "EnglishPod 37 - Intermediate - Chinese New Year",
+    level: "Intermediate",
+    description: "Learn chinese new year through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_037",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "I'm so excited about Chinese New Year! When do I get to visit Grandma? Grandma makes the best dumplings in the world!" },
+      { speaker: "B", text: "Ha ha, right. Sounds to me like you're more excited about the dumplings than seeing your Grandma." },
+      { speaker: "A", text: "Of course I miss Grandma, too. I bet she's gonna teach me how to play Mahjong! Hey, Dad, are you going to buy me firecrackers this year? We're going to have the best fireworks! I'm really looking forward to lighting them!" },
+      { speaker: "B", text: "Son, firecrackers aren't toys; they're dangerous!" },
+      { speaker: "A", text: "No, fireworks are awesome!" },
+      { speaker: "B", text: "Whoa, don't you remember? Last year when I set off the firecrackers, you covered both your ears and hid behind your mother?" },
+      { speaker: "A", text: "Dad! I was scared because... because I saw a bug. That's all." },
+      { speaker: "B", text: "Hahaha... really?" },
+      { speaker: "A", text: "Oh, and I can't wait to watch the dragon dance! Dad, can I sit on your shoulders this time?" },
+      { speaker: "B", text: "Hey, I offered last year..." },
+      { speaker: "A", text: "Well, I... anyways, I was just thinking of the red envelopes. I wanna make a list of all the things I'm gonna buy with my red envelope money! I can't wait! I'm gonna have so much money! Mom, can I get a pen and a piece of paper?" },
+      { speaker: "A", text: "I want a new transformer, no, two transformers...the Optimus Prime, and...maybe the wheeljack? I'll get a PSP game, hahaha, and I'll buy the entire class lunch at MacDonald's..." }
+      ],
+      vocabulary: [
+      {
+        word: "Excited",
+        definition: "Very happy about something",
+        category: "adjective"
+      },
+      {
+        word: "Dumpling",
+        definition: "Small lump of dough that is steamed or boiled, traditional Chinese New Year food",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Firecracker",
+        definition: "A cylinder filled with explosive substance that makes loud noise when it explodes",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Look forward to",
+        definition: "Excited and happy about something that will happen in the future",
+        category: "phrase"
+      },
+      {
+        word: "Can't wait",
+        definition: "Eager or excited about doing something or for something to begin",
+        category: "phrase"
+      },
+      {
+        word: "Set off",
+        definition: "Cause something to explode",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Lunar New Year",
+        definition: "Chinese New Year, based on the cycles of the moon"
+      },
+      {
+        word: "Spring Festival",
+        definition: "Chinese New Year"
+      },
+      {
+        word: "Lunar calendar",
+        definition: "A calendar based on the cycles and phases of the moon",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Can hardly wait",
+        definition: "Very excited about something that will happen in the future",
+        category: "phrase"
+      },
+      {
+        word: "Impatient",
+        definition: "Not happy or willing to wait for something",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 38,
+    videoId: "video_038",
+    title: "EnglishPod 38 - Intermediate - Buying a Car",
+    level: "Intermediate",
+    description: "Learn buying a car through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_038",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hi there, can I help you folks?" },
+      { speaker: "B", text: "I'm just browsing; seeing what's on the lot. My daughter wants a car for her birthday, you know how it is." },
+      { speaker: "C", text: "Dad! I'm sixteen already and I'm, like, the only one at school who doesn't have a car!" },
+      { speaker: "A", text: "She is right, you know. Kids these days all have cars. Let me show you something we just got in: a 1996 sedan. Excellent gas mileage, it has dual airbags and anti lock brakes; a perfect vehicle for a young driver." },
+      { speaker: "C", text: "Dad, I love it! It's awesome! Can we get this one please?" },
+      { speaker: "B", text: "I see... What can you tell me about this one?" },
+      { speaker: "A", text: "Oh, that's just an old World War Two tank that we use for TV commercials. Now about this sedan..." },
+      { speaker: "B", text: "Whoa, whoa wait a minute. Tell me more about this tank." },
+      { speaker: "A", text: "Well, Sir, if you are looking for quality and safety then look no further! Three inches of reinforced steel protect your daughter from short range missile attacks." },
+      { speaker: "B", text: "Does the sedan protect her from missile attacks?" },
+      { speaker: "A", text: "It does not." },
+      { speaker: "B", text: "Well, I don't know. Let me sleep on it." },
+      { speaker: "A", text: "Did I mention the tank is a tank?" },
+      { speaker: "B", text: "I'll take it!" },
+      { speaker: "C", text: "Dad!" }
+      ],
+      vocabulary: [
+      {
+        word: "Browse",
+        definition: "Look around to see if anything is interesting",
+        category: "verb"
+      },
+      {
+        word: "Sedan",
+        definition: "A car with four doors",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Gas mileage",
+        definition: "The amount of gas used per mile",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Dual airbags",
+        definition: "Two airbags, one for the driver and one for the passenger",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Brake",
+        definition: "A device that slows down or stops something",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Vehicle",
+        definition: "Something that carries people from one place to another",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Reinforce",
+        definition: "Strengthen, make something stronger",
+        category: "adjective"
+      },
+      {
+        word: "Sleep on it",
+        definition: "Think about something further and make a decision later (informal)",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Minivan",
+        definition: "A vehile that is larger than a car, has four doors and is shaped like a box",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "SUV",
+        definition: "A large vehicle that is suitable to run on rough surfaces",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Sale",
+        definition: "An event where goods or services are sold at a price lower than usual",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Promotion",
+        definition: "Something (usually advertising) that is done to increase sales",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Discount",
+        definition: "The amount of reduction in price",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Bargain",
+        definition: "Something bought or sold at a price lower than its actual value",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 39,
+    videoId: "video_039",
+    title: "EnglishPod 39 - Elementary - My New Boyfriend",
+    level: "Elementary",
+    description: "Learn my new boyfriend through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_039",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Irene! I heard you were on a date last night! So, how did it go? I want all the juicy details!" },
+      { speaker: "B", text: "Um... well, actually, we had a fantastic time last night. He was...amazing!" },
+      { speaker: "A", text: "Okay, now you really have to fill me in. What's he like?" },
+      { speaker: "B", text: "He's really good looking; he's quite tall, around 6'1'', he's in his early thirties, and he's got the most beautiful dark brown eyes..." },
+      { speaker: "A", text: "He sounds hot! What does he do for a living?" },
+      { speaker: "B", text: "You know what, this is the best part. David is a junior investment banker at Fortune Bank, so he's got a great career path ahead of him!" },
+      { speaker: "A", text: "Hold on a sec, his name is David?" },
+      { speaker: "B", text: "Yeah?" },
+      { speaker: "A", text: "That's my brother!" }
+      ],
+      vocabulary: [
+      {
+        word: "Hear",
+        definition: "Get the information from someone",
+        category: "verb"
+      },
+      {
+        word: "Juicy detail",
+        definition: "Exciting pieces of information",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Fill me in",
+        definition: "Give me more information",
+        category: "verb"
+      },
+      {
+        word: "Good looking",
+        definition: "Handsome",
+        category: "adjective"
+      },
+      {
+        word: "Hot",
+        definition: "Attractive",
+        category: "adjective"
+      },
+      {
+        word: "Career path",
+        definition: "A planned, logical progression of jobs within a profession throughout working life",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Attractive",
+        definition: "Have a pleasing appearance",
+        category: "adjective"
+      },
+      {
+        word: "Sexy",
+        definition: "Attractive, exciting and appealing",
+        category: "adjective"
+      },
+      {
+        word: "Tender",
+        definition: "Very loving and gentle",
+        category: "adjective"
+      },
+      {
+        word: "Handsome",
+        definition: "Good looking",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 40,
+    videoId: "video_040",
+    title: "EnglishPod 40 - Elementary - Can I ask you a favor",
+    level: "Elementary",
+    description: "Learn can i ask you a favor through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_040",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Um, sorry to bother you um... my name is Rachel. I'm new here. Can I ask you a favor?" },
+      { speaker: "B", text: "Hi Rachel, welcome on board. I'm afraid I can't help you right now. I'm getting ready for a very important meeting." },
+      { speaker: "A", text: "Excuse me, but can I bother you for a sec?" },
+      { speaker: "C", text: "You know what? I'd love to help you, but I'm about to meet an important client. Do you wanna try Sean instead? He sits right over there." },
+      { speaker: "A", text: "Sorry to interrupt you Sean, could you do me a quick favor?" },
+      { speaker: "D", text: "Actually, I'm working on a document that is due in a couple of minutes. I really can't talk to you right now. Sorry about that." },
+      { speaker: "A", text: "Geeze! I just want to know where the bathroom is! What's wrong with you people!" }
+      ],
+      vocabulary: [
+      {
+        word: "Bother",
+        definition: "Annoy or disturb someone",
+        category: "verb"
+      },
+      {
+        word: "Can I ask you a favor",
+        definition: "Ask someone to do a kind and helpful thing",
+        category: "phrase"
+      },
+      {
+        word: "On board",
+        definition: "To the company",
+        category: "phrase"
+      },
+      {
+        word: "Can I bother you",
+        definition: "Polite way of asking if you can interrupt someone",
+        category: "phrase"
+      },
+      {
+        word: "Instead",
+        definition: "In the place of"
+      },
+      {
+        word: "Sorry to interrupt",
+        definition: "Phrase used to begin speaking to someone when they are busy doing or saying something"
+      },
+      {
+        word: "Do me a quick favor",
+        definition: "Do a small, helpful thing that won't take a long time"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Help me out",
+        definition: "Help me",
+        category: "phrase"
+      },
+      {
+        word: "Give me a hand",
+        definition: "Help me with something",
+        category: "phrase"
+      },
+      {
+        word: "Annoy",
+        definition: "Cause someone to feel slightly angry",
+        category: "verb"
+      },
+      {
+        word: "Bug",
+        definition: "Bother or annoy someone (informal)",
+        category: "verb"
+      },
+      {
+        word: "Disrupt",
+        definition: "Stop someone from working, or doing something",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 41,
+    videoId: "video_041",
+    title: "EnglishPod 41 - Intermediate - Movie Trailer",
+    level: "Intermediate",
+    description: "Learn movie trailer through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_041",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "In a digital world, even the strongest must fight for survival. Two people, possess a secret so valuable, so powerful, they have to defend it at all costs." },
+      { speaker: "B", text: "I don't care where they are, I don't care what it takes... you find them and bring them to me!" },
+      { speaker: "A", text: "They only had one chance! And their chance was to fight back!" },
+      { speaker: "D", text: "You wanna play rough? Okay, say hello to my little friend!" },
+      { speaker: "A", text: "With a little help from a Governor..." },
+      { speaker: "C", text: "Listen to me! We have to get them outta there! No matter what!" },
+      { speaker: "A", text: "Nothing will prevent them from doing their job! Double the action." },
+      { speaker: "D", text: "Get down!" },
+      { speaker: "A", text: "Triple the excitement." },
+      { speaker: "D", text: "Get down again!" },
+      { speaker: "A", text: "This summer... nothing will stand in their way." },
+      { speaker: "B", text: "I'm going to make him an offer he can't refuse." },
+      { speaker: "A", text: "Two hosts, one podcast, coming to a theater near you." }
+      ],
+      vocabulary: [
+      {
+        word: "Possess",
+        definition: "Have or own",
+        category: "verb"
+      },
+      {
+        word: "Survival",
+        definition: "The state of living and being alive",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Defend",
+        definition: "Fight in order to keep something or someone safe",
+        category: "verb"
+      },
+      {
+        word: "Rough",
+        definition: "Be tough,difficult, violent",
+        category: "phrase"
+      },
+      {
+        word: "No matter what",
+        definition: "Even if it's difficult",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Get down",
+        definition: "Lower your body, not standing",
+        category: "phrase"
+      },
+      {
+        word: "Stand in someone's way",
+        definition: "Prevent a person from doing something",
+        category: "phrase"
+      },
+      {
+        word: "At all costs",
+        definition: "Regardless of the cost involved, even if it's difficult",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Comedy",
+        definition: "A funny movie",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Romantic comedy",
+        definition: "A funny movie where two people fall in love",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Animated film",
+        definition: "A movie made with a series of drawings; not with live people",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Thriller",
+        definition: "A very exciting film",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Drama",
+        definition: "A movie about a serious subject",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 42,
+    videoId: "video_042",
+    title: "EnglishPod 42 - Elementary - I need more time",
+    level: "Elementary",
+    description: "Learn i need more time through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_042",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "So, Casey, how are things going with the photos for the press kit?" },
+      { speaker: "B", text: "Yeah, I've been meaning to talk to you about that. I might need to ask for an extension on that deadline." },
+      { speaker: "A", text: "You've had over a month to get this finalized! Why are things delayed?" },
+      { speaker: "B", text: "Well, the thing is, we ran into a lot of problems..." },
+      { speaker: "A", text: "I'm not looking for excuses here. I just want to get this finished on time!" },
+      { speaker: "B", text: "I know, and I apologize for the delay. But some things were just beyond my control. I had trouble booking the the photographer, and then Michael was sick for three weeks, so I couldn't include him in the photos, and the design team lost all the files, so I had to redo the pictures." },
+      { speaker: "A", text: "I'm not going to put this off any longer, Casey! I want those photos ASAP!" }
+      ],
+      vocabulary: [
+      {
+        word: "Press kit",
+        definition: "Group of photos, documents, articles, and information about a company given to reporters, newspapers, magazines, etc.",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "I've been meaning to",
+        definition: "Intend, plan to do something",
+        category: "verb"
+      },
+      {
+        word: "Extension",
+        definition: "Make a deadline longer, extra time to do something",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Deadline",
+        definition: "The date when something must be finished",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Finalize",
+        definition: "Finish, decide on all the details",
+        category: "verb"
+      },
+      {
+        word: "Delay",
+        definition: "Late",
+        category: "verb"
+      },
+      {
+        word: "Run into",
+        definition: "Meet or encounter",
+        category: "phrase"
+      },
+      {
+        word: "Beyond someone's control",
+        definition: "Not able to control something",
+        category: "phrase"
+      },
+      {
+        word: "Put",
+        definition: "Plan to do something later"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Due",
+        definition: "The date when something must be finished or happen",
+        category: "adjective"
+      },
+      {
+        word: "Behind",
+        definition: "Late with a project or things you have to do",
+        category: "adjective"
+      },
+      {
+        word: "Hold up",
+        definition: "Delay or slow something",
+        category: "phrase"
+      },
+      {
+        word: "Tight deadline",
+        definition: "A deadline that is really difficult to meet",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 43,
+    videoId: "video_043",
+    title: "EnglishPod 43 - Intermediate - Applying for a Visa",
+    level: "Intermediate",
+    description: "Learn applying for a visa through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_043",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "So, you're applying for a B2 visa, where is your final destination and what's the purpose of your trip to the United States?" },
+      { speaker: "B", text: "I'm going to visit my brother; he's just had a baby. He lives in Minneapolis." },
+      { speaker: "A", text: "And how long do you you plan to remain in the United States?" },
+      { speaker: "B", text: "I'll be here for approximately three weeks. See, here's my return ticket for the twenty-sixth of March." },
+      { speaker: "A", text: "And, who is sponsoring your trip?" },
+      { speaker: "B", text: "My brother, here, this is an invitation letter from him. I will stay with him and his family in their home." },
+      { speaker: "A", text: "Alright, tell me about the ties you have to your home country." },
+      { speaker: "B", text: "Well, I own a house; actually, I'm leaving my dog there with my neighbors. I have a car at home, and oh, my job! I'm employed by Tornel as an engineer. Actually, I only have three weeks' vacation, so I have to go back to work at the end of March." },
+      { speaker: "A", text: "And what evidence do you have that you are financially independent?" },
+      { speaker: "B", text: "Well, I do have assets in my country; like I said, I own a house, and see, here's a bank statement showing my investments, and my bank balance." },
+      { speaker: "A", text: "I'm sorry, sir, we cannot grant you a B2 visa at this time, instead, you are granted a resident visa! Congratulations, you are the millionth person to apply for a visa! You win! Congratulations!" }
+      ],
+      vocabulary: [
+      {
+        word: "Remain",
+        definition: "Stay",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "Approximately",
+        definition: "An amount that is almost, but not exact",
+        category: "adjective"
+      },
+      {
+        word: "Sponsor",
+        definition: "Someone who takes the responsibility for a person applying for a visa",
+        category: "verb",
+        subcategory: "present progressive"
+      },
+      {
+        word: "Invitation letter",
+        definition: "A formal letter asking a person to come to a place",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Tie",
+        definition: "Responsibility that links a person to a place or a thing",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Evidence",
+        definition: "Something that shows the thing is true",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Financially independent",
+        definition: "Have enough money to live alone; do not need help with money",
+        category: "phrase"
+      },
+      {
+        word: "Assets",
+        definition: "Things that are worth money that you own",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Grant",
+        definition: "Let you have something",
+        category: "verb",
+        subcategory: "present simple"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Visa officer",
+        definition: "A person who's job is to interview people for visas",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Resident permit",
+        definition: "An official document that allows you to live in a country",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Embassy",
+        definition: "The group of people who represent your country in another country, located in the capital city",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Application form",
+        definition: "A piece of paper you have to put information on to make a formal request",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Consulate",
+        definition: "Government building representing your country in another country; not  located in a capital city",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 44,
+    videoId: "video_044",
+    title: "EnglishPod 44 - Elementary - Small Talk",
+    level: "Elementary",
+    description: "Learn small talk through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_044",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Morning." },
+      { speaker: "B", text: "Hi there, Mr. Anderson! How are you on this fine morning?" },
+      { speaker: "A", text: "Fine, thank you." },
+      { speaker: "B", text: "It sure is cold this morning, isn't it? I barely even got out of bed!" },
+      { speaker: "A", text: "Yeah. It’s pretty cold, alright." },
+      { speaker: "B", text: "Did you catch the news this morning? I heard that there was a fire on Byron Street." },
+      { speaker: "A", text: "No, I didn't hear about that." },
+      { speaker: "B", text: "Did you happen to watch the football game last night? The Patriots scored in the last minute!" },
+      { speaker: "A", text: "No, I don’t like football." },
+      { speaker: "B", text: "Oh… By the way, I saw you with your daughter at the office Christmas party. She is really beautiful!" },
+      { speaker: "A", text: "She’s my wife! Oh, here’s my floor! Nice talking to you. Goodbye." },
+      { speaker: "B", text: "Sir, this is the fifty-sixth floor! We are on the seventieth!" },
+      { speaker: "A", text: "That’s okay, I'll take the stairs!" }
+      ],
+      vocabulary: [
+      {
+        word: "It sure is",
+        definition: "Affirmation or confirmation of something",
+        category: "phrase"
+      },
+      {
+        word: "Barely even",
+        definition: "Hardly, could almost not"
+      },
+      {
+        word: "Catch",
+        definition: "Hear, listen to",
+        category: "verb"
+      },
+      {
+        word: "Did you happen to",
+        definition: "By chance or casualty someone did something",
+        category: "phrase"
+      },
+      {
+        word: "By the way",
+        definition: "Phrased used to interject another topic in a conversation",
+        category: "phrase"
+      },
+      {
+        word: "Take the stairs",
+        definition: "Go up the stairs, use the stairs",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Small talk",
+        definition: "Short, firendly conversation about things that are not important"
+      },
+      {
+        word: "Chat",
+        definition: "Talk (informal)",
+        category: "verb"
+      },
+      {
+        word: "Network",
+        definition: "Talk with people to form business connections",
+        category: "verb"
+      },
+      {
+        word: "Awkward",
+        definition: "Difficult to deal with",
+        category: "adjective"
+      },
+      {
+        word: "Uncomfortable",
+        definition: "A feeling of being embarrassed or uneasy",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 45,
+    videoId: "video_045",
+    title: "EnglishPod 45 - Intermediate - I'm sorry i love you 4",
+    level: "Intermediate",
+    description: "Learn i'm sorry i love you 4 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_045",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "... so, I said, \"let's take a break .\" And since that night, I've been waiting for him to call, but I still haven't heard from him. You don't think he's seeing someone else, do you?" },
+      { speaker: "B", text: "Come on, don't be so dramatic! I'm sure everything is going to work out just fine." },
+      { speaker: "A", text: "You think so? Oh, no! How can he do this to me? I'm sure he's cheating on me! Why else wouldn't he call?" },
+      { speaker: "B", text: "But, you two are on a break. Theoretically he can do whatever he likes." },
+      { speaker: "A", text: "He's the love of my life! I've really messed this up." },
+      { speaker: "B", text: "Come on, hon. Pull yourself together. It's going to be alright." },
+      { speaker: "A", text: "But I... I still love him! And it's all my fault! I can't believe how immature and selfish I was being. I mean, he is a firefighter, it's not like he can just leave someone in a burning building and meet me for dinner. I've totally messed this up!" },
+      { speaker: "B", text: "You know what, Veronica, I think you should make the first step. I'm sure he'll forgive you..." },
+      { speaker: "A", text: "No, this is not gonna happen! I... I've ruined everything...." },
+      { speaker: "B", text: "Hey... do you hear something? Guess what? It's your lovely firefighter!" },
+      { speaker: "C", text: "When I had you, I treated you bad and wrong dear. And since, since you went away, don't you know I sit around with my head hanging down and I wonder who's loving you." }
+      ],
+      vocabulary: [
+      {
+        word: "Seeing someone",
+        definition: "Dating or going out with someone",
+        category: "phrase"
+      },
+      {
+        word: "Cheat on",
+        definition: "Having a romantic relationship with someone else"
+      },
+      {
+        word: "On a break",
+        definition: "A relationship that is temporarily on hold",
+        category: "phrase"
+      },
+      {
+        word: "Pull yourself together",
+        definition: "Calm down, relax, organize your thoughts",
+        category: "phrase"
+      },
+      {
+        word: "Immature",
+        definition: "Acting in a childish way",
+        category: "adjective"
+      },
+      {
+        word: "Selfish",
+        definition: "Having or showing concern only for yourself and not for the needs or feelings of other people",
+        category: "adjective"
+      },
+      {
+        word: "Ruin",
+        definition: "Damage, destroy something",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Break up",
+        definition: "End a relationship",
+        category: "verb"
+      },
+      {
+        word: "Dump",
+        definition: "End a relationship when the other person does not want to (informal)"
+      },
+      {
+        word: "Partner",
+        definition: "Serious, long-term boyfriend of girlfriend",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Ex",
+        definition: "Former boyfriend, girlfriend, husband, or wife (informal)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Love life",
+        definition: "Romantic social life",
+        category: "phrase"
+      },
+      {
+        word: "It's not the end of the world",
+        definition: "Don't worry,  it is not so serious",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 46,
+    videoId: "video_046",
+    title: "EnglishPod 46 - Upper Intermediate - Emergency Room",
+    level: "Intermediate",
+    description: "Learn emergency room through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_046",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Help! Are you a doctor? My poor little Frankie has stopped breathing! Oh my gosh, Help me! I tried to perform CPR, but I just don’t know if I could get any air into his lungs! Oh, Frankie!" },
+      { speaker: "B", text: "Ellen, get him hooked up to a monitor! Someone page Dr. Howser. Get the patient to hold still, I can’t get a pulse! Okay, he’s on the monitor. His BP is falling! He's flatlining!" },
+      { speaker: "A", text: "NOOOOOO! Frankie! Nurse! Do something!" },
+      { speaker: "B", text: "Someone get her out of here! Get me the defibrillator. Okay, clear! Again! Clear! Come on! dammit! I'm not letting you go! Clear! I've got a pulse!" },
+      { speaker: "C", text: "Okay, what’s happening?" },
+      { speaker: "B", text: "The patient is in acute respiratory failure, I think we’re going to have to intubate!" },
+      { speaker: "C", text: "Alright! Tube’s in! Bag him! Someone give him 10 cc's of adrenaline! Let’s go, people move, move!" },
+      { speaker: "A", text: "Doctor, oh, thank god! How is he?" },
+      { speaker: "B", text: "We managed to stabilize Frankie, but he’s not out of the woods yet; he’s still in critical condition. We’re moving him to intensive care, but…" },
+      { speaker: "A", text: "Doctor, just do whatever it takes. I just want my little Frankie to be okay. I couldn’t imagine life without my little hamster!" }
+      ],
+      vocabulary: [
+      {
+        word: "Intensive care",
+        definition: "Place in the hospital where very ill patients are treated",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Critical condition",
+        definition: "State where a person is very sick or injured, and has a risk of dying",
+        category: "adjective"
+      },
+      {
+        word: "Out of the woods",
+        definition: "Out trouble or danger,",
+        category: "phrase"
+      },
+      {
+        word: "Stabilize",
+        definition: "Stop a patient from getting worse",
+        category: "verb"
+      },
+      {
+        word: "Intubate",
+        definition: "Place a plastic tube in a persons mouth to facilitate breathing",
+        category: "verb"
+      },
+      {
+        word: "Acute respiratory failure",
+        definition: "Condition in which a person stops breathing",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Defibrillator",
+        definition: "Electric machine that shocks the heart and makes it start working again",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "BP",
+        definition: "Blood pressure",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Flatline",
+        definition: "Condition where the heart stops working",
+        category: "verb"
+      },
+      {
+        word: "Pulse",
+        definition: "The number of times your heart beats per minute",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Hold still",
+        definition: "Not move",
+        category: "phrase"
+      },
+      {
+        word: "Hook up",
+        definition: "Connect someone or something to a machine",
+        category: "phrase"
+      },
+      {
+        word: "CPR",
+        definition: "Procedure in which air is blown into another persons lungs though their mouth",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Chest compressions",
+        definition: "Act of pushing on someone's chest to restart their heart",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Resuscitate",
+        definition: "Make someone who stopped breathing start breathing again",
+        category: "verb"
+      },
+      {
+        word: "Defibrillator",
+        definition: "Machine that uses electricity to shock and restart the heart",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "ER",
+        definition: "Emergency Room; place in the hospital where you bring sick or injured people in an emergency",
+        category: "phrase"
+      },
+      {
+        word: "ICU",
+        definition: "Intensive Care Unit; place in the hospital where very sick or severely injured people are taken care of",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 47,
+    videoId: "video_047",
+    title: "EnglishPod 47 - Advanced - Just in Time Strategy",
+    level: "Advanced",
+    description: "Learn just in time strategy through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_047",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "I called this meeting today in order to discuss our manufacturing plan. As I'm sure you're all aware, with the credit crunch, and the global financial crisis, we're obligated to look for more cost efficient ways of producing our goods. We don't want to have to be looking at redundancies. So, we've outlined a brief plan to implement the just-in-time philosophy." },
+      { speaker: "B", text: "We have two basic points that we want to focus on. First of all, we want to reduce our lead time." },
+      { speaker: "C", text: "Why would want to do that? I think this is not an area that really needs to be worked on." },
+      { speaker: "B", text: "Well, we want to reduce production and delivery lead timesfor better overall efficiency." },
+      { speaker: "A", text: "Right, production lead times can be reduced by moving work stations closer together, reducing queue length, like for example, reducing the number of jobs waiting to be processed at a given machine, and improving the coordination and cooperation between successive processes. Delivery lead times can be reduced through close cooperation with suppliers, possibly by inducing suppliers to locate closer to the factory or working with a faster shipping company." },
+      { speaker: "C", text: "I see… That makes sense." },
+      { speaker: "B", text: "The second point is that we want to require supplier quality assurance and implement a zero defects quality program. We currently have far too many errors that lead to defective items and therefore, they must be eliminated. A quality control at the source program must be implemented to give workers the personal responsibility for the quality of the work they do, and the authority to stop production when something goes wrong." },
+      { speaker: "C", text: "I'm with you on this one. It’s essential that we reduce these errors; we've got to force our suppliers to reduce their mistakes." },
+      { speaker: "A", text: "Exactly. Well, let's look at how we're going to put this plan into action. First...(fade out)" }
+      ],
+      vocabulary: [
+      {
+        word: "Obligate",
+        definition: "Make a person do something because it is the right thing to do",
+        category: "verb"
+      },
+      {
+        word: "Cost efficient",
+        definition: "Cheap, not expensive",
+        category: "phrase"
+      },
+      {
+        word: "Redundancy",
+        definition: "Layoff, the ending of workers' employment",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Implement",
+        definition: "Put a plan into action",
+        category: "verb"
+      },
+      {
+        word: "Lead time",
+        definition: "The time between the beginning of a process and its end",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Efficiency",
+        definition: "The ability to produce something more quickly",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Work station",
+        definition: "An area where a person works and does his job",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Given",
+        definition: "Used to refer to a specific time, place or thing",
+        category: "adjective"
+      },
+      {
+        word: "Defective",
+        definition: "Having a mistake or error that makes something not perfect",
+        category: "adjective"
+      },
+      {
+        word: "Defect",
+        definition: "A mistake or error that makes something not perfect",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Inventory",
+        definition: "Supply of goods stored in a place",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Carrying cost",
+        definition: "The cost of holding inventory",
+        category: "phrase"
+      },
+      {
+        word: "Warehouse",
+        definition: "Large building where products or goods are stored",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Stock",
+        definition: "The supply of goods for sale, or available",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Bottleneck",
+        definition: "Something that slows a process down",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 48,
+    videoId: "video_048",
+    title: "EnglishPod 48 - Intermediate - Carnival in Rio",
+    level: "Intermediate",
+    description: "Learn carnival in rio through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_048",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "I can't believe we're here! Carnival in Rio! Seriously, this is like a once in a lifetime opportunity! Can you believe it? We're here at the biggest party in the world!" },
+      { speaker: "B", text: "I know! We're so lucky that we found tickets for the Sambadrome! Good thing we found that ticket scalper." },
+      { speaker: "A", text: "Look! It's starting! Wow, this is amazing! Look at how many dancers there are. Oh my gosh! The costumes are so colorful! This is so cool!" },
+      { speaker: "B", text: "It says here that the school that is dancing now is one of the oldest and most prestigious samba schools in Rio." },
+      { speaker: "A", text: "No kidding! Look at them, they're amazing! Look at that girl on the top of that float! She must be the carnival queen! Move over there so I can get a picture of you!" },
+      { speaker: "B", text: "Ok. Hurry up take the picture!" },
+      { speaker: "C", text: "join us! come and dance!" },
+      { speaker: "B", text: "Oh really.... no I can't. No really, I don't know how to dance! Honey I'll see you later!" },
+      { speaker: "A", text: "Patrick! Don't just leave me here!" }
+      ],
+      vocabulary: [
+      {
+        word: "Prestigious",
+        definition: "Being respected and admired for being successful or important",
+        category: "adjective"
+      },
+      {
+        word: "Ticket scalper",
+        definition: "Person that buys and re-sales tickets at a higher price",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Once in a lifetime",
+        definition: "Something that happens very rarely, not common",
+        category: "phrase"
+      },
+      {
+        word: "Float",
+        definition: "A vehicle with a platform used to carry an exhibit in a parade",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Good thing",
+        definition: "It is good that something happened",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Stadium",
+        definition: "A large structure where sport events are held",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Festival",
+        definition: "A special time or event when people gather to celebrate something",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Brasilia",
+        definition: "The capital of Brazil"
+      },
+      {
+        word: "Take a chance",
+        definition: "Take a risk, do something that you would not usually do",
+        category: "phrase"
+      },
+      {
+        word: "Ditch",
+        definition: "Leave someone on purpose (informal)",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 49,
+    videoId: "video_049",
+    title: "EnglishPod 49 - Intermediate - Daddy Please",
+    level: "Intermediate",
+    description: "Learn daddy please through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_049",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hey daddy! You look great today; I like your tie! By the way, I was wondering can I…" },
+      { speaker: "B", text: "NO!" },
+      { speaker: "A", text: "I haven’t even told you what it is yet!" },
+      { speaker: "B", text: "Okay, okay, what do you want?" },
+      { speaker: "A", text: "Do you think I could borrow the car? I'm going to a concert tonight." },
+      { speaker: "B", text: "Um.. I don't think so. I need the car tonight to pick up your mother." },
+      { speaker: "A", text: "Ugg! I told you about it last week! Smelly Toes is playing, and Eric asked if I would go with him!" },
+      { speaker: "B", text: "Who’s this Eric guy?" },
+      { speaker: "A", text: "Duh! He’s like the hottest and most popular guy at school! Come on, dad! Please!" },
+      { speaker: "B", text: "No can do... sorry." },
+      { speaker: "A", text: "Fine then! Would you mind giving me 100 bucks?" },
+      { speaker: "B", text: "No way!" },
+      { speaker: "A", text: "That's so unfair!" }
+      ],
+      vocabulary: [
+      {
+        word: "By the way",
+        definition: "Used to change the topic of a conversation",
+        category: "phrase"
+      },
+      {
+        word: "Wonder",
+        definition: "Think about if something is possible",
+        category: "verb"
+      },
+      {
+        word: "Concert",
+        definition: "A public performance of music",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Pick up",
+        definition: "Go and get",
+        category: "verb"
+      },
+      {
+        word: "Popular",
+        definition: "Very well known and well liked",
+        category: "adjective"
+      },
+      {
+        word: "Bucks",
+        definition: "Informal word for dollars",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Unfair",
+        definition: "Not fair, not just",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Suit",
+        definition: "A set of clothes that usually consists of a jacket and a skirt or pair of pants that are made out of the same material",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Play",
+        definition: "A piece of writing that tells a story through the actions and words of characters and that is performed on a stage",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Drop off",
+        definition: "To go and leave someone at a certain place",
+        category: "phrase"
+      },
+      {
+        word: "No way",
+        definition: "I cannot do it, it is not possible",
+        category: "phrase"
+      },
+      {
+        word: "Lend",
+        definition: "To give (something) to (someone) to be used for a period of time and then returned",
+        category: "verb",
+        subcategory: "present simple"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 50,
+    videoId: "video_050",
+    title: "EnglishPod 50 - Intermediate - New Guy in Town 3",
+    level: "Intermediate",
+    description: "Learn new guy in town 3 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_050",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Please make yourselves at home. Let me take your coats. Dinner is almost ready; I hope you brought your appetite" },
+      { speaker: "B", text: "Your house is lovely, Armand! Very interesting decor...very...Gothic." },
+      { speaker: "C", text: "I think it's amazing! You have such good taste, Armand. I'm thinking of re-decorating my house; maybe you could give me a few pointers?" },
+      { speaker: "A", text: "It would be my pleasure. Please have a seat. Can I offer you a glass of wine?" },
+      { speaker: "C", text: "We would love some!" },
+      { speaker: "A", text: "Here you are. A very special merlot brought directly from my home country. It has a unique ingredient which gives it a pleasant aroma and superior flavor." },
+      { speaker: "C", text: "Mmm... it's delicious!" },
+      { speaker: "B", text: "It's a bit bitter for my taste... almost tastes like... like..." },
+      { speaker: "C", text: "Ellen! Ellen! Are you okay?" },
+      { speaker: "A", text: "Did she pass out?" },
+      { speaker: "C", text: "Yeah..." },
+      { speaker: "A", text: "I hope that you didn't poison her drink too much! You'll ruin our meal!" }
+      ],
+      vocabulary: [
+      {
+        word: "Flavor",
+        definition: "The way something tastes",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Aroma",
+        definition: "The way something smells",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Pointer",
+        definition: "Tips, advice, hints",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Make yourselves at home",
+        definition: "Get comfortable and feel like you are in your own home",
+        category: "phrase"
+      },
+      {
+        word: "Good taste",
+        definition: "Refers to liking nice things",
+        category: "phrase"
+      },
+      {
+        word: "Bitter",
+        definition: "Opposite of sweet",
+        category: "adjective"
+      },
+      {
+        word: "Pass out",
+        definition: "Faint, loss consciousness",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Sweet",
+        definition: "Containing a lot of sugar",
+        category: "adjective"
+      },
+      {
+        word: "Have a seat",
+        definition: "Sit down, take a seat",
+        category: "phrase"
+      },
+      {
+        word: "Spike",
+        definition: "To add alcohol or drugs to (food or drink)",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Sour",
+        definition: "Having an acid taste that is like the taste of a lemon",
+        category: "adjective"
+      },
+      {
+        word: "Exclusive",
+        definition: "Only allowing in people from a high social class",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 51,
+    videoId: "video_051",
+    title: "EnglishPod 51 - Elementary - What a Bargain",
+    level: "Elementary",
+    description: "Learn what a bargain through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_051",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hello. May I help you?" },
+      { speaker: "B", text: "Yeah, this dress is really nice! How much is it?" },
+      { speaker: "A", text: "That one is one hundred and fifty dollars." },
+      { speaker: "B", text: "One hundred and fifty dollars? What about this other one over here?" },
+      { speaker: "A", text: "That's one hundred and forty dollars." },
+      { speaker: "B", text: "Hmm...that's a bit out of my price range. Can you give me a better deal?" },
+      { speaker: "A", text: "This is an exclusive design by DaMarco! It's a bargain at that price." },
+      { speaker: "B", text: "Well, I don't know. I think I'll shop around." },
+      { speaker: "A", text: "Okay, okay, how about one hundred dollars?" },
+      { speaker: "B", text: "That's still more than I wanted to spend. What if I take both dresses?" },
+      { speaker: "A", text: "Okay, I can give you a special discount, just because you seem like a nice person. One hundred and ninety dollars for both." },
+      { speaker: "B", text: "I don't know... It's still a bit pricey.... Thanks anyway." },
+      { speaker: "A", text: "Okay, my final price! One hundred dollars for both! That's two for the price of one. That's my last offer!" },
+      { speaker: "B", text: "Great! You've got a deal!" }
+      ],
+      vocabulary: [
+      {
+        word: "Bargain",
+        definition: "A good deal, a cheap price",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Shop around",
+        definition: "Look in many stores and try to find the best price",
+        category: "phrase"
+      },
+      {
+        word: "Discount",
+        definition: "A lowering of the price of something",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Exclusive",
+        definition: "Not common, unique",
+        category: "adjective"
+      },
+      {
+        word: "Out of my price range",
+        definition: "Too expensive, can't afford it",
+        category: "phrase"
+      },
+      {
+        word: "Offer",
+        definition: "An opportunity to buy something at a low price",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Pricey",
+        definition: "Expensive",
+        category: "adjective"
+      },
+      {
+        word: "Deal",
+        definition: "Agreement to buy something",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Promotion",
+        definition: "A special discount or offer on goods and services",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Cash",
+        definition: "Money in the form of coins and bills",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Credit card",
+        definition: "Card that is used to buy things and pay at a later time",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Negotiate",
+        definition: "To discuss and fight for a better price",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Freebie",
+        definition: "A free item that is usually given to promote a product",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 52,
+    videoId: "video_052",
+    title: "EnglishPod 52 - Elementary - Pizza Delivery",
+    level: "Elementary",
+    description: "Learn pizza delivery through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_052",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Good evening, Pizza House. This is Marty speaking. May I take your order?" },
+      { speaker: "B", text: "Um yes… I’d like a medium pizza with pepperoni, olives, and extra cheese." },
+      { speaker: "A", text: "We have a two-for-one special on large pizzas. Would you like a large pizza instead?" },
+      { speaker: "B", text: "Sure, that sounds good." },
+      { speaker: "A", text: "Great! Would you like your second pizza to be the same as the first?" },
+      { speaker: "B", text: "No, make the second one with ham, pineapple and green peppers. Oh, and make it thin crust." },
+      { speaker: "A", text: "Okay, thin crust. Your total is $21.50 and your order will arrive in thirty minutes or it's free!" },
+      { speaker: "B", text: "Perfect. Thank you. Bye.." },
+      { speaker: "A", text: "Sir, wait!! I need your address!" }
+      ],
+      vocabulary: [
+      {
+        word: "Medium",
+        definition: "An average size, not too big or small",
+        category: "adjective"
+      },
+      {
+        word: "Total",
+        definition: "Complete amount you must pay",
+        category: "adjective"
+      },
+      {
+        word: "Instead",
+        definition: "In replacement of"
+      },
+      {
+        word: "Sounds good",
+        definition: "Seems or appears to be okay, I agree",
+        category: "verb"
+      },
+      {
+        word: "Pepperoni",
+        definition: "A spicy sausage usually on pizza",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Olive",
+        definition: "A small, egg-shaped black or green fruit that is used as food or for making oil",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Crust",
+        definition: "The border of a pizza, or bread",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Two-for-one",
+        definition: "Pay for one and get another one free",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Total",
+        definition: "Sum of everything",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Fast food",
+        definition: "Food that is quickly made and convenient if you are in a hurry",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Delivery",
+        definition: "Transported or taken to your house",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Dough",
+        definition: "A mix of flour and water that is used to make the base of a pizza",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Take-out",
+        definition: "Food you take away from the restaurant to eat (AmE)",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 53,
+    videoId: "video_053",
+    title: "EnglishPod 53 - Intermediate - Head Chef",
+    level: "Intermediate",
+    description: "Learn head chef through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_053",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "...Right away sir, your order will be ready shortly. Jean Pierre, we have another special for table seven!" },
+      { speaker: "B", text: "I'm working as fast as I can! We're really in the weeds! Where is my sous chef? Luc! I need you to peel more potatoes. Marie, chop some onions and carrots for the stew." },
+      { speaker: "A", text: "Jean Pierre another special! We're really packed tonight! We're running low on wine. Is there any left in the cellar?" },
+      { speaker: "C", text: "Sorry I'm late, everyone. Wow, we are doing really well tonight!" },
+      { speaker: "B", text: "Harry, stop talking and get over here I need this sauce stirred and the fish needs to be butchered and buttered." },
+      { speaker: "C", text: "Ok, I'm on it!" },
+      { speaker: "A", text: "Jean Pierre, table seven has requested to see the chef! I think they are food critics from Cuisine Magazine" }
+      ],
+      vocabulary: [
+      {
+        word: "Butter",
+        definition: "Put butter on something",
+        category: "adjective"
+      },
+      {
+        word: "Butcher",
+        definition: "Cut meat into pieces taking out bones and organs",
+        category: "adjective"
+      },
+      {
+        word: "Right away",
+        definition: "Quickly, as soon as possible",
+        category: "phrase"
+      },
+      {
+        word: "In the weeds",
+        definition: "In a difficult situation",
+        category: "phrase"
+      },
+      {
+        word: "Sous chef",
+        definition: "Chef that helps and assists the head chef",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Peel",
+        definition: "Remove the outer skin of a fruit or vegetable",
+        category: "verb"
+      },
+      {
+        word: "Chop",
+        definition: "Cut into small pieces",
+        category: "verb"
+      },
+      {
+        word: "Running low on",
+        definition: "To not have so much, having not enough",
+        category: "phrase"
+      },
+      {
+        word: "Stir",
+        definition: "Move or mix something; usually with a spoon",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Bake",
+        definition: "To cook food at very high and dry heat",
+        category: "verb"
+      },
+      {
+        word: "Pan",
+        definition: "A usually shallow and open metal container that has a handle and that is used for cooking or baking",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Pot",
+        definition: "A deep, round container that is used for cooking",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Dice",
+        definition: "To cut something into small cubes",
+        category: "verb"
+      },
+      {
+        word: "Stove",
+        definition: "A flat piece of kitchen equipment for cooking with fire",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 54,
+    videoId: "video_054",
+    title: "EnglishPod 54 - Intermediate - I'm sorry I love you 5",
+    level: "Intermediate",
+    description: "Learn i'm sorry i love you 5 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_054",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Honey, of course I forgive you! I love you so much! I've really missed you. I was wrong to get upset over nothing." },
+      { speaker: "B", text: "I'm sorry I haven't called or anything, but right after you decided you wanted a break, I was called up north to put out some major forest fires! I was in the middle of nowhere, working day and night, trying to prevent the blaze from spreading! It was pretty intense." },
+      { speaker: "A", text: "Oh, honey, I'm glad you're okay! But I have some exciting news... I think I'm pregnant!" },
+      { speaker: "B", text: "Really? Wow, that's amazing! This is great news! I've always wanted to be a father! We'll go to the doctor first thing in the morning!" },
+      { speaker: "C", text: "We have your test results back and, indeed, you are pregnant. Let's see here... everything seems to be in order. Your approximate due date is October twenty-seventh two thousand and nine, so that means that the baby was conceived on February third, two thousand and nine." },
+      { speaker: "B", text: "Are you sure? Are these things accurate?" },
+      { speaker: "C", text: "Well, yes sir, they are." },
+      { speaker: "A", text: "What's wrong? Why are you asking these questions?" },
+      { speaker: "B", text: "This baby isn't mine! I was away the first week of February at a training seminar!" },
+      { speaker: "A", text: "I... I... no, it can't be..." }
+      ],
+      vocabulary: [
+      {
+        word: "Accurate",
+        definition: "Having no mistakes or errors",
+        category: "adjective"
+      },
+      {
+        word: "Conceived",
+        definition: "Be created",
+        category: "verb",
+        subcategory: "past simple"
+      },
+      {
+        word: "Due date",
+        definition: "Date when the doctor thinks the baby will be born",
+        category: "phrase"
+      },
+      {
+        word: "Everything seems to be in order",
+        definition: "Everything is okay, everything is normal",
+        category: "phrase"
+      },
+      {
+        word: "First thing in the morning",
+        definition: "Early in the morning",
+        category: "phrase"
+      },
+      {
+        word: "Break",
+        definition: "Temporary stop in a romantic relationship",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "In the middle of nowhere",
+        definition: "Far from a city or town",
+        category: "phrase"
+      },
+      {
+        word: "Blaze",
+        definition: "A large, strong, dangerous fire",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Firefighter",
+        definition: "A person whose job is to put out fires (male or female)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "The boonies",
+        definition: "A place far from cities or towns (informal)",
+        category: "phrase"
+      },
+      {
+        word: "First thing in the afternoon",
+        definition: "Early in the afternoon, before anything else",
+        category: "phrase"
+      },
+      {
+        word: "Pregnancy test",
+        definition: "A medical test done to see if a woman is pregnant",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Check-up",
+        definition: "An appointment to see the doctor to make sure the person is healthy",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 55,
+    videoId: "video_055",
+    title: "EnglishPod 55 - Intermediate - Hockey",
+    level: "Intermediate",
+    description: "Learn hockey through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_055",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hello everyone! I'm Rick Fields, and here with me is Bob Copeland." },
+      { speaker: "B", text: "Howdy folks, and welcome to today's game! You know, Rick, today is a key game between Russia and Canada. As you know, the winner will move on to the finals." },
+      { speaker: "A", text: "That's right, and it looks like we're just about ready to start the match. The ref is calling the players for the face-off... and here we go! The Russians win possession and immediately set up their attack! Federov gets checked hard into the boards!" },
+      { speaker: "B", text: "Maurice Richard has the puck now, and passes it to the center. He shoots! Wow what a save by the goalie!" },
+      { speaker: "A", text: "Alright, the puck is back in play now. Pavel Bure is on a breakaway! He is flying down the ice! The defenders can't keep up! Slap shot! He scores" },
+      { speaker: "B", text: "What an amazing goal!" }
+      ],
+      vocabulary: [
+      {
+        word: "Goalie",
+        definition: "Position in hockey; person who tries to stop the puck from going in the net",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Breakaway",
+        definition: "State of becoming separated from a large group (especially in sports)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Save",
+        definition: "The act of preventing a ball or puck from going in the net",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Puck",
+        definition: "Small, round, black object that is used to play hockey",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Win possession",
+        definition: "Get control",
+        category: "phrase"
+      },
+      {
+        word: "Check",
+        definition: "Use your body to push someone in hockey",
+        category: "verb"
+      },
+      {
+        word: "Ref",
+        definition: "Person who makes sure the players follow the rules in a game",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Face-off",
+        definition: "A way of beginning a game by dropping the puck between two players",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Key",
+        definition: "Very important",
+        category: "adjective"
+      },
+      {
+        word: "Finals",
+        definition: "Last game or series of games in a tournament or championship",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Hockey stick",
+        definition: "Long wooden stick shaped like an L; used for playing hockey",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Arena",
+        definition: "Large building where sports are played",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Rink",
+        definition: "Ice surface used to play hockey or skate on",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "NHL",
+        definition: "National Hockey League; group of professional hockey teams that play in Canada and the US"
+      },
+      {
+        word: "League",
+        definition: "A group of sports teams that play against each other",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 56,
+    videoId: "video_056",
+    title: "EnglishPod 56 - Intermediate - Planning a Bank Robbery",
+    level: "Intermediate",
+    description: "Learn planning a bank robbery through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_056",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "All right, so this is what we are going to do. I've carefully mapped this out, so don't screw it up. Mr. Rabbit, you and Mr. Fox will go into the bank wearing these uniforms. We managed to get replicas of the one the guards wear when they pick up the money." },
+      { speaker: "B", text: "Got it." },
+      { speaker: "C", text: "No problem, boss." },
+      { speaker: "A", text: "When you get inside, tell them that you are filling in for Carl and Tom, and say that they are on another route today. Don't lose your cool. Just act natural." },
+      { speaker: "B", text: "What if they want to call and confirm?" },
+      { speaker: "A", text: "You let him." },
+      { speaker: "C", text: "What!?" },
+      { speaker: "A", text: "Don’t worry, we have the phones tapped, so the call will be patched through to me, and I’ll pretend to be the transport company." },
+      { speaker: "B", text: "Ha ha, you are so clever boss!" },
+      { speaker: "A", text: "Okay, shut up. Only take as much money as you can fit in these bags. Don’t get greedy! Are you ready? Let's go." }
+      ],
+      vocabulary: [
+      {
+        word: "Screw up",
+        definition: "Mess up, make a mistake, fail",
+        category: "verb"
+      },
+      {
+        word: "Map out",
+        definition: "Planned, thought of",
+        category: "verb"
+      },
+      {
+        word: "Patch",
+        definition: "Connect or communicate over the telephone"
+      },
+      {
+        word: "Tap",
+        definition: "Attach a device to a phone line to listen secretly",
+        category: "verb"
+      },
+      {
+        word: "Greedy",
+        definition: "Want too much; always wanting more",
+        category: "adjective"
+      },
+      {
+        word: "Loose",
+        definition: "To not control your feeling or emotions"
+      },
+      {
+        word: "Clever",
+        definition: "Smart, intelligent",
+        category: "adjective"
+      },
+      {
+        word: "Replica",
+        definition: "A reproduction or copy of a product",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Heist",
+        definition: "The act of stealing something from a shop or a bank (AmE, Informal)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Bust",
+        definition: "An event where the police catch people doing a crime",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Bandit",
+        definition: "Criminal who attacks and steals from people who travel",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Burglary",
+        definition: "Illegally entering a house or building to steal",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Escape route",
+        definition: "A planned way of going from one place to another and escaping",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 57,
+    videoId: "video_057",
+    title: "EnglishPod 57 - Intermediate - Malfunction",
+    level: "Intermediate",
+    description: "Learn malfunction through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_057",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hey Carl, can you make a copy of this contract for me please? When you have it ready, send it out ASAP to our subbranch." },
+      { speaker: "B", text: "Sure! Um... I think I broke this thing. Maxine, can you help me out here? I'm not really a tech guy." },
+      { speaker: "C", text: "Yeah, sure. I think it's just out of toner. You can go use the other one upstairs. On your way up, can you fax this while I try and fix this thing?" },
+      { speaker: "B", text: "Sure! Dammit! Everything in this office seems to be breaking down! Never mind. I'll send this stupid fax later. Oh great! Is someone playing a practical joke on me? This is ridiculous!" },
+      { speaker: "D", text: "The elevator has some sort of malfunction. Just take the stairs dude. What floor are you going to?" },
+      { speaker: "B", text: "I have to go up fifteen floors! Never mind. Made it! There is the copier!" }
+      ],
+      vocabulary: [
+      {
+        word: "ASAP",
+        definition: "As soon as possible",
+        category: "phrase"
+      },
+      {
+        word: "Tech",
+        definition: "Technology",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Toner",
+        definition: "Ink used in a printer or photocopier",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "On",
+        definition: "While moving from one place to another"
+      },
+      {
+        word: "Break down",
+        definition: "Suddenly stop working",
+        category: "verb"
+      },
+      {
+        word: "Never mind",
+        definition: "Forget the last thing I said; don't worry about it",
+        category: "phrase"
+      },
+      {
+        word: "Practical joke",
+        definition: "A joke where something is done, rather than said",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Ridiculous",
+        definition: "Very unreasonable or silly",
+        category: "adjective"
+      },
+      {
+        word: "Malfunction",
+        definition: "A problem causing a thing to stop working properly",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Bug",
+        definition: "A technical problem that causes a computer or system to not work properly",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Office equipment",
+        definition: "Tools used in an office",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Paper jam",
+        definition: "Paper getting stuck in a photocopier, fax machine, or printer",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Damage",
+        definition: "Break or harm something, make something not work properly, or not look perfect",
+        category: "verb"
+      },
+      {
+        word: "Power surge",
+        definition: "An increase in electrical current that can damage electric equipment",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Breakdown",
+        definition: "The act of a machine suddenly not working properly",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 58,
+    videoId: "video_058",
+    title: "EnglishPod 58 - Upper Intermediate - This Is Your Captain Speaking",
+    level: "Intermediate",
+    description: "Learn this is your captain speaking through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_058",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "And the next thing you know, we're running towards the... Oh...did you feel that?" },
+      { speaker: "B", text: "Yeah, don't worry about it; we're just going through a bit of turbulence." },
+      { speaker: "C", text: "Ladies and gentlemen, this is your captain speaking. It looks like we've hit a patch of rough air, so we're going to have a bit of a bumpy ride for the next several minutes, and..." },
+      { speaker: "A", text: "This why I hate flying... Oh!" },
+      { speaker: "C", text: "At this time, I'd like to remind all of our passengers to fasten their seat beltsand remain seated until the fasten seat belt sign is turned off. Please ensure that all cabin baggageis carefully stowed under the seat in front of you. I'll be back back to update you in a minute." },
+      { speaker: "A", text: "Did you hear that? Brent!" },
+      { speaker: "B", text: "Don't worry about it. This is totally normal. It happens all the" },
+      { speaker: "C", text: "Ah, ladies and gentlemen, this is your captain again. We've got quite a large patch of rough air ahead of us, so for your safety, we will be suspending in-flight service. I would ask all in-flight crew to return to their seats at this time. I would also like to ask that all our passengers refrain from using the lavatory until the seat belt sign has been switched off We can expect..." }
+      ],
+      vocabulary: [
+      {
+        word: "Turbulence",
+        definition: "Sudden, strong movement of air especially that causes a plane to move up and down in the air",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Rough",
+        definition: "Having or causing sudden violent movements",
+        category: "adjective"
+      },
+      {
+        word: "Patch",
+        definition: "Small area",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Bumpy",
+        definition: "Having sudden up and down movements",
+        category: "adjective"
+      },
+      {
+        word: "Fasten",
+        definition: "To fasten"
+      },
+      {
+        word: "Cabin baggage",
+        definition: "Suitcases and luggage that travels inside the plane with the passengers",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Stow",
+        definition: "Stowed"
+      },
+      {
+        word: "Suspend",
+        definition: "Will be suspending"
+      },
+      {
+        word: "Refrain",
+        definition: "Avoid doing",
+        category: "verb"
+      },
+      {
+        word: "Lavatory",
+        definition: "Room with a sink and toilet, chiefly on an airplane or train",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Overhead bin",
+        definition: "Place above the seat in an airplane where you can store luggage",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Carry-on",
+        definition: "A suit case that you bring onto the plane",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Table tray",
+        definition: "A table that folds down from the seat in front of you on a an airplane",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Life jacket",
+        definition: "Piece of clothing that you ware to stay floating in water /life jacket",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Oxygen mask",
+        definition: "A mask worn over your mouth and nose so you can breathe",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 59,
+    videoId: "video_059",
+    title: "EnglishPod 59 - Advanced - Job Interview 1",
+    level: "Advanced",
+    description: "Learn job interview 1 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_059",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Okay, so let's go over everything one more time. I really want you to get this job!" },
+      { speaker: "B", text: "I know! It's an amazing growth opportunity! They're true industry leaders, and it would be so interesting to be part of an organization that is the undisputed leader in business process platform development." },
+      { speaker: "A", text: "So, let's see, you did your research on the company, right?" },
+      { speaker: "B", text: "Well, I visited their website and read up on what they do. They're an IT service company that offers comprehensive business solutions for large corporations. They provide services such as CRM development, and they also offer custom-designed applications." },
+      { speaker: "A", text: "So what would your role in the company?" },
+      { speaker: "B", text: "Well, the position is for an account manager. That basically means that I would be the link between our and our development team." },
+      { speaker: "A", text: "Sounds good, and so, why do you want to work with them?" },
+      { speaker: "B", text: "Well, as I said they're the industry leaders, they have a really great growth strategy, amazing development opportunities for employees, and it seems like they have strong corporate governance. They're all about helping companies grow and unleashing potential. I guess their core values and mission really resonated with me. Oh, and they offer six weeks' vacation, stock options and bonuses... I'm totally going to cash in on that." },
+      { speaker: "A", text: "You idiot! Don't say that! Do you want this job, or not?" }
+      ],
+      vocabulary: [
+      {
+        word: "CRM",
+        definition: "Processes, services, technology, and people used to attract and keep customers",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Custom",
+        definition: "Specially made to fit the needs of a person or organization",
+        category: "adjective"
+      },
+      {
+        word: "Core values",
+        definition: "Most important beliefs",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Growth opportunity",
+        definition: "Chance to gain new skills",
+        category: "phrase"
+      },
+      {
+        word: "Industry leader",
+        definition: "Being the best in that particular field or industry",
+        category: "phrase"
+      },
+      {
+        word: "Undisputed",
+        definition: "Definitely true, not doubted",
+        category: "adjective"
+      },
+      {
+        word: "Read up",
+        definition: "Read to gain the most recent information on a subject",
+        category: "verb"
+      },
+      {
+        word: "Unleash",
+        definition: "Release; allow something to happen",
+        category: "verb"
+      },
+      {
+        word: "Resonate",
+        definition: "Have a special meaning or importance for someone",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Integrated solutions",
+        definition: "Combine things to find a plan or a way to deal with a problem (esp. in business)",
+        category: "phrase"
+      },
+      {
+        word: "Competitive advantage",
+        definition: "Something that places a company above the competition",
+        category: "phrase"
+      },
+      {
+        word: "Optimize",
+        definition: "Make something as effective as possible",
+        category: "verb"
+      },
+      {
+        word: "Align",
+        definition: "Join a group in supporting something",
+        category: "verb"
+      },
+      {
+        word: "Platform",
+        definition: "A program that tells a computer how to work",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 60,
+    videoId: "video_060",
+    title: "EnglishPod 60 - Intermediate - New Guy in Town 4",
+    level: "Intermediate",
+    description: "Learn new guy in town 4 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_060",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "All right, drag her over here, and help me tie her up." },
+      { speaker: "B", text: "I can't believe she fell for it! She is a lot more gullible than I thought!" },
+      { speaker: "A", text: "Well, you gotta admit, my acting was brilliant!" },
+      { speaker: "B", text: "Whatever. I was the one that convinced her to come. Look, she's waking up." },
+      { speaker: "C", text: "What's going on? Ellen? What are you doing?" },
+      { speaker: "A", text: "The cat's out of the bag, you witch! You can stop pretending, now!" },
+      { speaker: "B", text: "Yeah Lois, we know who you are! Now, we want some answers! Why are you here?" },
+      { speaker: "C", text: "Fools! You don't know who you're dealing with! You can't stop me!" },
+      { speaker: "B", text: "Run!" }
+      ],
+      vocabulary: [
+      {
+        word: "Fall for it",
+        definition: "Believe a lie",
+        category: "phrase"
+      },
+      {
+        word: "Tie up",
+        definition: "To attach someone or something with a rope or string",
+        category: "phrase"
+      },
+      {
+        word: "Drag",
+        definition: "Move something usually heavy",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "The cat's out of the bag",
+        definition: "The truth is revealed,",
+        category: "phrase"
+      },
+      {
+        word: "Gullible",
+        definition: "Easily believing something that is not true, easily fooled",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Frank",
+        definition: "Used to say that someone is speaking or writing in a very direct and honest way",
+        category: "adjective"
+      },
+      {
+        word: "Compulsive liar",
+        definition: "Person that can't tell the truth, lies about anything",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Disoriented",
+        definition: "State of not knowing where you are, confused",
+        category: "adjective"
+      },
+      {
+        word: "Spill the beans",
+        definition: "Tell the truth when you don't really want to; tell someone everything",
+        category: "phrase"
+      },
+      {
+        word: "Wizard",
+        definition: "The male form of a witch; man that practices magic",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 61,
+    videoId: "video_061",
+    title: "EnglishPod 61 - Elementary - Swim faster!",
+    level: "Elementary",
+    description: "Learn swim faster! through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_061",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "This is such a beautiful day! Great for sailing!" },
+      { speaker: "B", text: "It sure is! The water looks so nice! Anchor the boat for a little while. I'm going to take a dip." },
+      { speaker: "A", text: "Why are you doggy-paddling? I taught you how to swim! Do your breast stroke!" },
+      { speaker: "B", text: "I get too tired! I'll just backstroke, it's easier!" },
+      { speaker: "A", text: "Try kicking your legs more. That's good. Don't go out too far!" },
+      { speaker: "B", text: "It's Jump in!" },
+      { speaker: "A", text: "Kathy! Get back here! I see a shark!" },
+      { speaker: "B", text: "Ahhhh!!!! Help me! Help! Bring the boat closer! The shark is coming straight towards me!" },
+      { speaker: "A", text: "It's right under you! Kathy!!!!!" }
+      ],
+      vocabulary: [
+      {
+        word: "Sail",
+        definition: "Travel in a boat that is powered by wind",
+        category: "verb"
+      },
+      {
+        word: "For a little while",
+        definition: "For a short amount of time",
+        category: "phrase"
+      },
+      {
+        word: "A dip",
+        definition: "A swim",
+        category: "phrase"
+      },
+      {
+        word: "Doggy-paddle",
+        definition: "Swim like a dog",
+        category: "verb"
+      },
+      {
+        word: "Breast stroke",
+        definition: "Way of swimming where the person moves the arms and legs in a half-circle in front of them; like a frog",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Backstroke",
+        definition: "Swim on your back with arms moving up and down in a circle",
+        category: "verb"
+      },
+      {
+        word: "Straight towards",
+        definition: "Directly in the direction of something",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Swim suit",
+        definition: "Clothes you wear when you go swimming (AmE)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Swimming costume",
+        definition: "Clothes you wear when you go swimming (BrE)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Towel",
+        definition: "Piece of soft cloth you use to dry yourself after swimming or bathing",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Tan",
+        definition: "Lie in the sun and try to make your skin more brown",
+        category: "verb"
+      },
+      {
+        word: "Dive",
+        definition: "Jump into the water with your head first",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 62,
+    videoId: "video_062",
+    title: "EnglishPod 62 - Advanced - Job Interview II",
+    level: "Advanced",
+    description: "Learn job interview ii through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_062",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Thanks for coming in today, did you have any trouble finding us? Please take a seat." },
+      { speaker: "B", text: "Thank you." },
+      { speaker: "A", text: "So, let's get started; tell me a bit about your educational background." },
+      { speaker: "B", text: "Sure! Well, I graduated with honors from Chesterton University with a major in Business Administration, with a specialization in Information Management, and I minored in psychology. I chose this course of study for two reasons: I wanted to gain some practical, marketable skills, which the information management track provided, and I also feel that interpersonal skills are essential for professional success, hence the minor in psychology." },
+      { speaker: "A", text: "Interesting. And, your postgraduate studies?" },
+      { speaker: "B", text: "Well, I am really passionate about consumer behavior, so I pursued a master's in that area. I also strive to keep my professional skills current, so I continuously attend seminars and conferences related management and customer service." },
+      { speaker: "A", text: "Very good. Now, tell me a little bit about your work experience. I see here that you previously worked at Oracle." },
+      { speaker: "B", text: "Yeah, I worked as their customer support manager, which brought me a breadth of experience in both client care, and process management. I supervised and coordinated the customer support team as well as implemented new strategies to achieve better customer satisfaction." },
+      { speaker: "A", text: "Interesting..." },
+      { speaker: "B", text: "Yes, in this position I was able to make some pretty significant contributions to the overall success of the company. With the different initiatives that we implemented, we lowered our churn rate to about five percent, which had a direct impact on revenue." }
+      ],
+      vocabulary: [
+      {
+        word: "Educational background",
+        definition: "The history of the education you've had",
+        category: "phrase"
+      },
+      {
+        word: "With honors",
+        definition: "With special recognition for receiving very high marks",
+        category: "phrase"
+      },
+      {
+        word: "Major",
+        definition: "The main field of study in an undergraduate degree",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Specialization",
+        definition: "A limited area of study",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Minor",
+        definition: "To have a secondary area of study in an undergraduate program",
+        category: "verb"
+      },
+      {
+        word: "Course of study",
+        definition: "The combination of courses taken in a degree program",
+        category: "phrase"
+      },
+      {
+        word: "Track",
+        definition: "Course of study",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Postgraduate",
+        definition: "Masters or Ph.D; education above the bachelor's degree level",
+        category: "adjective"
+      },
+      {
+        word: "Hence",
+        definition: "For that reason"
+      },
+      {
+        word: "Pursue",
+        definition: "Try to do something over a longer period of time",
+        category: "verb",
+        subcategory: "past simple"
+      },
+      {
+        word: "Strive",
+        definition: "Try hard to do something",
+        category: "verb"
+      },
+      {
+        word: "Breadth",
+        definition: "A wide range or scope of something",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Significant",
+        definition: "Important and large enough to have a noticeable effect",
+        category: "adjective"
+      },
+      {
+        word: "Contribution",
+        definition: "Adding or giving something",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Tertiary education",
+        definition: "University education",
+        category: "phrase"
+      },
+      {
+        word: "Take initiative",
+        definition: "Take the chance to do something before others do",
+        category: "phrase"
+      },
+      {
+        word: "Distinguish",
+        definition: "Make something different in a special way",
+        category: "verb"
+      },
+      {
+        word: "Attribute",
+        definition: "A good quality or feature that someone has",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Scrutinize",
+        definition: "Examine something in a careful and critical way",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 63,
+    videoId: "video_063",
+    title: "EnglishPod 63 - Elementary - Receptionist",
+    level: "Elementary",
+    description: "Learn receptionist through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_063",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Good afternoon. May I help you?" },
+      { speaker: "B", text: "Yes, I'm here to see Joanna Stevens. I have an appointment at four." },
+      { speaker: "A", text: "Certainly, may I take your name? I'll let her know you've arrived." },
+      { speaker: "B", text: "Sure, it's Josh O'Neil." },
+      { speaker: "A", text: "Ms. Stevens will be with you momentarily. Can I offer you something to drink?" },
+      { speaker: "B", text: "Yes, a coffee would be nice, thank you." },
+      { speaker: "A", text: "Here you are. Ms. Stevens is ready for you now. I'll show you to her office, right this way." },
+      { speaker: "A", text: "Just watch your step here..." }
+      ],
+      vocabulary: [
+      {
+        word: "Certainly",
+        definition: "With out doubt; of course"
+      },
+      {
+        word: "May I take your name",
+        definition: "Polite way to ask for someone's name",
+        category: "phrase"
+      },
+      {
+        word: "Let",
+        definition: "Tell someone"
+      },
+      {
+        word: "Momentarily",
+        definition: "In a very short time"
+      },
+      {
+        word: "Be ready for you",
+        definition: "Is prepared to meet with you",
+        category: "phrase"
+      },
+      {
+        word: "Show",
+        definition: "Show a person the way to a place"
+      },
+      {
+        word: "Right this way",
+        definition: "Phrase you use to show someone the direction to walk",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Administrative assistant",
+        definition: "Secretary",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Lobby",
+        definition: "The waiting area of a building",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Front desk",
+        definition: "The desk at the  entrance of a building where the receptionist sits",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Field calls",
+        definition: "Receive and direct phone calls",
+        category: "phrase"
+      },
+      {
+        word: "Switchboard",
+        definition: "A system used to connect phone calls to many different phone lines within a building",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 64,
+    videoId: "video_064",
+    title: "EnglishPod 64 - Intermediate - I'm Sorry I Love You 6",
+    level: "Intermediate",
+    description: "Learn i'm sorry i love you 6 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_064",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "This is ridiculous! I can't believe you've been sleeping with someone else! How could you do this! You know what? I'm out of here!" },
+      { speaker: "B", text: "Wait! Doctor how is this possible? I haven't cheated on my boyfriend!" },
+      { speaker: "C", text: "I have something to confess... I'm sorry Veronica, I lied." },
+      { speaker: "B", text: "Wait... what? What do do you mean?" },
+      { speaker: "C", text: "I lied. You aren't even pregnant; there's no bun in the oven. I was just so overwhelmed with jealousy that I couldn't help myself. Veronica I love you!" },
+      { speaker: "B", text: "What are you talking about!!! Who are you?" },
+      { speaker: "C", text: "It's me! Daniel, don't you remember me? From high school. I sat behind you every day in class! I used to go to every football game and watch you in the cheerleading squad!" },
+      { speaker: "B", text: "You are insane! We never even spoke! Why did you lie like that to my boyfriend?" },
+      { speaker: "C", text: "Because Veronica... It's not fair! I love you; I have since the first day we met! Everything was going fine until that jerk came into the picture and ruined everything! I went to med school and became a doctor for you! You always said how you wanted to marry a doctor! You will be mine now... one way or another..." },
+      { speaker: "A", text: "I heard everything, you lying bastard! Get your hands off her!" }
+      ],
+      vocabulary: [
+      {
+        word: "Ruin",
+        definition: "Destroy",
+        category: "verb",
+        subcategory: "past simple"
+      },
+      {
+        word: "Bastard",
+        definition: "An cruel or unkind person",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Jealousy",
+        definition: "A feeling of being supplanted; apprehensive of losing affection or position.",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Insane",
+        definition: "Very crazy",
+        category: "adjective"
+      },
+      {
+        word: "Overwhelmed",
+        definition: "State of being affected deeply in mind or emotion",
+        category: "adjective"
+      },
+      {
+        word: "Bun in the oven",
+        definition: "Informal way of saying: pregnant",
+        category: "phrase"
+      },
+      {
+        word: "Confess",
+        definition: "To admit (a fault or crime)",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "Ridiculous",
+        definition: "Absurd, not logical",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Eavesdrop",
+        definition: "Listen to another person's conversation",
+        category: "verb"
+      },
+      {
+        word: "Split up with",
+        definition: "End a relationship with",
+        category: "phrase"
+      },
+      {
+        word: "Deceit",
+        definition: "Dishonest behavior",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "A homewrecker",
+        definition: "A person who has a relationship with a married man or a married woman",
+        category: "phrase"
+      },
+      {
+        word: "A fraud",
+        definition: "A person who is not who they seem; a person who lies",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Unfaithful",
+        definition: "To have a sexual relationship with someone who is not your husband, wife, boyfriend, or girlfriend",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 65,
+    videoId: "video_065",
+    title: "EnglishPod 65 - Advanced - Job Interview 3",
+    level: "Advanced",
+    description: "Learn job interview 3 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_065",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Very good. Now, I have a couple of final questions." },
+      { speaker: "B", text: "I hope they're not too hard!" },
+      { speaker: "A", text: "Well, why should we hire you?" },
+      { speaker: "B", text: "I think that I would be a perfect fit in this company. I have a unique combination of strong technical acumen, and outstanding soft skills; you know, I excel at building strong, long-term customer relationships. For example, when I headed the customer support department in my previous company, our team solved about seventy percent of our customers' problems. I decided that we needed better information and technical preparation on our products, so after I implemented a series of training sessions in coordination with our technical department, we were able to solve ninety percent of our customers' issues. Given the opportunity, I could bring this kind of success to this company." },
+      { speaker: "A", text: "Impressive! So, what would you consider to be your greatest weakness?" },
+      { speaker: "B", text: "To be honest, I struggle with organization and time management. Punctuality has never been a strength of mine. I find it hard to organize my time efficiently. I have actually addressed this weakness recently, by attending a workshop on efficient time management. It helped me a lot, by providing me with great insights on how to get organized and use my time efficiently, so I think I'm getting better now." },
+      { speaker: "A", text: "Great... Well, let me tell you that I am very pleased with this interview. We are short-listing our candidates this week, and next week we will inform our short listed candidates of the day and time for a second interview with our CEO." },
+      { speaker: "B", text: "Great, thanks a lot! I hope to hear from you! Good bye." }
+      ],
+      vocabulary: [
+      {
+        word: "A perfect fit",
+        definition: "The right person for the job",
+        category: "phrase"
+      },
+      {
+        word: "Acumen",
+        definition: "The ability to think clearly and make good decisions",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Excel",
+        definition: "Be superior to, among the best",
+        category: "verb"
+      },
+      {
+        word: "Head",
+        definition: "To be the leader of something",
+        category: "verb"
+      },
+      {
+        word: "Implement",
+        definition: "To make something active or effective",
+        category: "verb"
+      },
+      {
+        word: "Training session",
+        definition: "A meeting where people acquire skills and knowledge about a subject",
+        category: "phrase"
+      },
+      {
+        word: "Struggle",
+        definition: "Have a difficult time",
+        category: "verb"
+      },
+      {
+        word: "Punctuality",
+        definition: "Arriving or doing something at the expected or planned time",
+        category: "adjective"
+      },
+      {
+        word: "Address",
+        definition: "To deal with (a matter, issue, problem, etc.)",
+        category: "verb"
+      },
+      {
+        word: "Short list",
+        definition: "To select a few candidates in order to make a final selection or decision",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Prospect",
+        definition: "Someone or something that is likely to succeed or to be chosen",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "CV",
+        definition: "Curriculum vitae; a short document that describes your education, work experience, etc.",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Shortcoming",
+        definition: "A weakness that someone has",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Asset",
+        definition: "A valuable or beneficial thing or ability that a person has",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Triumph",
+        definition: "A great success or achievement a person has/ triumph",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 66,
+    videoId: "video_066",
+    title: "EnglishPod 66 - Elementary - Calling The Office",
+    level: "Elementary",
+    description: "Learn calling the office through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_066",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Ello-hay, Aniel-day eaking-spay, ow-hay ay-may I elp-hay ou-yay" },
+      { speaker: "B", text: "Ay-hay, Aniel-day, Ulie-jay ere-hay" },
+      { speaker: "A", text: "Ay-hay, Ulie-jay, ow-hay are ou-yay?" },
+      { speaker: "B", text: "Actually, I’m eeling-fay ite-quay ill otday-tay." },
+      { speaker: "A", text: "I’m orry-say oo-tay ear-hay, at-they. ut-way is ong-wray?" },
+      { speaker: "B", text: "I ink-thay I’m oming-cay own-day ith-way uh-they oo-flay. I ave-hay a eadache-hay, a ore-say oat-thray and I’m eeling-fay ighly-slay everish-fay." },
+      { speaker: "A", text: "I ee-say. O-say ou’re-yay alling-cay in ick-say?" },
+      { speaker: "B", text: "Es-yay, I uz-way oping-hay oo-tay ake-tay uh-they ay-day off oo-tay eecover-ray." },
+      { speaker: "A", text: "Ok, en-they. Ay-tray and et-gay ome-say est-ray." }
+      ],
+      vocabulary: [
+
+      ],
+      supplementaryVocabulary: [
+
+      ]
+    }
+  },
+
+  {
+    id: 67,
+    videoId: "video_067",
+    title: "EnglishPod 67 - Upper Intermediate - Soccer",
+    level: "Intermediate",
+    description: "Learn soccer through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_067",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Welcome back, soccer fans. My name is Rick Fields and, as always, I am joined by my commentating wingman, Bob Copeland." },
+      { speaker: "B", text: "And we're on the brink of soccer history today, as Ecuador and Brazil are tied one-one as we begin the second half of the 2022 World Cup!" },
+      { speaker: "A", text: "The ref calls the players for the kick off, and here we go! Ecuador quickly passes the ball to the midfield, but, ohhh, it's out of bounds." },
+      { speaker: "B", text: "That will be a throw in for Brazil. Adriano has the ball and makes a long pass to Robinho, and the ref has called him offside." },
+      { speaker: "A", text: "No question about it. He was offside by a mile! We have a goal kick for Ecuador. Edison Mendez heads it to Valenica, he shoots! Deflected by the defender and we have a corner kick." },
+      { speaker: "B", text: "Delgado takes the corner. We have a foul! Oh no, Dida, the goalkeeper, has fouled the Ecuadorian player! He gets a yellow card and that will be a penalty kick!" },
+      { speaker: "A", text: "This is the perfect opportunity for Ecuador to get ahead in this match and become World Champions! He gets ready for the kick. He shoots! and he..." }
+      ],
+      vocabulary: [
+      {
+        word: "Wingman",
+        definition: "A person who provides help, support, or protection",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "On the brink",
+        definition: "At a critical point",
+        category: "phrase"
+      },
+      {
+        word: "Tied",
+        definition: "Having the same score",
+        category: "adjective"
+      },
+      {
+        word: "Kick off",
+        definition: "The first movement or kick of the ball to begin the game",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Throw in",
+        definition: "Action of throwing the ball onto the field with your hands to restart the game",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "No question about it",
+        definition: "There is no doubt, it is correct",
+        category: "phrase"
+      },
+      {
+        word: "By a mile",
+        definition: "A lot",
+        category: "phrase"
+      },
+      {
+        word: "Foul",
+        definition: "Illegal action committed against a player",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Penalty kick",
+        definition: "A kick against only the goalkeeper as a reward for a foul",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Goal kick",
+        definition: "When the goalie kicks the ball to re-start play",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Corner kick",
+        definition: "When a player kicks the ball from a corner after a penalty",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Out of bounds",
+        definition: "Outside the area that is allowed for play",
+        category: "phrase"
+      },
+      {
+        word: "Offside",
+        definition: "A position on the opponent's part of the field where your are not allowed to be",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Goalkeeper",
+        definition: "Person who prevents the ball from going into the net (BrE)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Defender",
+        definition: "Person who prevents the other team from getting near the net",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Match",
+        definition: "Game (BrE)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Pitch",
+        definition: "Soccer field (BrE)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Championship",
+        definition: "Final game in a series that determines the overall winner",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 68,
+    videoId: "video_068",
+    title: "EnglishPod 68 - Intermediate - Groundbreaking Research",
+    level: "Intermediate",
+    description: "Learn groundbreaking research through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_068",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "We've been over this a thousand times. The data is irrefutable! Look, we've done extensive research, built studies, and read the literature, and there is conclusive evidence to support my theory!" },
+      { speaker: "B", text: "Horowitz, I beg to differ. Even in your most recent study, the investigative approach was flawed! You know as well as I do that the collection of data was not systematic, and there is a large margin of error. To draw a definitive conclusion based on that data would be misleading" },
+      { speaker: "A", text: "That is preposterous!" },
+      { speaker: "B", text: "You are trying to single-handedly solve one of the world's greatest mysteries, and yet you are oblivious to the fact that you are wrong!" },
+      { speaker: "A", text: "I am not wrong! The chicken came first!" },
+      { speaker: "B", text: "No! The egg came first!" }
+      ],
+      vocabulary: [
+      {
+        word: "Definitive conclusion",
+        definition: "A final judgment that is not able to be changed; that is final",
+        category: "phrase"
+      },
+      {
+        word: "Single-handedly",
+        definition: "Do something on your own, without help",
+        category: "adjective"
+      },
+      {
+        word: "Investigative approach",
+        definition: "Way of looking for information",
+        category: "phrase"
+      },
+      {
+        word: "Flawed",
+        definition: "Having errors or mistake",
+        category: "adjective"
+      },
+      {
+        word: "Preposterous",
+        definition: "Crazy, foolish, or silly",
+        category: "adjective"
+      },
+      {
+        word: "Oblivious to",
+        definition: "Unaware or don't know",
+        category: "phrase"
+      },
+      {
+        word: "Extensive research",
+        definition: "Very full and complete study to find information",
+        category: "phrase"
+      },
+      {
+        word: "Systematic",
+        definition: "Using a careful system or method",
+        category: "adjective"
+      },
+      {
+        word: "Irrefutable",
+        definition: "Correct; not able to be proved wrong",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Associated with",
+        definition: "Linked or connected with",
+        category: "phrase"
+      },
+      {
+        word: "Circumstantial evidence",
+        definition: "A collection of facts that implies or suggests something to be true, but does not prove it",
+        category: "phrase"
+      },
+      {
+        word: "Indicate",
+        definition: "Show something to be true",
+        category: "verb"
+      },
+      {
+        word: "A compelling case",
+        definition: "An argument that is capable of making people believe that point of view",
+        category: "phrase"
+      },
+      {
+        word: "Determine",
+        definition: "Find out if something is true",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 69,
+    videoId: "video_069",
+    title: "EnglishPod 69 - Elementary - How Would You Like Your Eggs",
+    level: "Elementary",
+    description: "Learn how would you like your eggs through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_069",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Wow, you're up early today! What's for breakfast?" },
+      { speaker: "B", text: "Well, I felt like baking, so I made some muffins." },
+      { speaker: "A", text: "Smells good! I'll make some coffee. Do you want me to make you some eggs?" },
+      { speaker: "B", text: "Sure, I’ll take mine, sunny side up." },
+      { speaker: "A", text: "Eww, I don't know how you can eat your eggs like that! Ever since I was small, I've had eggs and soldiers." },
+      { speaker: "B", text: "You know, my dad had scrambled eggs eggs every morning for twenty years. It drove my mom crazy!" },
+      { speaker: "A", text: "You know what really drives me crazy? When I ask for soft boiled eggs, and they overcook them, so they come out hard boiled! How can you dip your toast into a hard boiled egg?" },
+      { speaker: "B", text: "You're so picky sometimes." },
+      { speaker: "A", text: "Here you go, honey, fried eggs." },
+      { speaker: "B", text: "Dammit! I asked for sunny side up! How many times do I have to tell you." }
+      ],
+      vocabulary: [
+      {
+        word: "Bake",
+        definition: "Cook in the oven"
+      },
+      {
+        word: "Muffin",
+        definition: "A small break or cake people usually eat for breakfast",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Sunny-side up",
+        definition: "With egg fried on only one side",
+        category: "phrase"
+      },
+      {
+        word: "Eggs and soldiers",
+        definition: "Soft-boiled eggs with strips of buttered toast on it which people usually eat for breakfast",
+        category: "phrase"
+      },
+      {
+        word: "Scrambled eggs",
+        definition: "A way of cooking eggs by mixing them in a pan",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Soft boiled egg",
+        definition: "Eggs cooked in the shell so the yellow part is still soft and wet",
+        category: "phrase"
+      },
+      {
+        word: "Hard boiled egg",
+        definition: "Egg cooked in the shell until the inside becomes solid",
+        category: "phrase"
+      },
+      {
+        word: "Picky",
+        definition: "Too careful at selecting things and usually hard to please",
+        category: "adjective"
+      },
+      {
+        word: "Egg",
+        definition: "The egg of a bird (especially a chicken or a duck) people usually eat as food",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Hen",
+        definition: "Female chicken",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Over-easy",
+        definition: "An egg friend on both sides; cooked so the yolk is still soft",
+        category: "adjective"
+      },
+      {
+        word: "Yolk",
+        definition: "The yellow part of the egg",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Egg white",
+        definition: "The white part of the egg",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Frying pan",
+        definition: "A large, flat pot used for cooking eggs and other things",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 70,
+    videoId: "video_070",
+    title: "EnglishPod 70 - Advanced - Buying Underwear 1",
+    level: "Advanced",
+    description: "Learn buying underwear 1 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_070",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "This sucks; I hate buying lingerie. Okay, just find something and get out of here. Alright, these are fine. Oh, no, don't come over here, don't come over here." },
+      { speaker: "B", text: "You look a little lost, can I help you?" },
+      { speaker: "A", text: "Um, I'm just having a look around. It's my girlfriend's birthday tomorrow. I’m trying to find her something." },
+      { speaker: "B", text: "Well, you can't give her granny panties. Have you thought about getting her some sleepwear? We've got these lovely, silky nighties. Or, how about a nice panty-and and-bra set. Look, here's a nice satin push-up bra, and you can choose a few different styles of undies to go with it." },
+      { speaker: "A", text: "Sure that's fine." },
+      { speaker: "A", text: "This is so awkward...what ones do I pick? What size is she?" },
+      { speaker: "B", text: "Well, do you want a thong, some bikini briefs, maybe this nice pair of lacy boy shorts?" },
+      { speaker: "A", text: "Just pick something and get the hell out of here." },
+      { speaker: "A", text: "Um, I’ll go with these two." },
+      { speaker: "A", text: "This is mortifying; I just want to get this over with. She better thank me for this..." },
+      { speaker: "B", text: "Finally!" },
+      { speaker: "A", text: "I'm sorry, sir. I'm going to have to take a look inside your bag." }
+      ],
+      vocabulary: [
+      {
+        word: "Mortifying",
+        definition: "Extremely embarassing",
+        category: "adjective"
+      },
+      {
+        word: "Boy shorts",
+        definition: "Women's underwear that looks like little, tight shorts",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Bikini briefs",
+        definition: "Women's underwear worn on the lower part of the body",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Undies",
+        definition: "Informal way of saying underwear",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Push-up bra",
+        definition: "A bra that raises the breasts so as to offer additional size through padding",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Nighties",
+        definition: "A night dress, night gown",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Get out of here",
+        definition: "Leave this place",
+        category: "phrase"
+      },
+      {
+        word: "Sleepwear",
+        definition: "Clothes you use for sleeping",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Lingerie",
+        definition: "Women's underwear",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Panties",
+        definition: "Women's underwear",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Bra",
+        definition: "Clothes a women wears to support her breasts",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Going commando",
+        definition: "Term used to describe when a person is not wearing any underwear",
+        category: "phrase"
+      },
+      {
+        word: "Briefs",
+        definition: "Normal or traditional underwear for men, similar to the shape and size of panties",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Boxer shorts",
+        definition: "Type of underwear that men use which are similar to shorts",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Corset",
+        definition: "A garment worn under the clothing used to mold and shape the torso into a desired shape for aesthetic or medical purposes",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Knickers",
+        definition: "BrE. same as panties",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 71,
+    videoId: "video_071",
+    title: "EnglishPod 71 - Elementary - Happy Hour",
+    level: "Elementary",
+    description: "Learn happy hour through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_071",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hey man, what do you have on tap?" },
+      { speaker: "B", text: "Heineken and Budweiser. We have a two-for-one happy hour special." },
+      { speaker: "A", text: "Cool, gimme a pint of Heineken and half a pint of Bud." },
+      { speaker: "B", text: "Okay...A pint of Heineken and and half a pint of bud for table six! And what about some appetizers?" },
+      { speaker: "A", text: "Sure! Let's have some nachos and mozzarella sticks." },
+      { speaker: "B", text: "Okay. That'll be 80 bucks." },
+      { speaker: "A", text: "Wait... What!" }
+      ],
+      vocabulary: [
+      {
+        word: "Buck",
+        definition: "Dollar (informal)",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Nachos",
+        definition: "A dish with tortilla chips and melted cheese cooked together",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Appetizer",
+        definition: "A small dish served before meal",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Pint",
+        definition: "A measuring unit which is equal to 0.473 litres",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Special",
+        definition: "A sale; a special price",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Happy hour",
+        definition: "A period of time at a bar when drinks are sold cheaper than usual",
+        category: "phrase"
+      },
+      {
+        word: "Two-for-one",
+        definition: "Buy one and take one free",
+        category: "phrase"
+      },
+      {
+        word: "On tap",
+        definition: "Beer served from a barrel; not in a bottle or can",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Drinks list",
+        definition: "A menu or list of drinks served in a restaurant or bar",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Liqueur",
+        definition: "Strong alcohol drink such as gin, rum, vodka, etc",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Bar stool",
+        definition: "A chair with no back used for sitting on at a bar",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 72,
+    videoId: "video_072",
+    title: "EnglishPod 72 - Intermediate - You Are Fired",
+    level: "Intermediate",
+    description: "Learn you are fired through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_072",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hi Isabel! You wanted to see me?" },
+      { speaker: "B", text: "Yes Anthony, come on in. Have a seat." },
+      { speaker: "A", text: "Is everything okay? You seem a bit preoccupied." },
+      { speaker: "B", text: "Well, Anthony, this is not going to be an easy conversation. The company has made some decisions which will have a direct impact on your employment." },
+      { speaker: "A", text: "Okay..." },
+      { speaker: "B", text: "I don't want to beat around the bush so I'm just gonna come out with it. We are going to have to let you go." },
+      { speaker: "A", text: "What? Why? I mean... just like that? I'm fired?" },
+      { speaker: "B", text: "I'm sorry but, to be honest, you are a terrible employee!" },
+      { speaker: "A", text: "What! I resent that!" },
+      { speaker: "B", text: "Anthony, you were caught making international calls from the office phone, you called in sick in eight times this month and you smell like alcohol!" }
+      ],
+      vocabulary: [
+      {
+        word: "Preoccupied",
+        definition: "Worried; thinking about something else",
+        category: "adjective"
+      },
+      {
+        word: "Direct",
+        definition: "Connected to, related to",
+        category: "adjective"
+      },
+      {
+        word: "Impact",
+        definition: "Strong influence or effect",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Beat around the bush",
+        definition: "Avoid saying something by talking about other things",
+        category: "phrase"
+      },
+      {
+        word: "Come out with it",
+        definition: "Say something directly",
+        category: "phrase"
+      },
+      {
+        word: "Let",
+        definition: "Have someone fired or dismissed"
+      },
+      {
+        word: "To he honest",
+        definition: "Used to say something directly",
+        category: "phrase"
+      },
+      {
+        word: "Resent",
+        definition: "Find something very insulting",
+        category: "phrase"
+      },
+      {
+        word: "Call in sick",
+        definition: "Call the office to say you can't come to work because you're sick",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Severance package",
+        definition: "Money or benefits you give someone when they are fired",
+        category: "phrase"
+      },
+      {
+        word: "Lay off",
+        definition: "End an employment because of business reasons, not performance",
+        category: "verb"
+      },
+      {
+        word: "Layoffs",
+        definition: "The action of ending employment because of business reasons",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Dismissal letter",
+        definition: "A letter written to tell an employee his is fired",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Terminate",
+        definition: "End the employment of a person; fire",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 73,
+    videoId: "video_073",
+    title: "EnglishPod 73 - Elementary - Which Finger",
+    level: "Elementary",
+    description: "Learn which finger through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_073",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "...The rings please. May this ring be blessed so he who gives it and she who wears it may abide in peace, and continue in love until life's end." },
+      { speaker: "B", text: "With this ring I thee wed. Wear it as a symbol of our love and commitment" },
+      { speaker: "A", text: "Honey, that's my pinkie. The ring goes on the ring finger!" },
+      { speaker: "B", text: "This one?" },
+      { speaker: "A", text: "That's my index finger!" },
+      { speaker: "B", text: "Oh, right. This one, right?" },
+      { speaker: "A", text: "Umm... that's the thumb, Nick." },
+      { speaker: "B", text: "Okay, Okay, I got it! This is the ring finger!" },
+      { speaker: "A", text: "That's my middle finger, Nick. This is my ring finger!" }
+      ],
+      vocabulary: [
+      {
+        word: "Bless",
+        definition: "Give good wishes to something or someone",
+        category: "verb"
+      },
+      {
+        word: "Abide",
+        definition: "Live",
+        category: "verb"
+      },
+      {
+        word: "Thee",
+        definition: "You (old use or formal use )",
+        subcategory: "singular"
+      },
+      {
+        word: "Wed",
+        definition: "Get married (old use or formal use )",
+        category: "verb"
+      },
+      {
+        word: "Symbol",
+        definition: "Something that represents a certain idea",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Pinkie",
+        definition: "Little finger",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Index finger",
+        definition: "The finger beside the thumb",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Thumb",
+        definition: "The short, thick finger on the side of a hand",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Middle finger",
+        definition: "The finger which is in the middle of five",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Ring finger",
+        definition: "The finger between middle finger and little finger",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Wedding band",
+        definition: "Ring you receive when you get married",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Toe",
+        definition: "The fingers on the feet",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Baby finger",
+        definition: "Smallest finger on your hand; synonym for pinkie",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Engagement ring",
+        definition: "A ring a man gives to his girlfriend when he asks her to marry him",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Finger nail",
+        definition: "The hard part at the end of your finger that keeps growing",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 74,
+    videoId: "video_074",
+    title: "EnglishPod 74 - Upper Intermediate - What Am I Thinking",
+    level: "Intermediate",
+    description: "Learn what am i thinking through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_074",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Miss, your salad." },
+      { speaker: "B", text: "Mmm, looks good! I'm positively famished." },
+      { speaker: "A", text: "And for you, sir..." },
+      { speaker: "C", text: "Thank you." },
+      { speaker: "A", text: "Enjoy." },
+      { speaker: "C", text: "I can't believe she's on a date with me! I'm so lucky! I must be the luckiest guy in the world! I want to scream at the top of my lungs, \" I'm the luckiest dude in the world! \" Oh, shut up! Don't be such a dumb ass. She's so hot. Wait, I can't say that. That's sexist. She's so hot, She's making me sexist. Oh my god! I'm such a tool. Okay, get it together. Uhh, she's eating salad. Oh right, I have a salad. Oh, crap! Which fork do I use? Dammit! She's going to think I'm a moron. What the hell are all these forks for? Which one did she use? Okay, chill... be cool, be cool. Just take a fork... eat your salad..." },
+      { speaker: "B", text: "Um... I..." },
+      { speaker: "C", text: "Yrmf? Mmmm. Sorry, you were saying?" },
+      { speaker: "B", text: "You're eating my salad." },
+      { speaker: "C", text: "Oh, yes... it's delicious..." }
+      ],
+      vocabulary: [
+      {
+        word: "Salad",
+        definition: "A dish made of raw vegetables",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Positively",
+        definition: "Truly"
+      },
+      {
+        word: "Famished",
+        definition: "Very hungry",
+        category: "adjective"
+      },
+      {
+        word: "At the top of one's lungs",
+        definition: "To be as loud as possible",
+        category: "phrase"
+      },
+      {
+        word: "Dumbass",
+        definition: "An impolite way of calling someone foolish",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Sexy",
+        definition: "Sexy to the greatest degree",
+        category: "adjective"
+      },
+      {
+        word: "Tool",
+        definition: "Someone who is stupid or useless",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Get it together",
+        definition: "Control your emotions",
+        category: "phrase"
+      },
+      {
+        word: "Crap",
+        definition: "An impolite way of saying something is bad",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Moron",
+        definition: "Someone who is very stupid",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Chill",
+        definition: "Calm down; relax",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Feminism",
+        definition: "The belief that men and women should have equal rights and opportunities",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Blind date",
+        definition: "A romantic outing with someone that you have not met before",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Spaz",
+        definition: "A person who is very clumsy or awkward",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "First impression",
+        definition: "The way people see or perceive you the first time you meet",
+        category: "phrase"
+      },
+      {
+        word: "Blow it",
+        definition: "To miss an opportunity or chance",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 75,
+    videoId: "video_075",
+    title: "EnglishPod 75 - Intermediate - Going To The Dentist",
+    level: "Intermediate",
+    description: "Learn going to the dentist through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_075",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hey, Gary, great to see you again. Please have a seat. So tell me, what seems to be the problem?" },
+      { speaker: "B", text: "Thanks, doc. I've got a really bad toothache! I can't eat anything, and look, my face is all swollen. I think it might be my wisdom tooth." },
+      { speaker: "A", text: "Well, let's have a look. Open wide. Hmm... this doesn't look good. Well, it looks like you have a cavity and your crown is loose. We'll need to put in a filling before it gets any worse, and the crown probably needs to be refitted. I'm going to order some x-rays." },
+      { speaker: "B", text: "Is it gonna hurt?" },
+      { speaker: "A", text: "No, not at all! Just lay back and relax." },
+      { speaker: "A", text: "Ok, spit." }
+      ],
+      vocabulary: [
+      {
+        word: "Have a seat",
+        definition: "Sit down",
+        category: "phrase"
+      },
+      {
+        word: "Toothache",
+        definition: "Tooth pain",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Swollen",
+        definition: "Some parts are bigger than others due to a certain disease",
+        category: "adjective"
+      },
+      {
+        word: "Wisdom tooth",
+        definition: "Big tooth at the back of your mouth which grows in one's adulthood",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Have a look",
+        definition: "Take a glance",
+        category: "phrase"
+      },
+      {
+        word: "Cavity",
+        definition: "A hole in a tooth",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Crown",
+        definition: "The part of the tooth which can be seen",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Filling",
+        definition: "Something that fills the hole of the tooth",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "X-rays",
+        definition: "A medical examination that takes a picture of your bones",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Floss",
+        definition: "To use a thin thread or string to clean between your teeth",
+        category: "verb"
+      },
+      {
+        word: "Mouthwash",
+        definition: "A liquid that is used to clean your mouth and teeth and to make your breath smell better",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Gingivitis",
+        definition: "A disease in which the gums become red, swollen, and sore",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Plaque",
+        definition: "A thin coating that forms on teeth and contains bacteria",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Dog breath",
+        definition: "Used to describe when somebody has very bad breath",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 76,
+    videoId: "video_076",
+    title: "EnglishPod 76 - Elementary - Learning Simple Math",
+    level: "Elementary",
+    description: "Learn learning simple math through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_076",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hey, Gary, great to see you again. Please have a seat. So tell me, what seems to be the problem?" },
+      { speaker: "B", text: "Thanks, doc. I've got a really bad toothache! I can't eat anything, and look, my face is all swollen. I think it might be my wisdom tooth." },
+      { speaker: "A", text: "Well, let's have a look. Open wide. Hmm... this doesn't look good. Well, it looks like you have a cavity and your crown is loose. We'll need to put in a filling before it gets any worse, and the crown probably needs to be refitted. I'm going to order some x-rays." },
+      { speaker: "B", text: "Is it gonna hurt?" },
+      { speaker: "A", text: "No, not at all! Just lay back and relax." },
+      { speaker: "A", text: "Ok, spit." }
+      ],
+      vocabulary: [
+      {
+        word: "Have a seat",
+        definition: "Sit down",
+        category: "phrase"
+      },
+      {
+        word: "Toothache",
+        definition: "Tooth pain",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Swollen",
+        definition: "Some parts are bigger than others due to a certain disease",
+        category: "adjective"
+      },
+      {
+        word: "Wisdom tooth",
+        definition: "Big tooth at the back of your mouth which grows in one's adulthood",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Have a look",
+        definition: "Take a glance",
+        category: "phrase"
+      },
+      {
+        word: "Cavity",
+        definition: "A hole in a tooth",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Crown",
+        definition: "The part of the tooth which can be seen",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Filling",
+        definition: "Something that fills the hole of the tooth",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "X-rays",
+        definition: "A medical examination that takes a picture of your bones",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Floss",
+        definition: "To use a thin thread or string to clean between your teeth",
+        category: "verb"
+      },
+      {
+        word: "Mouthwash",
+        definition: "A liquid that is used to clean your mouth and teeth and to make your breath smell better",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Gingivitis",
+        definition: "A disease in which the gums become red, swollen, and sore",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Plaque",
+        definition: "A thin coating that forms on teeth and contains bacteria",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Dog breath",
+        definition: "Used to describe when somebody has very bad breath",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 77,
+    videoId: "video_077",
+    title: "EnglishPod 77 - Intermediate - F1 Racing",
+    level: "Intermediate",
+    description: "Learn f1 racing through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_077",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Welcome back racing fans! My name is Rick Fields and, as always, I am joined by my partner in crime, Bob Copeland." },
+      { speaker: "B", text: "We're in the last stretch of this very exciting race, and Kimi Räikkönen is leading the pack with only four laps to go! They are heading to turn three and Lewis Hamilton tries to pass Räikkönen! It's a close one and, oh no! Hamilton hits the wall!" },
+      { speaker: "A", text: "He came in too fast, jammed on the breaks and spun out. We have a yellow flag and the pace car is making its way onto the track." },
+      { speaker: "B", text: "The cleanup crew is towing the heavily damaged car and the green flag drops! Räikkönen is still in the lead with only two laps to go!" },
+      { speaker: "A", text: "Smoke is coming out of his car! He seems to be having engine trouble! He makes his way into the pit, and Fernando Alonso takes the lead!" },
+      { speaker: "B", text: "How unlucky for Räikkönen, and this race is over ladies and gentlemen, Alonso takes the checkered flag!" }
+      ],
+      vocabulary: [
+      {
+        word: "Partner in crime",
+        definition: "A person you always do things together with",
+        category: "phrase"
+      },
+      {
+        word: "Stretch",
+        definition: "The final time period",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "To go",
+        definition: "Left to complete",
+        category: "phrase"
+      },
+      {
+        word: "Jam on the breaks",
+        definition: "To hit or step on the breaks quickly and forcefully",
+        category: "phrase"
+      },
+      {
+        word: "Spin out",
+        definition: "(a car) slides and makes a turn rapidly in an uncontrolled way",
+        category: "phrase"
+      },
+      {
+        word: "Pace car",
+        definition: "The car used when accidents happen which leads other cars but is not a competitor in the face",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Yellow flag",
+        definition: "The sign use in F1 race to show there is an accident on the track",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Cleanup crew",
+        definition: "The group of people who clean the track",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Green flag",
+        definition: "The sign used in an  F1 race to show that the race is back to the normal state",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Take the lead",
+        definition: "Be in the first position",
+        category: "phrase"
+      },
+      {
+        word: "Checkered flag",
+        definition: "A flag with black and white squares showing someone has won",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Rev",
+        definition: "Cause an engine to run very quickly",
+        category: "verb"
+      },
+      {
+        word: "Title",
+        definition: "The status of winning a championship in a sport",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Aerodynamic",
+        definition: "The quality of moving easily through the air",
+        category: "adjective"
+      },
+      {
+        word: "Motorhead",
+        definition: "A person who loves cars and car racing (Am.E)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Qualifying round",
+        definition: "The race that determines who will be able to participate in the main race",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Pole position",
+        definition: "The front position in a car race",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 78,
+    videoId: "video_078",
+    title: "EnglishPod 78 - Advanced - International-Workers-Day",
+    level: "Advanced",
+    description: "Learn international-workers-day through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_078",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Welcome back racing fans! My name is Rick Fields and, as always, I am joined by my partner in crime, Bob Copeland." },
+      { speaker: "B", text: "We're in the last stretch of this very exciting race, and Kimi Räikkönen is leading the pack with only four laps to go! They are heading to turn three and Lewis Hamilton tries to pass Räikkönen! It's a close one and, oh no! Hamilton hits the wall!" },
+      { speaker: "A", text: "He came in too fast, jammed on the breaks and spun out. We have a yellow flag and the pace car is making its way onto the track." },
+      { speaker: "B", text: "The cleanup crew is towing the heavily damaged car and the green flag drops! Räikkönen is still in the lead with only two laps to go!" },
+      { speaker: "A", text: "Smoke is coming out of his car! He seems to be having engine trouble! He makes his way into the pit, and Fernando Alonso takes the lead!" },
+      { speaker: "B", text: "How unlucky for Räikkönen, and this race is over ladies and gentlemen, Alonso takes the checkered flag!" }
+      ],
+      vocabulary: [
+      {
+        word: "Partner in crime",
+        definition: "A person you always do things together with",
+        category: "phrase"
+      },
+      {
+        word: "Stretch",
+        definition: "The final time period",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "To go",
+        definition: "Left to complete",
+        category: "phrase"
+      },
+      {
+        word: "Jam on the breaks",
+        definition: "To hit or step on the breaks quickly and forcefully",
+        category: "phrase"
+      },
+      {
+        word: "Spin out",
+        definition: "(a car) slides and makes a turn rapidly in an uncontrolled way",
+        category: "phrase"
+      },
+      {
+        word: "Pace car",
+        definition: "The car used when accidents happen which leads other cars but is not a competitor in the face",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Yellow flag",
+        definition: "The sign use in F1 race to show there is an accident on the track",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Cleanup crew",
+        definition: "The group of people who clean the track",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Green flag",
+        definition: "The sign used in an  F1 race to show that the race is back to the normal state",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Take the lead",
+        definition: "Be in the first position",
+        category: "phrase"
+      },
+      {
+        word: "Checkered flag",
+        definition: "A flag with black and white squares showing someone has won",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Rev",
+        definition: "Cause an engine to run very quickly",
+        category: "verb"
+      },
+      {
+        word: "Title",
+        definition: "The status of winning a championship in a sport",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Aerodynamic",
+        definition: "The quality of moving easily through the air",
+        category: "adjective"
+      },
+      {
+        word: "Motorhead",
+        definition: "A person who loves cars and car racing (Am.E)",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Qualifying round",
+        definition: "The race that determines who will be able to participate in the main race",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Pole position",
+        definition: "The front position in a car race",
+        category: "phrase"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 79,
+    videoId: "video_079",
+    title: "EnglishPod 79 - Elementary - Funky Galaxy Battles",
+    level: "Elementary",
+    description: "Learn funky galaxy battles through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_079",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "They are breaking through! Set your blasters to full power!" },
+      { speaker: "B", text: "Excellent job. Search the ship, she's gotta be in here somewhere... bring her to me!" },
+      { speaker: "C", text: "Lord Hater, we have a survivor here..." },
+      { speaker: "B", text: "Where is she? Don't make me destroy you, tell me where she is!" },
+      { speaker: "D", text: "Not so fast! She will no longer be your prisoner! It's time you and I settled this once and for all!" },
+      { speaker: "B", text: "You are unwise to think you can defeat me. You know nothing of the power of the obscure side!" },
+      { speaker: "D", text: "We will stop you..." },
+      { speaker: "C", text: "Lord Hater! We have an unidentified spacecraft taking off from the rear dock! They somehow managed to escape our tractor beam!" },
+      { speaker: "B", text: "After them!" },
+      { speaker: "C", text: "They are accelerating towards the speed of light We lost them, sir..." }
+      ],
+      vocabulary: [
+      {
+        word: "Break through",
+        definition: "Get through by force",
+        category: "phrase"
+      },
+      {
+        word: "Blaster",
+        definition: "The parts of a spaceship that are used for emitting bombs",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Settle",
+        definition: "Finish, end",
+        category: "verb"
+      },
+      {
+        word: "Once and for all",
+        definition: "Forever",
+        category: "phrase"
+      },
+      {
+        word: "Unwise",
+        definition: "Not wise, silly",
+        category: "adjective"
+      },
+      {
+        word: "Manage",
+        definition: "Be able to do",
+        category: "verb"
+      },
+      {
+        word: "Tractor beam",
+        definition: "A device used for attracting one project to another from a distance",
+        category: "phrase"
+      },
+      {
+        word: "Speed of light",
+        definition: "The rate at which light travels. 299 792 458 meters per second",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Android",
+        definition: "A robot that looks like a person",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Galaxy",
+        definition: "Any one of the very large groups of stars that make up the universe",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Constellation",
+        definition: "A group of celestial bodies (usually stars) that appear to form a pattern in the sky or appear visibly related to each other.",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Parsec",
+        definition: "Is a unit of length, equal to just under 31 trillion kilometres or about 3.26 light-years",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Light-year",
+        definition: "The distance traveled in one year traveling at the speed of light",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 80,
+    videoId: "video_080",
+    title: "EnglishPod 80 - Upper Intermediate - I'm Sorry I Love You 7",
+    level: "Intermediate",
+    description: "Learn i'm sorry i love you 7 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_080",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Thank god you showed up when you did! He's insane! Do you think we should call the police?" },
+      { speaker: "B", text: "Don't worry about it, I'll call my friend and have him take care of it. I can't believe he was stalking you all these years. What a nut job!" },
+      { speaker: "A", text: "I know! Well... he said I'm not pregnant. I'm sorry if I got you all worked up over nothing. I want you to know that I didn't do it on purpose..." },
+      { speaker: "B", text: "Don't apologize! From the moment I met you, not a day has gone by when I haven't thought of you. And now that I'm with you again, I'm... I'm just scared, Veronica. The closer I get to you, the worse it gets. The thought of not being with you, I mean, I just can't handle it! We were made for each other, Veronica. You are my everything, my soul mate. What can I do?" },
+      { speaker: "A", text: "Just hold me... I'll always be here for you, no matter what. And together, we can tackle whatever life throws at us. I believe in us, Veronica." },
+      { speaker: "B", text: "I'm so happy to hear that! I knew we belong together. I love you so much." }
+      ],
+      vocabulary: [
+      {
+        word: "Tackle",
+        definition: "Deal with something that is difficult",
+        category: "verb"
+      },
+      {
+        word: "No matter what",
+        definition: "Despite of anything may happen",
+        category: "phrase"
+      },
+      {
+        word: "Soul mate",
+        definition: "A close friend who has a deep understanding of you",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Not a day goes by",
+        definition: "Phrase used to show you always do something",
+        category: "phrase"
+      },
+      {
+        word: "On purpose",
+        definition: "With intention",
+        category: "phrase"
+      },
+      {
+        word: "Get worked up",
+        definition: "Angry, excited, or upset about something",
+        category: "phrase"
+      },
+      {
+        word: "Nut job",
+        definition: "Crazy person (informal)",
+        category: "phrase"
+      },
+      {
+        word: "Stalk",
+        definition: "Follow and watch a person (usually dangerous)",
+        category: "verb"
+      },
+      {
+        word: "Show up",
+        definition: "Appear; come to a place",
+        category: "phrase"
+      },
+      {
+        word: "Insane",
+        definition: "Crazy, not normal",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Stalker",
+        definition: "A person who follows someone for a long period of time in a way that is dangerous",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Perpetrator",
+        definition: "Person who commits a crime",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Threaten",
+        definition: "Say that you will do something to hurt or cause harm to a person",
+        category: "verb"
+      },
+      {
+        word: "Harass",
+        definition: "To annoy or bother someone many times",
+        category: "verb"
+      },
+      {
+        word: "Insanity",
+        definition: "Severe mental illness; the state of being crazy",
+        category: "noun",
+        subcategory: "non-variable"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 81,
+    videoId: "video_081",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_081",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hello there! Come on in! Don't just stand there! Come and take a seat!" },
+      { speaker: "B", text: "Um, okay. Well, I just want a trim. Nothing too fancy." },
+      { speaker: "A", text: "Oh my gosh! Your hair is amazing! So silky, so shiny! I am going to work my magic on your hair! You hear me? You are going to look like a million bucks!" },
+      { speaker: "B", text: "Okay. Um... can you make sure my sideburns are even and you just take a little off the top." },
+      { speaker: "A", text: "Don't you worry, I'll take care of everything! ( starts cutting) Oh my god! I just love your curly hair! It's so fluffy and cute! You should totally let it grow out. An afro would look great on you!" },
+      { speaker: "B", text: "Um... no." },
+      { speaker: "A", text: "Okay, but you are going to be my masterpiece!" }
+      ],
+      vocabulary: [
+      {
+        word: "Don't just stand there",
+        definition: "Do something. An action is required",
+        category: "phrase"
+      },
+      {
+        word: "Take a seat",
+        definition: "Choose a place to sit",
+        category: "phrase"
+      },
+      {
+        word: "Trim",
+        definition: "A short cut of hair to make one look clean",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Fancy",
+        definition: "Very fashionable",
+        category: "adjective"
+      },
+      {
+        word: "Silky",
+        definition: "Resembling silk, very smooth",
+        category: "adjective"
+      },
+      {
+        word: "Shiny",
+        definition: "Having a smooth and bright appearance",
+        category: "adjective"
+      },
+      {
+        word: "A million bucks",
+        definition: "Very good. To look great",
+        category: "phrase"
+      },
+      {
+        word: "Sideburns",
+        definition: "Hair that grows on the sides of man",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Curly",
+        definition: "Hair in form of round shape",
+        category: "adjective"
+      },
+      {
+        word: "Fluffy",
+        definition: "Soft",
+        category: "adjective"
+      },
+      {
+        word: "Grow out",
+        definition: "Grow long",
+        category: "phrase"
+      },
+      {
+        word: "Afro",
+        definition: "A kind of hairstyle which very curly hair is formed into round ball",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Buzz cut",
+        definition: "A type of hairstyle where the hair is cut very short with an electric razor",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Mohawk",
+        definition: "A hairstyle which consists of shaving both sides of the head, leaving a strip of noticeably longer hair on top",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Flat top",
+        definition: "A type of hairstyle where the hair on top is left a bit long and styled upwards, resulting in square looking haircut",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Pony tail",
+        definition: "In which most or all of the hair on the head is pulled away from the face, gathered and secured at the back of the head with a hair tie or clip and allowed to hang freely from that point",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Braid",
+        definition: "Formed by intertwining three or more strands of hair so that the result is similar to a woven textile.",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 82,
+    videoId: "video_082",
+    title: "EnglishPod 82 - Intermediate - New Guy In Town 5",
+    level: "Intermediate",
+    description: "Learn new guy in town 5 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_082",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "What the heck is going on! Did you see that? What was that thing?" },
+      { speaker: "B", text: "I don't know! I'm just glad we made it out! Look, there is a police car! Help! Help! Please stop!" },
+      { speaker: "C", text: "Howdy man. What seems to be the problem? Is this man bothering you?" },
+      { speaker: "A", text: "Officer, officer, there is, like, a witch creature back there! We tied her up but she broke free, and she was about to have us for dinner!" },
+      { speaker: "C", text: "Okay, calm down, calm down. Lemme see your eyes please. Have you been drinking tonight, son?" },
+      { speaker: "B", text: "We are telling the truth! She's in there! We suspected her of being a kidnapper or rapist but it turns out she's an alien or something." },
+      { speaker: "C", text: "Okay, calm down, calm down. Lemme see your eyes please..." },
+      { speaker: "B", text: "Ugg! Seriously! Are you gonna help us or not?" },
+      { speaker: "C", text: "Okay, let's go have a look, shall we? Hello? Is anyone in here?" },
+      { speaker: "A", text: "Be careful! She might be hiding!" },
+      { speaker: "C", text: "It's perfectly safe... there isn't anyone..." }
+      ],
+      vocabulary: [
+      {
+        word: "Heck",
+        definition: "Hell in a more polite form",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Make it out",
+        definition: "Able to escape or flee",
+        category: "phrase"
+      },
+      {
+        word: "Creature",
+        definition: "A living thing",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Break free",
+        definition: "Get out of something",
+        category: "phrase"
+      },
+      {
+        word: "Lemme",
+        definition: "Let me"
+      },
+      {
+        word: "Suspect",
+        definition: "Regard someone as a criminal or to be guilty",
+        category: "verb"
+      },
+      {
+        word: "Kidnapper",
+        definition: "The kind of criminal that catches someone and asks the family for money",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Rapist",
+        definition: "The kind of criminal who forces someone to have sex",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Have a look",
+        definition: "Take a glance",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Larceny",
+        definition: "Act of stealing something",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Homicide",
+        definition: "The act of killing another person",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Wanna",
+        definition: "Want to"
+      },
+      {
+        word: "Gonna",
+        definition: "Going to"
+      },
+      {
+        word: "DUI",
+        definition: "Abbreviation for Driving Under the Influence. To drive while being intoxicated",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 83,
+    videoId: "video_083",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_083",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Stupid girl, making me spend so much money, now I have to get it from the ATM..." },
+      { speaker: "B", text: "Hello, welcome to Universal Bank. Please insert your card into the slot." },
+      { speaker: "A", text: "I know where to put my card! Stupid machine, talking to me like I'm an idiot..." },
+      { speaker: "B", text: "Please input your 6 digit PIN code followed by the pound key. Thank you. Please select an option. Thank you. You have selected withdrawal." },
+      { speaker: "A", text: "Yeah, yeah, I know what I selected. Just gimme my money!" },
+      { speaker: "B", text: "Please type the amount you would like to withdraw. Thank you, you want to transfer 10000 USD to the World Wildlife Foundation. If this is correct please press 1." },
+      { speaker: "A", text: "No, no! Stupid machine, what are you doing! No!" },
+      { speaker: "B", text: "Confirmed. Thank you for using our bank! Please remove your card from the slot. Goodbye!" },
+      { speaker: "C", text: "Danger, danger! The exits have been sealed and the doors will remain locked in until the local authorities arrive. Thank you for using our bank. Have a nice day." },
+      { speaker: "A", text: "No!" }
+      ],
+      vocabulary: [
+      {
+        word: "ATM",
+        definition: "A machine outside a bank which people use to get money from their account"
+      },
+      {
+        word: "Insert",
+        definition: "Put something into something",
+        category: "verb"
+      },
+      {
+        word: "Slot",
+        definition: "A narrow place to put in a card or paper",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "PIN",
+        definition: "Personal identity number",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Pound key",
+        definition: "The pushbotton marked with #",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Withdrawal",
+        definition: "The action of getting money from account",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Withdraw",
+        definition: "Get money from account",
+        category: "verb"
+      },
+      {
+        word: "Transfer",
+        definition: "To move money from your account into others'",
+        category: "verb"
+      },
+      {
+        word: "Authority",
+        definition: "Government organization which keeps the order of certain place",
+        category: "noun",
+        subcategory: "plural"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Deposit",
+        definition: "To put money into a bank account",
+        category: "verb"
+      },
+      {
+        word: "Fund",
+        definition: "An amount of money that is used for a special purpose",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Safe",
+        definition: "A strong metal box with a lock that is used to store money or valuable things",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Balance",
+        definition: "The amount of money that is left in your bank account",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Inquiry",
+        definition: "A request for information",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 84,
+    videoId: "video_084",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_084",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hello sir, how can I help you?" },
+      { speaker: "B", text: "Yes, I need this prescription please." },
+      { speaker: "A", text: "Let's see. Okay, so 50 mg of Prozac, would you prefer this in capsule or tablet?" },
+      { speaker: "B", text: "Capsules are fine." },
+      { speaker: "A", text: "Okay, you should take 1 capsule 3 times a day. Be sure not to take it on an empty stomach, and also, don't ever mix it with alcohol!" },
+      { speaker: "B", text: "Yes, I know. It's not the first time I'm taking this! Don't worry, I won't overdose!" },
+      { speaker: "A", text: "Okay, anything else I can get you?" },
+      { speaker: "B", text: "Oh, yes, I almost forgot! Can I also get some eye drops and um, some condoms?" },
+      { speaker: "A", text: "Sure. Darn condoms aren't registered in our system." },
+      { speaker: "B", text: "Oh, well that's okay, I'll get some later, thanks... Really it's no problem." },
+      { speaker: "A", text: "Just hang on there a sec. Can I get a price check on \" Fun Times Ribbed Condoms\" please!" }
+      ],
+      vocabulary: [
+      {
+        word: "Prescription",
+        definition: "A list of drugs written by doctor",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Milligram",
+        definition: "A unit for measuring weight",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Capsule",
+        definition: "(drug) contained in a plastic container",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Tablet",
+        definition: "(drug) formed in round hard shape",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Overdose",
+        definition: "Take more drugs than suggested",
+        category: "verb"
+      },
+      {
+        word: "Eye drop",
+        definition: "Liquid used to drop into eyes to treat eye diseases",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Hang on",
+        definition: "Hold on",
+        category: "phrase"
+      },
+      {
+        word: "Get a price check",
+        definition: "Type in the number of something to check it's price",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Syringe",
+        definition: "A device made of a hollow tube and a needle that is used to force fluids into or take fluids out of the body",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Cough syrup",
+        definition: "A usually sweet liquid that contains medicine used to stop coughing —called also cough medicine",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Bandage",
+        definition: "A covering (such as a strip of cloth) that protects or supports part of the body that has been hurt",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Hydrogen peroxide",
+        definition: "A liquid that is used to make things lighter in color or to kill bacteria",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Ointment",
+        definition: "A smooth substance that is rubbed on the skin to help heal a wound or to reduce pain or discomfort",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 85,
+    videoId: "video_085",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_085",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hello baseball fans, and welcome back to today's game! My name is Rick Fields and of course, I am here, once again, with the man that seals the deal, Bob Copeland." },
+      { speaker: "B", text: "It's a beautiful day to see two world class teams face each other and fight for their right to be called champions." },
+      { speaker: "A", text: "Well, the national anthem has just been sung, and the umpire has started the game. It's time to play ball!" },
+      { speaker: "B", text: "Roger Vargas is up at bat. The pitcher winds up and strike one!" },
+      { speaker: "A", text: "A very nice curve ball by the pitcher. The catcher gives him the sign, he winds up and Vargas gets a line drive!" },
+      { speaker: "B", text: "The players are scrambling to get the ball. Vargas gets to first base and he's still going! The outfielder throws it to second! Vargas slides! He's safe!" },
+      { speaker: "A", text: "Great play!" },
+      { speaker: "B", text: "We have a runner on third and up at bat is Brian Okami! There's the pitch, he hits it! It's going, going, that ball is gone!" },
+      { speaker: "A", text: "Home run by Okami! That puts this team ahead by two as we are at the bottom of the fifth inning here at Richie Stadium!" }
+      ],
+      vocabulary: [
+      {
+        word: "World class",
+        definition: "Ranking with the best in the whole world",
+        category: "adjective"
+      },
+      {
+        word: "National anthem",
+        definition: "The song that represents a country and is played in ceremonies",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Umpire",
+        definition: "A person who controls and judges a baseball game",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Up at bat",
+        definition: "Get ready to hit the ball",
+        category: "phrase"
+      },
+      {
+        word: "Wind up",
+        definition: "Get the energy to throw the ball",
+        category: "phrase"
+      },
+      {
+        word: "Curve ball",
+        definition: "A ball thrown on a curve (i.e. not straight) that is hard to hit",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Pitcher",
+        definition: "The player who throws the ball to the batter",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Catcher",
+        definition: "The player behind home plate who catches the ball without being hit",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Line drive",
+        definition: "A hit that travels low along the baseline",
+        category: "phrase"
+      },
+      {
+        word: "Scramble",
+        definition: "Do something quickly and in a disorganized way",
+        category: "verb"
+      },
+      {
+        word: "Outfielder",
+        definition: "A player who plays in the area that is relatively far from the pitch",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Safe",
+        definition: "Successfully gets to the base",
+        category: "adjective"
+      },
+      {
+        word: "Home run",
+        definition: "A hit that strikes the ball out of the field",
+        category: "phrase"
+      },
+      {
+        word: "Inning",
+        definition: "A set of baseball containing a turn at bat and a turn in field for each side",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Up to bat",
+        definition: "The next in line to do something",
+        category: "phrase"
+      },
+      {
+        word: "Ballpark figure",
+        definition: "An approximate number",
+        category: "phrase"
+      },
+      {
+        word: "Hit it out of the park",
+        definition: "To do something very well, or very successfully",
+        category: "phrase"
+      },
+      {
+        word: "Off the bat",
+        definition: "Immediately, with out delay",
+        category: "phrase"
+      },
+      {
+        word: "Screwball",
+        definition: "An unusual, crazy, or eccentric person",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 86,
+    videoId: "video_086",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_086",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hi! We are the Christianson's! We are here to see the apartment." },
+      { speaker: "B", text: "Oh, hi! Sure, come on in! Well, as you can see, the place has just been renovated. The previous tenants left a huge mess here, so the landlord has redone everything." },
+      { speaker: "A", text: "It looks great. It's so bright and airy! What great light! I really like these hardwood floors. What's the square footage of this place?" },
+      { speaker: "B", text: "Well, it's about 120 square meters, or 1300 square feet, more or less. Oh, the landlord has also installed new kitchen appliances. There's a new dishwasher, and a professional-grade gas range. Really, at this price, this place is an amazing deal!" },
+      { speaker: "A", text: "I love it! But what are the payment terms?" },
+      { speaker: "B", text: "First and last month rent as deposit and rent is due on the 1st of every month. Considering the amount of money invested into the apartment, it's a very good deal!" },
+      { speaker: "A", text: "Yes, it is! Too good to be true..." },
+      { speaker: "B", text: "The living room and dinning room are quite spacious as you can see, and down this hall, here's the master bedroom. It has a huge walk-in closet and an en suit bathroom. We can't go in there yet as the police... I mean the clean up crew hasn't finished." },
+      { speaker: "A", text: "What do you mean? What's in here?" }
+      ],
+      vocabulary: [
+      {
+        word: "Come on in",
+        definition: "Please come in",
+        category: "phrase"
+      },
+      {
+        word: "Tenant",
+        definition: "The person that rents a house",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Mess",
+        definition: "Disorder, unorganized",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Landlord",
+        definition: "The owner of the apartment",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Airy",
+        definition: "Spacious so that air moves freely",
+        category: "adjective"
+      },
+      {
+        word: "Square footage",
+        definition: "Showing how big one space is measured in feet",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Appliance",
+        definition: "Electric equiptment found in a house",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Professional-grade",
+        definition: "Good enough to satisfy professional use",
+        category: "adjective"
+      },
+      {
+        word: "Gas range",
+        definition: "A stove that uses gas to cook",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Spacious",
+        definition: "Large; having lots of space",
+        category: "adjective"
+      },
+      {
+        word: "Walk-in closet",
+        definition: "A room contained in a bedroom for storing clothes",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "En suit bathroom",
+        definition: "A bathroom within the main bedroom",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Attic",
+        definition: "A room or space that is just below the roof of a building and that is often used to store things",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Basement",
+        definition: "The part of a building that is entirely or partly below the ground",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Lawn",
+        definition: "An area of ground (such as the ground around a house or in a garden or park) that is covered with short grass",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Real estate",
+        definition: "The business of selling land and buildings",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Lease",
+        definition: "To allow someone to use (something) for a period of time in return for payment",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 87,
+    videoId: "video_087",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_087",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Captain, we're under attack by an unidentified ship." },
+      { speaker: "B", text: "Damage report." },
+      { speaker: "A", text: "We've sustained heavy damage to the engines. We've lost our warp drive." },
+      { speaker: "B", text: "We'll have to attempt to make contact. This is Captain Picard of the Starship Enterprise. We don't wish to engage. What is the nature of this attack?" },
+      { speaker: "C", text: "I am Captain Kor of the ship Klothos. Your ship attacked our search party..." },
+      { speaker: "B", text: "No! You're not doing it right! Kor doesn't sound like that. His voice is deeper!" },
+      { speaker: "C", text: "I am Captain Kor of the ship Klothos. Your sh..." },
+      { speaker: "B", text: "No! If you can't do a Klingon voice, I'll have to find a more serious Star Trek fan actor who actually can, OK?" },
+      { speaker: "C", text: "But... but... I already bought the Klingon suit! And the wig..." }
+      ],
+      vocabulary: [
+      {
+        word: "Under attack",
+        definition: "Being attacked",
+        category: "phrase"
+      },
+      {
+        word: "Unidentified",
+        definition: "Not known,having no identity",
+        category: "adjective"
+      },
+      {
+        word: "Sustain",
+        definition: "To experience or suffer",
+        category: "verb"
+      },
+      {
+        word: "Warp drive",
+        definition: "The engine system used by a spacecraft to travel faster than the speed of light",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Engage",
+        definition: "To start fighting",
+        category: "verb"
+      },
+      {
+        word: "Nature",
+        definition: "Basic reason",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Search party",
+        definition: "An organized group of people sent to look for someone or somthing that is missing or lost",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Deep voice",
+        definition: "Low in pitch; resonant",
+        category: "adjective"
+      },
+      {
+        word: "Wig",
+        definition: "Artificial hair",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Phaser",
+        definition: "A ficticious, futuristic weapon that can stun or kill an enemy",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Bridge",
+        definition: "The central point of the ship where the captain comands and orders are taken",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Holodeck",
+        definition: "A virtual reality simulation room where places and scenarios can be loaded",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Beam up",
+        definition: "The action of transporting a person immediately from one place to another in less than a second",
+        category: "verb"
+      },
+      {
+        word: "Ensign",
+        definition: "A member of the crew with the lowest rank",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 88,
+    videoId: "video_088",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_088",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hey, you're early! Where's everyone?" },
+      { speaker: "B", text: "Well... I told them not to come. I made a reservation just for the two of us. I thought we could have an quiet evening all to ourselves." },
+      { speaker: "A", text: "Oh... why?" },
+      { speaker: "B", text: "Jennifer, there's something I wanna ask you." },
+      { speaker: "A", text: "Sure. What is it?" },
+      { speaker: "B", text: "Hmm... okay, here's the thing. I've always seen you as more than just a friend, and I can't take it any more. I know you better than anyone, I know the pros and cons of your personality, I even know what side of the bed is yours! I think we would be great together, don't you?" },
+      { speaker: "A", text: "Are you serious? We've been friends for years! We can't just change that overnight!" },
+      { speaker: "B", text: "I know! I never had the guts to tell you... until today. So, what do you say? Are you willing to give me a shot?" },
+      { speaker: "A", text: "I... I..." }
+      ],
+      vocabulary: [
+      {
+        word: "Two of us",
+        definition: "You and me",
+        category: "phrase"
+      },
+      {
+        word: "All to our selves",
+        definition: "Just for us and no one else",
+        category: "phrase"
+      },
+      {
+        word: "Here is the thing",
+        definition: "Phrase used to begin explaining a situation or problem",
+        category: "phrase"
+      },
+      {
+        word: "Pros and cons",
+        definition: "Good things and bad things about a person",
+        category: "phrase"
+      },
+      {
+        word: "Guts",
+        definition: "Courage, brave",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Give",
+        definition: "To let someone have a try"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Going out",
+        definition: "Phrase used to indicate that you are dating someone",
+        category: "phrase"
+      },
+      {
+        word: "Get with",
+        definition: "To become someone's boyfriend/girlfriend",
+        category: "verb"
+      },
+      {
+        word: "Ask out",
+        definition: "To ask someone to join you on a romantic date",
+        category: "verb"
+      },
+      {
+        word: "Intimate",
+        definition: "Having a very close relationship; very warm and friendly",
+        category: "adjective"
+      },
+      {
+        word: "Make-out",
+        definition: "To kiss",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 89,
+    videoId: "video_089",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_089",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Next please! Hello sir, may I see your passport please?" },
+      { speaker: "B", text: "Yes, here you go." },
+      { speaker: "A", text: "Will you be checking any bags." },
+      { speaker: "B", text: "Yes, I'd like to check three pieces." },
+      { speaker: "A", text: "I'm sorry, sir. Airline policy allows only two pieces of checked luggage, at twenty kilograms each, plus one piece of carry-on luggage. I will have to charge you extra for the additional suitcase." },
+      { speaker: "B", text: "What? Why! I am taking an intercontinental flight! I'm flying sixteen thousand kms! How am I supposed to only take two, twenty kilo bags? That's absurd!" },
+      { speaker: "A", text: "I am sorry, sir, there's nothing I can do. You cannot board the flight with that large bag either. Carry-on bags must fit in the over-head compartment or under your seat. That bag is clearly too big." },
+      { speaker: "B", text: "Now I see. You charge next to nothing for an international ticket, but when it comes to charging for any other small thing, you charge an arm and a leg! So tell me, miss, how much will I have to pay for all of this." },
+      { speaker: "A", text: "Let's see... six hundred and twenty-five US dollars." },
+      { speaker: "B", text: "That's more than my round-trip ticket!" }
+      ],
+      vocabulary: [
+      {
+        word: "Next to nothing",
+        definition: "Very cheap, inexpensive",
+        category: "phrase"
+      },
+      {
+        word: "Board",
+        definition: "Get on the plane",
+        category: "verb"
+      },
+      {
+        word: "Intercontinental",
+        definition: "Between continents",
+        category: "adjective"
+      },
+      {
+        word: "Carry-on luggage",
+        definition: "The bags that one can carry onto the plane",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Piece",
+        definition: "Piece of luggage; one bag",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Check",
+        definition: "Register bags with the airline and give them to be put on the plane",
+        category: "verb"
+      },
+      {
+        word: "Passport",
+        definition: "A document showing the identity of someone when outside his country",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "An arm and a leg",
+        definition: "Phrase used to indicate that something is very expensive",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Metal detector",
+        definition: "A device that senses the presence of metal",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Boarding pass",
+        definition: "A pass that authorizes a passenger to get on an airplane",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Scale",
+        definition: "An instrument or machine for weighing",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Layover",
+        definition: "A short stop or break in a journey, usually imposed by scheduling requirements",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Round trip",
+        definition: "A trip from one place to another and back, usually over the same route",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 90,
+    videoId: "video_090",
+    title: "EnglishPod 90 - Upper Intermediate - I'm Sorry I Love You 8",
+    level: "Intermediate",
+    description: "Learn i'm sorry i love you 8 through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_090",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Veronica! Veronica! Veronica! Are you OK?" },
+      { speaker: "B", text: "Steven! What's going on! Who were those guys? I didn't know you have a gun! What's going on!" },
+      { speaker: "A", text: "I will come clean as soon as we get to safety, OK? For now, you have to trust me, please! I would never do anything to hurt you." },
+      { speaker: "B", text: "Steven, I..." },
+      { speaker: "A", text: "Okay, run! I haven't been completely honest with you Veronica, I'm sorry. I'm not a fireman. I'm not even from the United States. I'm a spy for the Indian government." },
+      { speaker: "B", text: "What? Why didn't you tell me before? What are you doing here?" },
+      { speaker: "A", text: "When I was a young boy, I used to play cricket my father back in my hometown of Hyderabad. It was a peaceful town, and my father was a renowned chemist. One day, he was approached by members of the CIA, claiming that my father had made the discovery of the millennium in his small lab back at the university where he taught bio-chemistry. I never saw him again. I vowed to discover the whereabouts of my father and consequently joined the Indian Intelligence Bureau." },
+      { speaker: "B", text: "What does that have to do with those men shooting at us? Most importantly, why did you lie to me!" },
+      { speaker: "A", text: "I'm sorry, I wasn't supposed to meet you. I wasn't supposed to fall in love with you, but you have to believe me when I tell you that what I feel for you is real." },
+      { speaker: "B", text: "I can't believe this! Why are all these things happening to me! I can't take it anymore! Let me out of the car!" },
+      { speaker: "A", text: "Veronica, wait!" }
+      ],
+      vocabulary: [
+      {
+        word: "Whereabouts",
+        definition: "The approximate place, where a person or thing is",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Vow",
+        definition: "Promised",
+        category: "verb"
+      },
+      {
+        word: "Millennium",
+        definition: "1000 years"
+      },
+      {
+        word: "Renowned",
+        definition: "Well known",
+        category: "adjective"
+      },
+      {
+        word: "Claim",
+        definition: "To assert as a fact"
+      },
+      {
+        word: "Spy",
+        definition: "A person employed to find out secret information about other countries or organizations",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Honest",
+        definition: "Truthful and moral in behaviour; trustworthy",
+        category: "adjective"
+      },
+      {
+        word: "Go on",
+        definition: "Happening",
+        category: "verb"
+      },
+      {
+        word: "Come clean",
+        definition: "Confess, tell everything, tell the truth",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "FBI",
+        definition: "Federal Bureau of Investigation"
+      },
+      {
+        word: "Undercover",
+        definition: "Done or acting in secret",
+        category: "adjective"
+      },
+      {
+        word: "Notorious",
+        definition: "Well known for some bad reason",
+        category: "adjective"
+      },
+      {
+        word: "White lie",
+        definition: "An unimportant, small lie",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Pull",
+        definition: "Tell false information to for fun"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 91,
+    videoId: "video_091",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_091",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Oh honey, this is so romantic! I have never seen so many stars before! It's beautiful!" },
+      { speaker: "B", text: "See that constellation there? That's Orion! And the very bright star? Well, it's not a star since it doesn't blink. That's actually Venus." },
+      { speaker: "A", text: "What's that big flashy one?" },
+      { speaker: "B", text: "I don't know... I think it's a UFO!" },
+      { speaker: "C", text: "Greetings earthlings. I come from afar, from a distant galaxy known only to a few." },
+      { speaker: "A", text: "Why are you here? Where did you come from?" },
+      { speaker: "C", text: "We have been observing you for the last three thousand years. We have seen the amazing capacity that humans have to create such wonders as the Taj Mahal or masterpieces such as the Haffner symphony. Unfortunately, your intelligence and creativity does not come without consequence. Your ambition and desire for more will be your downfall, and we are here to save your planet from you." },
+      { speaker: "B", text: "You think you have us figured out? What gives you the right to come and judge us? Who are you to play God with our fate?" },
+      { speaker: "C", text: "Silence human! It is that belligerent attitude that has caused years of pain and anguish among yourselves! Now you will pay the price!" }
+      ],
+      vocabulary: [
+      {
+        word: "Constellation",
+        definition: "A particular shape formed by a group of stars",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Blink",
+        definition: "Produce light every several seconds",
+        category: "verb"
+      },
+      {
+        word: "UFO",
+        definition: "Unidentified flying object"
+      },
+      {
+        word: "Earthlings",
+        definition: "Human beings that live on earth",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "From afar",
+        definition: "From a long distance"
+      },
+      {
+        word: "Galaxy",
+        definition: "Any of numerous large-scale collections of stars, gas, and dust that make up the visible universe.",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Capacity",
+        definition: "The ability to do something",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Wonder",
+        definition: "A monumental human creation that is amazing",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Masterpiece",
+        definition: "Wonderful pieces of work",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Consequence",
+        definition: "A logical result or effect of an action",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Ambition",
+        definition: "The desire to achieve more",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Downfall",
+        definition: "Something that brings failure",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Figure out",
+        definition: "Completely understand, comprehend.",
+        category: "verb"
+      },
+      {
+        word: "Play God",
+        definition: "Decide the fate of someone or something",
+        category: "phrase"
+      },
+      {
+        word: "Belligerent",
+        definition: "Angry, aggressive, wanting to fight",
+        category: "adjective"
+      },
+      {
+        word: "Anguish",
+        definition: "Very strong and terrible physical or mental pain; torment",
+        category: "noun",
+        subcategory: "non-variable"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Spacecraft",
+        definition: "A vehicle that travels in space",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Hoax",
+        definition: "An event when people do something to play a joke on or fool others",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Astronomy",
+        definition: "The study of the stars and space",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Supernatural",
+        definition: "Unable to be explained by science",
+        category: "adjective"
+      },
+      {
+        word: "Flying saucer",
+        definition: "A name for a UFO",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 92,
+    videoId: "video_093",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_093",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "It's a beautiful day here in New Zealand at the Men's Volleyball world championship. My name is Rick Fields and I'm joined by the man with the plan, Bob Copeland." },
+      { speaker: "B", text: "Thank you, Rick. We've got a very exciting encounter ahead of us today as two powerhouse teams, Brazil and China, face off against each other and try to qualify for the next round. Without a doubt, both teams are in top shape and this will prove to be a competitive match." },
+      { speaker: "A", text: "The ref signals the start of the game and here we go. Ribeiro serves and China quickly receives the ball. Chen bumps it to the setter, and... a very nice set by Chen!" },
+      { speaker: "B", text: "Xu spikes it! Wow, what a great hit! The Brazilian blockers anticipated the play and tried to block him but he managed to get the ball in! Great play." },
+      { speaker: "A", text: "It's China's service now. What a superb jump serve by Li, oh, and we have a let serve. The ball was coming in fast and almost made it over the net." },
+      { speaker: "B", text: "Brazil calls for a time out and we'll be right back, after a short commercial break." }
+      ],
+      vocabulary: [
+      {
+        word: "Encounter",
+        definition: "Meet for a game or battle",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Ahead of",
+        definition: "In the future"
+      },
+      {
+        word: "Powerhouse",
+        definition: "A highly energetic, strong team",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Qualify",
+        definition: "To reach the later stages of a selection process or contest by competing successfully in earlier rounds",
+        category: "verb"
+      },
+      {
+        word: "In top shape",
+        definition: "In their best condition",
+        category: "phrase"
+      },
+      {
+        word: "Serve",
+        definition: "Hits the ball to start a set of the game",
+        category: "verb"
+      },
+      {
+        word: "Bump",
+        definition: "To pass (a volleyball) by redirecting it with the forearms",
+        category: "verb"
+      },
+      {
+        word: "Set",
+        definition: "The action of putting ball in the air so as to be driven to opponents' court",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Spike",
+        definition: "Strongly hit the ball to opponents' court using the palm of the hand",
+        category: "verb"
+      },
+      {
+        word: "Anticipate",
+        definition: "To foresee and act in advance of",
+        category: "verb"
+      },
+      {
+        word: "Jump serve",
+        definition: "A serve with the ball firstly thrown overhead and then the player jumping to hit it",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Let serve",
+        definition: "The ball touches the net in a serve but still crosses into the opponents' court",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Time out",
+        definition: "A pause during a game",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Side out",
+        definition: "When the team that served the ball loses the rally, causing the other team to serve the next point.",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Whiff",
+        definition: "A mishit — when a player attempts to hit (or spike) the ball with the open hand and nearly misses the ball",
+        category: "phrase"
+      },
+      {
+        word: "Dig",
+        definition: "The ability to prevent the ball from touching one's court after a spike or attack, particularly a ball that is nearly touching the ground",
+        category: "phrase"
+      },
+      {
+        word: "Coin toss",
+        definition: "Is the practice of throwing a coin in the air to resolve a dispute between two parties",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Draw",
+        definition: "A contest or game ending in a tie",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 93,
+    videoId: "video_094",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_094",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "What's up? You don't look too good." },
+      { speaker: "B", text: "Yeah, my head hurts, that's all. I've been in physics class all day. It's killer!" },
+      { speaker: "A", text: "I liked physics. It's all math, really; arcs, curves, velocity, cool stuff." },
+      { speaker: "B", text: "Yeah, yeah, but today's lesson was all about the creation of the universe." },
+      { speaker: "A", text: "A physics class about the creation of the universe? That's some pretty unscientific language there. Sounds more religous to me." },
+      { speaker: "B", text: "It's all religion. Take the theory of the Big Bang. How is it possible that all of the stuff in the universe comes from an explosion? That's no better than Atlas carrying the globe on his back or African myths about turtles and stuff." },
+      { speaker: "A", text: "Turtles? Whatever... Look, all that's required for the creation of matter an imbalance of particles and anti-particles. At least, that's what the math says." },
+      { speaker: "B", text: "Math, shmath. What's the evidence?" },
+      { speaker: "A", text: "There is evidence! You know Edwin Hubble? He's the guy who in the early twentieth century was the first scientist to measure the drift of matter in the universe, thus advancing notions of an expanding universe. What would it be expanding from? Well, the Big Bang... DUH!" },
+      { speaker: "B", text: "Anyway, it's just a theory. Why do people go around touting theories? Where's the scientific rigor in that?" },
+      { speaker: "A", text: "Dude, don't equivocate. A theory only becomes a theory after withstanding rigorous testing. You slept through class, didn't you?" },
+      { speaker: "B", text: "Agh! You're making my head hurt again! Quit with the questions!" }
+      ],
+      vocabulary: [
+      {
+        word: "What's up",
+        definition: "What is happening",
+        category: "phrase"
+      },
+      {
+        word: "Killer",
+        definition: "Something that is extremely difficult to deal with or withstand",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Theory",
+        definition: "A set of statements or principles devised to explain a group of facts or phenomena",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Big Bang",
+        definition: "The theory that a cosmic explosion caused the origin of the universe"
+      },
+      {
+        word: "Matter",
+        definition: "The substance of which something, is made; material",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Imbalance",
+        definition: "The situation where there is an unequal amount of different things",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Particle",
+        definition: "Any one tiny part of  matter",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Anti-particle",
+        definition: "A particle that has the same mass as another particle but has opposite values for its other properties",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Notion",
+        definition: "Ideas or concepts",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Rigor",
+        definition: "The state of something being very exact",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Equivocate",
+        definition: "Use vague language so as to deceive someone",
+        category: "verb"
+      },
+      {
+        word: "Withstand",
+        definition: "Surviving a difficult experience or trouble"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Astronomy",
+        definition: "The scientific study of matter in outer space, especially the positions, dimensions, distribution, motion, composition, energy, and evolution of celestial bodies and phenomena",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Black hole",
+        definition: "A region of space resulting from the collapse of a star with extremely high gravitational field",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "White dwarf",
+        definition: "A small, faint, very dense star",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Entropy",
+        definition: "The tendency for all matter and energy in the universe to evolve toward a state of inert uniformity",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Singularity",
+        definition: "A point of infinite density and infinitesimal volume, at which space and time become infinitely distorted according to the theory of General Relativity",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Paradox",
+        definition: "A seemingly contradictory statement that may nonetheless be true",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 94,
+    videoId: "video_095",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_095",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Mike! Hey, how are you, man! Long time no see!" },
+      { speaker: "B", text: "Hey, Pat! Yeah, I haven't seen you in ages! How are you?" },
+      { speaker: "A", text: "I'm doing great! It's funny running into you like this. Just last week I ran into Matt as well." },
+      { speaker: "B", text: "Yeah? How's he doing?" },
+      { speaker: "A", text: "He's doing well. We went out for a couple of beers and the funniest thing happened." },
+      { speaker: "B", text: "Oh yeah?" },
+      { speaker: "A", text: "Well, we were talking and catching up on what we've been doing, talking about work and family, when all of a sudden, Matt saw a mouse run under his chair and he completely lost it! He started freaking out, and screaming..." },
+      { speaker: "B", text: "Ha ha, really?" },
+      { speaker: "A", text: "Yeah, and the funniest thing was, that he jumped on to his chair and started shrieking like a girl. You had to be there! Everyone was staring and laughing... it was hilarious!" }
+      ],
+      vocabulary: [
+      {
+        word: "How are you",
+        definition: "A greeting phrase",
+        category: "phrase"
+      },
+      {
+        word: "Man",
+        definition: "An informal way of calling a person",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Long time no see",
+        definition: "A greeting phrase used after two friends have not seen each other for a long time",
+        category: "phrase"
+      },
+      {
+        word: "In ages",
+        definition: "For a long time",
+        category: "phrase"
+      },
+      {
+        word: "I am doing great",
+        definition: "A phrase you use to respond to a greeting",
+        category: "phrase"
+      },
+      {
+        word: "Run into",
+        definition: "Meeting someone accidentally",
+        category: "phrase"
+      },
+      {
+        word: "Catch up on",
+        definition: "Learn about recent past events",
+        category: "phrase"
+      },
+      {
+        word: "Freak out",
+        definition: "Show a lot of emotion; be not able to control emotions",
+        category: "verb"
+      },
+      {
+        word: "Shriek",
+        definition: "Screaming in a very high voice"
+      },
+      {
+        word: "Stare",
+        definition: "Look at something for a long time with great attention",
+        category: "verb"
+      },
+      {
+        word: "Hilarious",
+        definition: "Very amusing",
+        category: "adjective"
+      },
+      {
+        word: "Lose it",
+        definition: "Lose control of your emotions; show strong, negative emotions",
+        category: "verb"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Go nuts",
+        definition: "Go crazy; lose control of yourself",
+        category: "verb"
+      },
+      {
+        word: "A riot",
+        definition: "A very fun time; or a funny event",
+        category: "phrase"
+      },
+      {
+        word: "Ridiculous",
+        definition: "Very silly or unreasonable",
+        category: "adjective"
+      },
+      {
+        word: "Bizarre",
+        definition: "Very strange or unusual",
+        category: "adjective"
+      },
+      {
+        word: "Anecdote",
+        definition: "A short, amusing story",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 95,
+    videoId: "video_096",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_096",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Hey man... I really like your pad. Those lava lamps are far out! Thanks for letting me crash here tonight." },
+      { speaker: "B", text: "It's no problem, brother! I wanted a pad where people could come, listen to music and just hang loose, you dig what I'm saying?" },
+      { speaker: "A", text: "I dig it man! We could throw a bash here and make it a really happening scene!" },
+      { speaker: "B", text: "Yeah man, that would be groovy! Hey, I gotta split for a while, are you OK here by yourself?" },
+      { speaker: "A", text: "Don't worry about me brother... You go take care of business." },
+      { speaker: "B", text: "Alright, peace out." }
+      ],
+      vocabulary: [
+      {
+        word: "Pad",
+        definition: "A place where a person lives",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Dig",
+        definition: "Appreciate, like",
+        category: "verb",
+        subcategory: "present simple"
+      },
+      {
+        word: "Far out",
+        definition: "The latest, cool",
+        category: "adjective"
+      },
+      {
+        word: "Crash",
+        definition: "Sleep (informal)",
+        category: "verb"
+      },
+      {
+        word: "Brother",
+        definition: "Buddy, informal way to call a close friend",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Hang loose",
+        definition: "Relax",
+        category: "phrase"
+      },
+      {
+        word: "Bash",
+        definition: "A big party",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Happening scene",
+        definition: "An extremely exciting moment",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Groovy",
+        definition: "Really cool",
+        category: "adjective"
+      },
+      {
+        word: "Split",
+        definition: "Leave here",
+        category: "verb",
+        subcategory: "infinitive"
+      },
+      {
+        word: "Peace out",
+        definition: "See you later",
+        category: "phrase"
+      },
+      {
+        word: "Man",
+        definition: "An informal way to call a friend",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Throw",
+        definition: "Hold (a party)"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "A gas",
+        definition: "A really fun time",
+        category: "phrase"
+      },
+      {
+        word: "Hip",
+        definition: "Very cool",
+        category: "adjective"
+      },
+      {
+        word: "Nifty",
+        definition: "Cool, neat",
+        category: "adjective"
+      },
+      {
+        word: "Blitzed",
+        definition: "Very drunk",
+        category: "adjective"
+      },
+      {
+        word: "Bitchen",
+        definition: "Awesome, really cool",
+        category: "adjective"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 96,
+    videoId: "video_097",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_097",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "...And now, let's go to Kenny Williams for today's weather forecast." },
+      { speaker: "B", text: "Thank you Bill, and good morning Salt Lake City!" },
+      { speaker: "A", text: "What's the weather looking like today, Kenny?" },
+      { speaker: "B", text: "Well, it's a bit of a mixed bag in Utah today; we've got heavy cloud cover here in Northern Utah, and we're calling for scattered showers throughout the day, with a day-time high of forty-five degrees. Now, if we move down to the south of the state, we can see that a cold front is moving in. We can expect clear skies, but it will be quite cold, with temperatures hovering around the thirty degree mark." },
+      { speaker: "A", text: "It's a chilly day folks, so don't forget your coats! What about tomorrow Kenny? Do you have good news for us?" },
+      { speaker: "B", text: "Well, it'll be a rainy day for Northern Utah; we can expect some isolated downpours in the morning. Winds will be coming in from the North East, with gusts reaching twenty-three miles per hour. Salt Lake City can expect the rain to turn to sleet in the evening. Things are looking a bit better for the South; we'll see cloudy skies with a chance of showers. Later in the day, we can expect partly-cloudy skies, with a forecast high of thirty-eight degrees." },
+      { speaker: "A", text: "You heard it folks! It's gonna be a cold one!" },
+      { speaker: "B", text: "That's right Bill. We will have more later on today on the six o'clock news. That's the weather forecast for this morning." }
+      ],
+      vocabulary: [
+      {
+        word: "Scattered",
+        definition: "Something that is spread all over an area",
+        category: "adjective"
+      },
+      {
+        word: "Hover around",
+        definition: "Stay near a certain level or place",
+        category: "phrase"
+      },
+      {
+        word: "Come in from",
+        definition: "To enter or arrive from somehwere",
+        category: "phrase"
+      },
+      {
+        word: "Forecast",
+        definition: "A statement of what will happen in the future",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Mixed bag",
+        definition: "A collection of different kinds of things",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Cloud cover",
+        definition: "The amount of sky that is covered with cloud",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Call for",
+        definition: "Saying that some type of weather will happen",
+        category: "phrase"
+      },
+      {
+        word: "Shower",
+        definition: "Rainfall in a short time",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Cold front",
+        definition: "Leading edge of a cooler and drier mass of air",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Chilly",
+        definition: "Very cold",
+        category: "adjective"
+      },
+      {
+        word: "Isolated",
+        definition: "Limited to one area",
+        category: "adjective"
+      },
+      {
+        word: "Downpour",
+        definition: "Strong, sudden rain storm",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Gust",
+        definition: "Strong, sudden increase in wind speed",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Sleet",
+        definition: "A mix of rain and snow",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Partly-cloudy skies",
+        definition: "Having some cloud and some sun",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Hail",
+        definition: "Small balls of ice that fall from the sky",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Drizzle",
+        definition: "Light rain",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Hazy",
+        definition: "Describes when air is not clear becaause of fog or smog",
+        category: "adjective"
+      },
+      {
+        word: "Fog",
+        definition: "Small drops of water that float in the air",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Blizard",
+        definition: "A very strong snow storm",
+        category: "noun",
+        subcategory: "singular"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 97,
+    videoId: "video_098",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_098",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Valerie! Hi! Wow how are you? It's been such a long time!" },
+      { speaker: "B", text: "Darlene! Indeed, it's been a while! How have you been? Wow, you look amazing! I love what you've done with your hair!" },
+      { speaker: "A", text: "Really? Thanks! I went to that hair salon that you told me about, but enough about me! Look at you! You haven't aged a day since the last time I saw you! What is your secret!" },
+      { speaker: "B", text: "Ha ha, come on! Well, I've been watching what I eat, and working out three times a week. By the way, I heard your son recently graduated!" },
+      { speaker: "A", text: "Yes, my little Paul is finally a doctor. They grow up so fast you know." },
+      { speaker: "B", text: "He is such a handsome guy. He gets his looks from his mother of course!" },
+      { speaker: "A", text: "Thank you! What about your daughter, Pamela? I heard she has passed the bar exam and married recently." },
+      { speaker: "B", text: "Oh yes. She had a beautiful wedding in Cozumel Mexico and we all attended." },
+      { speaker: "A", text: "Such a lovely girl. I hope my Paul is lucky enough to find a girl like that someday!" },
+      { speaker: "B", text: "But of course! Well, it's been great talking to you, but I have to get going." },
+      { speaker: "A", text: "Same here! We will catch up soon, maybe over coffee!" },
+      { speaker: "B", text: "That would be great! Give me a call!" },
+      { speaker: "A", text: "See you soon! Bye! Ugg... I can't stand that woman or her obnoxious son." }
+      ],
+      vocabulary: [
+      {
+        word: "I love what you have done with",
+        definition: "I really like the design or the change you made",
+        category: "phrase"
+      },
+      {
+        word: "You haven't aged a day",
+        definition: "You haven't gotten older; you look young",
+        category: "verb"
+      },
+      {
+        word: "Work out",
+        definition: "Do physical exercises",
+        category: "phrase"
+      },
+      {
+        word: "By the way",
+        definition: "Phrase used to shift to another topic",
+        category: "phrase"
+      },
+      {
+        word: "Bar exam",
+        definition: "The exam to qualify as a lawer",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Get going",
+        definition: "Leave",
+        category: "phrase"
+      },
+      {
+        word: "Obnoxious",
+        definition: "Really annoying",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Small talk",
+        definition: "Short, friendly, unimportant conversations",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Talk behind",
+        definition: "Speak badly of someone with out them knowing"
+      },
+      {
+        word: "Two-faced",
+        definition: "Pretend to like someone when you don't; be hypocritical",
+        category: "adjective"
+      },
+      {
+        word: "Stab",
+        definition: "Do something unkind to a friend"
+      },
+      {
+        word: "Gossip",
+        definition: "Talk about the details of other people's lives",
+        category: "verb"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 98,
+    videoId: "video_099",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_099",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Welcome back movie lovers to another \" Premier Movie Review\". My name is Richard Clarke and I am joined today by the very erudite David Watson." },
+      { speaker: "B", text: "Thank you Dick. Today we are going to talk about the movie \" Lion King\". Tell me Dave, what is your impression of this film?" },
+      { speaker: "A", text: "Well, I think this film is simply a fable, depicting man's eternal greed for power, and in my opinion, it's a very fine film. Even despite the accusations of plagiarism traditional folk tales from other countries. The musical score was amazing, the animation was very well done, and the story was simply enchanting." },
+      { speaker: "B", text: "I think otherwise. Even though the animation was technically strong, and as you say, the score and songs performed by Elton John were great, the film lacks a certain originality; it lacked heart. And I would dare to say, it was too predictable." },
+      { speaker: "A", text: "Predictable! How! Come on Dick, It's a G-rated movie! It's for the kids! It's not a thriller!" },
+      { speaker: "B", text: "Well, that's just it. It did have some very dramatic and intense scenes For example when Mufasa dies, or the dark, grim portrayal of Scar. Even so, the film is linear. Mufasa dies, Simba runs away thinking it's his fault. Falls in love and returns to retake what is rightfully his. It's just too cliché." },
+      { speaker: "A", text: "How can it be cliché? It's a fable! It's telling a time-honoured story! The movie make a point of how the hunger for power leads to corruption, and teaches children the value of respect, life and love." },
+      { speaker: "B", text: "You have always been so soft, Dave!" },
+      { speaker: "A", text: "Open your heart Dick. Don't shut us out." },
+      { speaker: "B", text: "Anyway... That's all for today folks! Join us next time as we talk about \"How to lose a guy in 10 days\" I'm sure you'll love that one Dave!" }
+      ],
+      vocabulary: [
+      {
+        word: "Dare to say",
+        definition: "Have the confidence to say",
+        category: "phrase"
+      },
+      {
+        word: "Rightfully",
+        definition: "According to law"
+      },
+      {
+        word: "Erudite",
+        definition: "Having a lot of knowladge; espically gained from studying",
+        category: "adjective"
+      },
+      {
+        word: "Impression",
+        definition: "The feelings one has after a specific event",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Depict",
+        definition: "Describe, show, especially in art or pictures"
+      },
+      {
+        word: "Fable",
+        definition: "Beautiful story about animals that has a moral or lesson",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Eternal",
+        definition: "Lasting forever",
+        category: "adjective"
+      },
+      {
+        word: "Accusation",
+        definition: "Action of caliming something is wrong",
+        category: "noun",
+        subcategory: "plural"
+      },
+      {
+        word: "Plagiarism",
+        definition: "Practice of copying others' ideas",
+        category: "noun",
+        subcategory: "non-variable"
+      },
+      {
+        word: "Enchanting",
+        definition: "Attractive, holding one's attention",
+        category: "adjective"
+      },
+      {
+        word: "Score",
+        definition: "Written work showing notes of music",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Predictable",
+        definition: "Easy for others to foresee what is going to happen",
+        category: "adjective"
+      },
+      {
+        word: "Portrayal",
+        definition: "The act of showing or describing somehting, especially in art",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Grim",
+        definition: "Unpleasant",
+        category: "adjective"
+      },
+      {
+        word: "Linear",
+        definition: "Moving in logical way, from start to end",
+        category: "adjective"
+      },
+      {
+        word: "Cliche",
+        definition: "Something that is too often used so that it loses meaning or importance",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Time-honoured",
+        definition: "Something that survives the testing of time",
+        category: "adjective"
+      },
+      {
+        word: "Soft",
+        definition: "Not critical enough",
+        category: "adjective"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Screen play",
+        definition: "The written words from a film",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Performance",
+        definition: "The activity of an actor in a play",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Central character",
+        definition: "The main person in a movie",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Plot",
+        definition: "Story in a movie or book",
+        category: "noun",
+        subcategory: "singular"
+      },
+      {
+        word: "Cinematography",
+        definition: "Used to describe the camera work in a movie",
+        category: "noun",
+        subcategory: "non-variable"
+      }
+      ]
+    }
+  },
+
+  {
+    id: 99,
+    videoId: "video_100",
+    title: "",
+    level: "",
+    description: "Learn English through this lesson.",
+    audioUrl: "https://www.youtube.com/watch?v=video_100",
+    transcript: {
+      dialogue: [
+      { speaker: "A", text: "Where to, miss?" },
+      { speaker: "B", text: "Hi! Crenshaw and Hawthorne, at the Holiday Inn that is on that corner." },
+      { speaker: "A", text: "Sure thing. So, where are you flying in from?" },
+      { speaker: "B", text: "From China." },
+      { speaker: "A", text: "Really? You don't look very Chinese to me, if you don't mind me saying so." },
+      { speaker: "B", text: "It's fine. I am actually from Mexico. I was in China on a business trip, visiting some local companies that manufacture bathroom products." },
+      { speaker: "A", text: "Wow sounds interesting! Excuse me if I am being a bit nosy but, how old are you?" },
+      { speaker: "B", text: "Don't you know it's rude to ask a lady her age?" },
+      { speaker: "A", text: "Don't get me wrong! It's just that you seem so young and already doing business overseas!" },
+      { speaker: "B", text: "Well thank you! In that case, I am 26 years old, and what about yourself?" },
+      { speaker: "A", text: "I am 40 years old and was born and raised here in the good old U.S of A, although I have some Colombian heritage." },
+      { speaker: "B", text: "Really? That's great! Do you speak some Spanish?" },
+      { speaker: "A", text: "Uh... yeah.. of course!" },
+      { speaker: "B", text: "Que bien! Entonces podemos hablar en espanol!" }
+      ],
+      vocabulary: [
+      {
+        word: "If you don't mind me saying so",
+        definition: "A polite phrase to use where you are saying something sensitive",
+        category: "phrase"
+      },
+      {
+        word: "Come in from",
+        definition: "Arrive",
+        category: "phrase"
+      },
+      {
+        word: "Nosy",
+        definition: "Too interested in others' private matters",
+        category: "adjective"
+      },
+      {
+        word: "In that case",
+        definition: "Because of that",
+        category: "phrase"
+      },
+      {
+        word: "Don't get me wrong",
+        definition: "Do not misunderstand me",
+        category: "phrase"
+      },
+      {
+        word: "Where to",
+        definition: "Where would you like to go",
+        category: "phrase"
+      },
+      {
+        word: "Overseas",
+        definition: "In foreign countries"
+      },
+      {
+        word: "To be born and raised",
+        definition: "To live in a place your whole life",
+        category: "phrase"
+      },
+      {
+        word: "The good old U.S of A",
+        definition: "The United States",
+        category: "phrase"
+      }
+      ],
+      supplementaryVocabulary: [
+      {
+        word: "Mind  your own business",
+        definition: "That subject is too personal (impolite)",
+        category: "phrase"
+      },
+      {
+        word: "That's personal",
+        definition: "Phrase you use when you don't want to answer a question",
+        category: "phrase"
+      },
+      {
+        word: "TMI",
+        definition: "Too much information",
+        category: "phrase"
+      },
+      {
+        word: "Personal",
+        definition: "About a person's private thoughs, feelings, etc.",
+        category: "adjective"
+      },
+      {
+        word: "Snoop",
+        definition: "To look for private information about someone",
+        category: "verb"
+      }
+      ]
+    }
+  }
+];
+
+// Export for use in the application
+export default youtubeEpisodes;

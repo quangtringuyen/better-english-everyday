@@ -1,0 +1,1016 @@
+/* ============================================================================
+   LAYOUT IMPROVEMENTS - Fix spacing, hierarchy, and visual design
+   ============================================================================ */
+
+/* Better spacing for main content - EPISODE LIST ON RIGHT */
+/* Better spacing for main content - EPISODE LIST ON RIGHT */
+/* Better spacing for main content - EPISODE LIST ON RIGHT */
+/* Main Content - Responsive Layout */
+.main-content {
+    direction: ltr !important;
+    box-sizing: border-box !important;
+    width: 100%;
+}
+
+/* Desktop Layout */
+@media (min-width: 1024px) {
+    .main-content {
+        display: grid !important;
+        gap: 1rem !important;
+        padding: 0.5rem 1rem !important;
+        max-width: 1400px !important;
+        margin: 0 auto !important;
+        grid-template-columns: 1fr 340px !important;
+        /* Fixed width sidebar */
+        height: calc(100vh - 80px) !important;
+    }
+
+    .mobile-playlist-wrapper {
+        height: 100% !important;
+        overflow: hidden !important;
+        border-radius: 12px;
+        background-color: var(--bg-secondary);
+        border: 1px solid var(--border-color);
+    }
+
+    /* Hide backdrop on desktop */
+    .mobile-menu-backdrop {
+        display: none !important;
+    }
+}
+
+/* Mobile Layout */
+@media (max-width: 1023px) {
+    .main-content {
+        display: block !important;
+        /* Stack vertically */
+        padding: 0 !important;
+        height: calc(100vh - 60px) !important;
+        position: relative !important;
+        overflow: hidden !important;
+    }
+
+    .episode-detail {
+        height: 100% !important;
+        border-radius: 0 !important;
+        /* Full width on mobile */
+    }
+
+    /* Backdrop overlay */
+    .mobile-menu-backdrop {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        z-index: 1999 !important;
+        animation: fadeIn 0.3s ease-out !important;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* DISABLED - Now using mobile-menu-fix.css instead */
+    /*
+    .mobile-playlist-wrapper {
+        position: fixed !important;
+        top: 0 !important;
+        right: -120% !important;
+        width: 85vw !important;
+        max-width: 350px !important;
+        height: 100vh !important;
+        background-color: var(--bg-primary) !important;
+        z-index: 2000 !important;
+        transition: right 0.3s ease-out !important;
+        box-shadow: -5px 0 20px rgba(0, 0, 0, 0.3) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        box-sizing: border-box !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+    }
+
+    .mobile-playlist-wrapper.show {
+        right: 0 !important;
+    }
+
+    .mobile-playlist-wrapper * {
+        box-sizing: border-box !important;
+    }
+
+    .mobile-playlist-wrapper .episode-list-container {
+        flex: 1 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        height: 100% !important;
+        width: 100% !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        border: none !important;
+        border-radius: 0 !important;
+        background-color: var(--bg-primary) !important;
+    }
+
+    .mobile-playlist-wrapper .episode-list-wrapper {
+        flex: 1 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        height: 100% !important;
+        width: 100% !important;
+        overflow: hidden !important;
+        background-color: var(--bg-primary) !important;
+    }
+
+    .mobile-playlist-wrapper .episode-list-search {
+        flex-shrink: 0 !important;
+        padding: 0.75rem !important;
+        background-color: var(--bg-primary) !important;
+        border-bottom: 1px solid var(--border-color) !important;
+        width: 100% !important;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .mobile-playlist-wrapper .category-menu {
+        flex-shrink: 0 !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 0.35rem !important;
+        padding: 0.5rem !important;
+        background-color: var(--bg-primary) !important;
+        border-bottom: 1px solid var(--border-color) !important;
+        width: 100% !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .mobile-playlist-wrapper .category-button {
+        display: inline-flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .mobile-playlist-wrapper .episode-list {
+        flex: 1 !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        padding: 0.5rem !important;
+        padding-bottom: 2rem !important;
+        background-color: var(--bg-primary) !important;
+        width: 100% !important;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .mobile-playlist-wrapper .episode-item {
+        color: var(--text-primary) !important;
+        background-color: var(--bg-secondary) !important;
+        border: 1px solid var(--border-color) !important;
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 0.5rem !important;
+        padding: 0.75rem !important;
+        border-radius: 8px !important;
+        cursor: pointer !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .mobile-playlist-wrapper .episode-item.active {
+        background-color: var(--accent-primary) !important;
+        color: #000000 !important;
+        border-color: var(--accent-primary) !important;
+    }
+
+    .mobile-playlist-wrapper .episode-item.active .episode-title,
+    .mobile-playlist-wrapper .episode-item.active .episode-number {
+        color: #000000 !important;
+    }
+
+    .mobile-playlist-wrapper .episode-number {
+        font-size: 0.75rem !important;
+        color: var(--text-tertiary) !important;
+        margin-bottom: 0.25rem !important;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .mobile-playlist-wrapper .episode-title {
+        font-size: 0.875rem !important;
+        color: var(--text-primary) !important;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .mobile-playlist-wrapper .no-episodes {
+        text-align: center !important;
+        padding: 2rem !important;
+        color: var(--text-secondary) !important;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    */
+}
+
+/* Episode List - More breathing room */
+.episode-list-container {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    /* Disable scroll here so menu stays pinned */
+    height: 100% !important;
+    width: 100% !important;
+    /* Ensure it fills the side menu */
+    border: 1px solid var(--border-color) !important;
+    background-color: var(--bg-secondary) !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* Episode List Wrapper - Contains menu and list */
+.episode-list-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+/* Category Menu - Top navigation */
+.category-menu {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    /* Wrap items */
+    overflow-x: visible !important;
+    /* No scroll needed */
+    gap: 0.35rem !important;
+    /* Tighter gap */
+    padding: 0.5rem !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    background-color: var(--bg-primary) !important;
+    position: relative !important;
+    flex-shrink: 0 !important;
+    /* Don't shrink */
+    z-index: 20 !important;
+    /* Above scrolling list */
+    min-height: auto !important;
+    align-items: center !important;
+}
+
+/* Hide scrollbar */
+.category-menu::-webkit-scrollbar {
+    display: none !important;
+}
+
+.category-button {
+    padding: 0.3rem 0.6rem !important;
+    /* Condensed padding */
+    border-radius: 9999px !important;
+    border: 1px solid var(--border-color) !important;
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    font-size: 0.75rem !important;
+    /* Condensed font */
+    font-weight: 500 !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+}
+
+.category-button:hover {
+    background-color: var(--bg-hover) !important;
+    border-color: var(--text-primary) !important;
+    color: var(--text-primary) !important;
+    transform: translateY(-1px) !important;
+}
+
+.category-button.active {
+    background-color: var(--accent-primary) !important;
+    color: #000000 !important;
+    border-color: var(--accent-primary) !important;
+    font-weight: 700 !important;
+}
+
+.episode-list {
+    padding: 0.5rem !important;
+    flex: 1 !important;
+    overflow-y: auto !important;
+}
+
+.no-episodes {
+    text-align: center !important;
+    padding: 2rem !important;
+    color: var(--text-secondary) !important;
+    font-style: italic !important;
+}
+
+.episode-item {
+    padding: 0.5rem 0.75rem !important;
+    margin-bottom: 0.25rem !important;
+    /* Tiny gap */
+    border-radius: 4px !important;
+    border: 1px solid transparent !important;
+}
+
+.episode-title {
+    font-size: 0.875rem !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0.125rem !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.episode-number {
+    font-size: 0.75rem !important;
+    color: var(--text-tertiary) !important;
+}
+
+.episode-description {
+    display: none !important;
+    /* Hide description in list for compactness */
+}
+
+/* Episode Detail - Better spacing */
+/* Transcript & Vocabulary - Scrollable Area */
+.transcript-section {
+    padding: 0.75rem !important;
+    margin-bottom: 0 !important;
+    border-radius: 8px !important;
+    flex: 1 !important;
+    /* Fill remaining space */
+    overflow-y: auto !important;
+    /* Scroll independently */
+    min-height: 0 !important;
+}
+
+/* Episode Detail - Flex Container */
+.episode-detail {
+    padding: 0.75rem !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    /* Disable parent scroll */
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.episode-detail-header {
+    margin-bottom: 0.5rem !important;
+    /* Minimal margin */
+}
+
+.episode-detail-title {
+    font-size: 1.25rem !important;
+    /* Smaller title */
+    line-height: 1.2 !important;
+    margin-bottom: 0.25rem !important;
+    font-weight: 700 !important;
+}
+
+.episode-detail-number {
+    font-size: 0.75rem !important;
+    color: var(--accent-primary) !important;
+    margin-bottom: 0.25rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+}
+
+.episode-detail-description {
+    margin-bottom: 0.5rem !important;
+    color: var(--text-secondary) !important;
+}
+
+/* Audio Player - Much better layout */
+.audio-player {
+    padding: 0.75rem !important;
+    /* Compact padding */
+    margin-bottom: 0.5rem !important;
+    border-radius: 8px !important;
+    background-color: var(--bg-secondary) !important;
+    /* Opaque bg */
+    border-bottom: 1px solid var(--border-color) !important;
+    /* Separator */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+    /* Depth */
+    /* Removed sticky, now part of fixed flex header */
+}
+
+/* Audio Player - Spotify Style */
+.audio-player {
+    padding: 1rem 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+}
+
+/* Progress Bar Row */
+.audio-progress-container {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+    width: 100% !important;
+    order: 1;
+}
+
+.time-current,
+.time-duration {
+    font-size: 0.75rem !important;
+    color: var(--text-secondary) !important;
+    font-variant-numeric: tabular-nums !important;
+    min-width: 35px !important;
+}
+
+.audio-progress {
+    flex: 1 !important;
+    height: 4px !important;
+    background-color: var(--border-color) !important;
+    border-radius: 2px !important;
+    cursor: pointer !important;
+    position: relative !important;
+}
+
+.audio-progress:hover {
+    height: 6px !important;
+}
+
+.audio-progress:hover .audio-progress-bar {
+    background-color: #1DB954 !important;
+}
+
+.audio-progress-bar {
+    height: 100% !important;
+    background-color: var(--text-primary) !important;
+    border-radius: 2px !important;
+}
+
+.audio-progress:hover .audio-progress-bar::after {
+    content: '' !important;
+    position: absolute !important;
+    right: -6px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #ffffff !important;
+    border-radius: 50% !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Controls Box */
+.audio-controls {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 8px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    order: 2;
+}
+
+.control-button {
+    background: transparent !important;
+    border: none !important;
+    color: var(--text-secondary) !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0.5rem !important;
+}
+
+.control-button:hover {
+    color: #1DB954 !important;
+    /* Green Accent on Hover */
+    transform: scale(1.1) !important;
+}
+
+
+/* Specific Play Button Style: Circle Outline */
+.play-button-circle {
+    width: 64px !important;
+    height: 64px !important;
+    min-width: 64px !important;
+    min-height: 64px !important;
+    border-radius: 50% !important;
+    border: 2px solid var(--text-primary) !important;
+    background: transparent !important;
+    color: var(--text-primary) !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    aspect-ratio: 1 / 1 !important;
+}
+
+.play-button-circle:hover {
+    transform: scale(1.05) !important;
+    border-color: #1DB954 !important;
+    /* Green Border on Hover */
+    color: #1DB954 !important;
+    /* Green Icon on Hover */
+    background: rgba(29, 185, 84, 0.1) !important;
+    /* Subtle Green Tint */
+}
+
+.secondary-action {
+    color: var(--text-tertiary) !important;
+}
+
+.secondary-action.active {
+    color: #1DB954 !important;
+}
+
+/* Active state for control buttons (e.g., auto-next when enabled) */
+.control-button.active {
+    color: #1DB954 !important;
+    background: rgba(29, 185, 84, 0.15) !important;
+    border-color: #1DB954 !important;
+}
+
+.control-button.active:hover {
+    background: rgba(29, 185, 84, 0.25) !important;
+}
+
+.secondary-action.active {
+    position: relative !important;
+}
+
+.secondary-action.active::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 0px !important;
+    width: 4px !important;
+    height: 4px !important;
+    background-color: #1DB954 !important;
+    border-radius: 50% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+.audio-settings {
+    order: 3;
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 0.5rem !important;
+}
+
+.setting-button {
+    display: none !important;
+}
+
+/* Hidden/Moved */
+
+/* Volume Control */
+.volume-control {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    width: 100px !important;
+}
+
+.volume-slider {
+    flex: 1 !important;
+    height: 4px !important;
+    background-color: var(--border-color) !important;
+    border-radius: 2px !important;
+    cursor: pointer !important;
+}
+
+.volume-slider-fill {
+    height: 100% !important;
+    background-color: var(--text-primary) !important;
+    border-radius: 2px !important;
+}
+
+.volume-slider:hover .volume-slider-fill {
+    background-color: #1DB954 !important;
+}
+
+.setting-button.active {
+    color: #1DB954 !important;
+    /* Green active */
+}
+
+.setting-button:hover {
+    color: var(--text-primary) !important;
+}
+
+.volume-control {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    width: 100px !important;
+}
+
+.volume-slider {
+    flex: 1 !important;
+    height: 4px !important;
+    background-color: var(--border-color) !important;
+    border-radius: 2px !important;
+    cursor: pointer !important;
+}
+
+.volume-slider-fill {
+    height: 100% !important;
+    background-color: var(--text-primary) !important;
+    border-radius: 2px !important;
+}
+
+/* Hide unused classes from previous edits to clean up */
+.speed-control,
+.speed-button,
+.additional-controls {
+    display: none !important;
+}
+
+/* Transcript & Vocabulary - Ultra compact */
+.transcript-section {
+    padding: 1.25rem 1.5rem !important;
+    /* Move text away from edges */
+    margin-bottom: 0 !important;
+    border-radius: 8px !important;
+    flex: 1 !important;
+    overflow-y: auto !important;
+    min-height: 0 !important;
+    /* Custom Scrollbar for Transcript */
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-color) transparent;
+}
+
+.transcript-section::-webkit-scrollbar {
+    width: 6px !important;
+}
+
+.transcript-section::-webkit-scrollbar-track {
+    background: transparent !important;
+    margin: 4px !important;
+    /* Offset */
+}
+
+.transcript-section::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.3) !important;
+    border-radius: 4px !important;
+}
+
+.transcript-section::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128, 128, 128, 0.5) !important;
+}
+
+.transcript-dialogue h3,
+.transcript-vocabulary h3 {
+    color: #1DB954 !important;
+    /* Green Headers */
+    font-size: 1rem !important;
+    margin-bottom: 0.75rem !important;
+    font-weight: 700 !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    padding-bottom: 0.25rem !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+}
+
+.dialogue-item {
+    padding: 0.6rem !important;
+    margin-bottom: 0.4rem !important;
+    border-radius: 6px !important;
+    gap: 0.75rem !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+.dialogue-item:last-child {
+    border-bottom: none !important;
+}
+
+.speaker-label {
+    color: #1DB954 !important;
+    /* Green Speaker Name */
+    font-weight: 700 !important;
+    width: auto !important;
+    /* Let it grow if needed, or fixed */
+    min-width: 40px !important;
+    text-transform: uppercase !important;
+    font-size: 0.75rem !important;
+    letter-spacing: 0.05em !important;
+}
+
+.dialogue-text {
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
+    color: var(--text-primary) !important;
+}
+
+.vocabulary-item {
+    padding: 0.5rem !important;
+    margin-bottom: 0.375rem !important;
+    border-radius: 6px !important;
+    border: 1px solid var(--border-color) !important;
+    background-color: var(--bg-secondary) !important;
+    transition: transform 0.2s ease !important;
+}
+
+.vocabulary-item:hover {
+    border-color: #1DB954 !important;
+    /* Green border on hover */
+    transform: translateX(2px) !important;
+}
+
+.vocabulary-word {
+    font-size: 1rem !important;
+    margin-bottom: 0.125rem !important;
+    font-weight: 600 !important;
+    color: #1DB954 !important;
+    /* Green Word */
+}
+
+/* Override Badge Colors to be neutral or Green-themed if desired? 
+   User said "green tone". 
+   Let's keep functional colors but make them distinct. 
+   Let's stick to Green Accents for the 'Word' and 'Header'. 
+   The badges can remain multi-colored for utility unless requested.
+*/
+.vocabulary-definition {
+    margin-top: 0.25rem !important;
+    font-size: 0.85rem !important;
+    line-height: 1.3 !important;
+    color: var(--text-secondary) !important;
+}
+
+.vocabulary-example {
+    margin-top: 0.375rem !important;
+    padding-left: 0.5rem !important;
+    border-left: 2px solid #1DB954 !important;
+    /* Green Bar */
+    color: var(--text-tertiary) !important;
+    font-style: italic !important;
+    font-size: 0.8rem !important;
+}
+
+/* Header - Better spacing */
+.header {
+    padding: 0.5rem 1rem !important;
+    /* Compact header */
+    height: 70px !important;
+    /* Fixed height accommodating content */
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--bg-primary);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.header-content {
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 100% !important;
+    gap: 1rem !important;
+}
+
+.header-title {
+    font-size: 1.25rem !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+}
+
+.header-controls {
+    display: flex !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    flex: 1 !important;
+    justify-content: flex-end !important;
+}
+
+.search-container {
+    flex: 1 !important;
+    max-width: 480px !important;
+    /* Limit width */
+    margin: 0 2rem !important;
+    /* Central spacing */
+}
+
+.search-input {
+    padding: 0.6rem 1.25rem !important;
+    /* Tighter padding */
+    padding-left: 2.5rem !important;
+    font-size: 0.9375rem !important;
+    border-radius: 9999px !important;
+    /* Rounded pill search */
+    width: 100% !important;
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid transparent !important;
+    transition: all 0.2s ease !important;
+}
+
+.search-input:focus {
+    background-color: var(--bg-primary) !important;
+    border-color: var(--accent-primary) !important;
+    box-shadow: 0 0 0 2px rgba(29, 185, 84, 0.2) !important;
+    /* Green ring */
+}
+
+/* Theme buttons - Better spacing */
+.theme-button {
+    padding: 0.75rem 1.25rem !important;
+    font-size: 0.9375rem !important;
+    border-radius: 10px !important;
+}
+
+/* Footer - Better spacing */
+.footer {
+    padding: 0.5rem !important;
+    /* Minimal footer */
+    display: none !important;
+    /* Actually hide footer to maximize space if desired, or keep minimal */
+}
+
+.footer-content {
+    gap: 2rem !important;
+}
+
+/* Level Badge - More prominent */
+.level-badge {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.875rem !important;
+    border-radius: 8px !important;
+}
+
+.episode-number {
+    font-size: 0.875rem !important;
+}
+
+/* Toggle sections - Better buttons */
+.toggle-button {
+    padding: 0.875rem 1.5rem !important;
+    font-size: 1rem !important;
+    border-radius: 10px !important;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Mobile improvements */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 0 !important;
+        gap: 0 !important;
+    }
+
+    /* Header Responsive Fixes */
+    .header {
+        height: auto !important;
+        padding: 0.75rem !important;
+        position: relative !important;
+        /* Allow flow */
+    }
+
+    .header-content {
+        flex-direction: column !important;
+        gap: 0.75rem !important;
+        align-items: center !important;
+    }
+
+    .header-title {
+        font-size: 1.1rem !important;
+        margin: 0 !important;
+        text-align: center !important;
+    }
+
+    .header-controls {
+        width: 100% !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        gap: 0.5rem !important;
+        padding: 0 !important;
+    }
+
+    .search-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        order: 3;
+        /* Search below theme on mobile per user preference often, or above */
+        /* Let's put Search at bottom of header block on mobile so it's accessible */
+    }
+
+    .theme-switcher {
+        display: flex !important;
+        width: 100% !important;
+        justify-content: center !important;
+        gap: 0.25rem !important;
+        background-color: var(--bg-secondary) !important;
+        padding: 0.25rem !important;
+        border-radius: 12px !important;
+        order: 2;
+    }
+
+    .theme-button {
+        flex: 1 !important;
+        padding: 0.4rem 0 !important;
+        font-size: 0.8rem !important;
+        border-radius: 8px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 0.25rem !important;
+    }
+
+    /* Hide User Manual on mobile to save space */
+    .manual-button {
+        display: none !important;
+    }
+
+    /* Adjust content height for taller header */
+    .main-content {
+        /* approx header height 120px now */
+        padding-top: 0 !important;
+    }
+
+    .episode-detail {
+        padding: 1rem !important;
+        border-radius: 0 !important;
+    }
+
+    .audio-player {
+        padding: 1rem !important;
+    }
+
+    .control-button {
+        width: 48px !important;
+        height: 48px !important;
+    }
+
+    .control-button.play-button,
+    .play-button-circle {
+        width: 56px !important;
+        height: 56px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-title {
+        font-size: 1rem !important;
+    }
+
+    .transcript-section {
+        padding: 1rem !important;
+    }
+}
+
+/* Manual Button - Green Style */
+.manual-button {
+    background-color: #22c55e !important;
+    /* Green */
+    color: white !important;
+    border: none !important;
+    padding: 0.6rem 1.25rem !important;
+    border-radius: 6px !important;
+    font-weight: 600 !important;
+    font-size: 0.9375rem !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    transition: background-color 0.2s !important;
+    margin-left: 1rem;
+}
+
+.manual-button:hover {
+    background-color: #16a34a !important;
+    /* Darker green on hover */
+}
+
+/* Header Logo */
+.header-logo {
+    height: 32px;
+    width: auto;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header-title {
+    display: flex !important;
+    align-items: center !important;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube EnglishPod Extractor - Browser Tool</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            margin-top: 0;
+        }
+
+        .step {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .step h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+
+        .bookmarklet {
+            background: #667eea;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 0;
+            font-weight: bold;
+            cursor: move;
+        }
+
+        .bookmarklet:hover {
+            background: #764ba2;
+        }
+
+        .code-block {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 10px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        .output-area {
+            background: #f8f9fa;
+            border: 2px dashed #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            min-height: 100px;
+        }
+
+        .button {
+            background: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+
+        .button:hover {
+            background: #218838;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎬 YouTube EnglishPod Extractor</h1>
+        <p>This tool helps you extract video descriptions from the YouTube EnglishPod playlist automatically!</p>
+
+        <div class="step">
+            <h3>📋 Step 1: Install the Bookmarklet</h3>
+            <p>Drag this button to your bookmarks bar:</p>
+            <a href="javascript:(function(){const desc=document.querySelector('#expanded');if(!desc){alert('Please click Show more first!');return;}const videoTitle=document.querySelector('h1.ytd-watch-metadata yt-formatted-string')?.textContent||'Unknown';const videoId=new URLSearchParams(window.location.search).get('v')||'unknown';const html=desc.outerHTML;const win=window.open('','_blank','width=800,height=600');win.document.write(`<html><head><title>Extracted Data</title><style>body{font-family:monospace;padding:20px;background:#f5f5f5;}textarea{width:100%;height:400px;font-family:monospace;padding:10px;border:2px solid #667eea;border-radius:5px;}.info{background:white;padding:15px;margin-bottom:20px;border-radius:5px;box-shadow:0 2px 5px rgba(0,0,0,0.1);}</style></head><body><div class='info'><h2>Video: ${videoTitle}</h2><p>Video ID: ${videoId}</p><p><strong>Instructions:</strong> Copy the HTML below and save it as <code>video_X.html</code> in the <code>youtube_descriptions</code> folder.</p></div><textarea id='output'>${html.replace(/</g,'&lt;').replace(/>/g,'&gt;')}</textarea><br><button onclick='navigator.clipboard.writeText(document.getElementById(\"
+                output\").value).then(()=>alert(\"Copied to clipboard!\"))'
+                style='background:#28a745;color:white;padding:10px
+                20px;border:none;border-radius:5px;cursor:pointer;margin-top:10px;font-size:16px;'>Copy to
+                Clipboard</button>
+</body>
+
+</html>`);})();" class="bookmarklet">
+📥 Extract YouTube Description
+</a>
+<p><small>Drag this to your bookmarks bar (the area below your address bar)</small></p>
+</div>
+
+<div class="step">
+    <h3>🎥 Step 2: Use the Bookmarklet</h3>
+    <ol>
+        <li>Open a video from the EnglishPod playlist</li>
+        <li>Click the <strong>"Show more"</strong> button under the video to expand the description</li>
+        <li>Click the <strong>"Extract YouTube Description"</strong> bookmarklet you just added</li>
+        <li>A new window will open with the extracted HTML</li>
+        <li>Click <strong>"Copy to Clipboard"</strong></li>
+        <li>Create a file named <code>video_X.html</code> (where X is the video number)</li>
+        <li>Paste the HTML and save it in the <code>youtube_descriptions</code> folder</li>
+    </ol>
+</div>
+
+<div class="step">
+    <h3>🔄 Step 3: Process All Videos</h3>
+    <p>After extracting all videos, run this command in your terminal:</p>
+    <div class="code-block">
+        python3 process_descriptions.py
+    </div>
+    <p>This will automatically generate the TypeScript file with all episodes!</p>
+</div>
+
+<div class="warning">
+    <h4>⚠️ Alternative Method: Manual Console</h4>
+    <p>If the bookmarklet doesn't work, you can use the browser console:</p>
+    <ol>
+        <li>Open a video and click "Show more"</li>
+        <li>Press <kbd>F12</kbd> to open Developer Tools</li>
+        <li>Go to the <strong>Console</strong> tab</li>
+        <li>Paste this code and press Enter:</li>
+    </ol>
+    <div class="code-block">
+        const desc = document.querySelector('#expanded');
+        const videoTitle = document.querySelector('h1.ytd-watch-metadata yt-formatted-string')?.textContent ||
+        'Unknown';
+        const videoId = new URLSearchParams(window.location.search).get('v') || 'unknown';
+
+        console.log('='.repeat(80));
+        console.log('VIDEO:', videoTitle);
+        console.log('VIDEO ID:', videoId);
+        console.log('='.repeat(80));
+        console.log(desc.outerHTML);
+        console.log('='.repeat(80));
+        console.log('Copy the HTML above (between the lines) and save as video_X.html');
+    </div>
+    <p>Then copy the HTML output from the console.</p>
+</div>
+
+<div class="success">
+    <h4>✅ Quick Reference</h4>
+    <p><strong>Playlist URL:</strong> <a href="https://www.youtube.com/playlist?list=PL6vHaAQyQlk9RH8F_1lsI_z9wn3SLZHDi"
+            target="_blank">EnglishPod 001 - 100</a></p>
+    <p><strong>Save location:</strong> <code>youtube_descriptions/video_X.html</code></p>
+    <p><strong>Process command:</strong> <code>python3 process_descriptions.py</code></p>
+</div>
+
+<div class="step">
+    <h3>📊 Progress Tracker</h3>
+    <p>Keep track of which videos you've extracted:</p>
+    <div id="progress">
+        <p>Videos extracted: <span id="count">1</span> / 100</p>
+        <button class="button"
+            onclick="document.getElementById('count').textContent = parseInt(document.getElementById('count').textContent) + 1">Mark
+            Video Complete</button>
+        <button class="button" onclick="document.getElementById('count').textContent = '1'"
+            style="background:#dc3545;">Reset</button>
+    </div>
+</div>
+
+<div class="step">
+    <h3>🎯 Tips for Faster Extraction</h3>
+    <ul>
+        <li>Open multiple videos in different tabs</li>
+        <li>Use the bookmarklet on each tab</li>
+        <li>Save all HTML files at once</li>
+        <li>Run the processor once when done</li>
+        <li>The script will handle 100+ videos in seconds!</li>
+    </ul>
+</div>
+</div>
+
+<script>
+    // Check if running locally
+    if (window.location.protocol === 'file:') {
+        console.log('✅ Extraction tool loaded successfully!');
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,355 @@
+/* ============================================================================
+   ATTRACTIVE UI ENHANCEMENTS
+   Modern, vibrant design to increase user engagement
+   ============================================================================ */
+
+/* Enhanced Header with Gradient */
+.header {
+    background: var(--gradient-header) !important;
+    border-bottom: none !important;
+    box-shadow: var(--shadow-colored);
+    backdrop-filter: blur(10px);
+}
+
+.header-title {
+    color: white !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: -0.02em;
+}
+
+/* Search Bar Enhancement */
+.search-container {
+    position: relative;
+}
+
+.search-input {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 2px solid transparent !important;
+    border-radius: var(--radius-xl) !important;
+    padding: 0.875rem 1.25rem !important;
+    padding-left: 3rem !important;
+    font-size: 0.9375rem !important;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-normal);
+}
+
+.search-input:focus {
+    border-color: white !important;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3), var(--shadow-lg);
+    transform: translateY(-1px);
+}
+
+.search-container::before {
+    content: '🔍';
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.125rem;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+/* Theme Buttons Enhancement */
+.theme-button {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: var(--radius-lg) !important;
+    padding: 0.625rem 1rem !important;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+    transition: all var(--transition-normal);
+}
+
+.theme-button:hover {
+    background: rgba(255, 255, 255, 0.3) !important;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.theme-button.active {
+    background: white !important;
+    color: var(--accent-secondary) !important;
+    box-shadow: var(--shadow-lg);
+}
+
+/* Episode List Enhancement */
+.episode-item {
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg) !important;
+    border: 1px solid var(--border-color);
+    transition: all var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.episode-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--gradient-primary);
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+}
+
+.episode-item:hover::before {
+    opacity: 1;
+}
+
+.episode-item:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--accent-secondary-light);
+}
+
+.episode-item.active {
+    background: var(--accent-secondary-light);
+    border-color: var(--accent-secondary);
+    box-shadow: var(--shadow-colored);
+}
+
+.episode-item.active::before {
+    opacity: 1;
+}
+
+/* Level Badge Enhancement */
+.level-badge {
+    background: var(--gradient-primary) !important;
+    color: white !important;
+    border-radius: var(--radius-full) !important;
+    padding: 0.375rem 0.875rem !important;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    box-shadow: var(--shadow-sm);
+}
+
+/* Audio Player Enhancement */
+.audio-player {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%) !important;
+    border-radius: var(--radius-2xl) !important;
+    box-shadow: var(--shadow-xl);
+    border: 1px solid var(--border-color);
+}
+
+.control-button {
+    background: white !important;
+    border-radius: var(--radius-full) !important;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-fast);
+}
+
+.control-button:hover {
+    transform: scale(1.1);
+    box-shadow: var(--shadow-lg);
+    background: var(--accent-secondary-light) !important;
+}
+
+.control-button.play-button {
+    background: var(--gradient-primary) !important;
+    color: white !important;
+    box-shadow: var(--shadow-colored);
+}
+
+.control-button.play-button:hover {
+    transform: scale(1.15);
+    box-shadow: 0 10px 40px -10px rgba(139, 92, 246, 0.5);
+}
+
+/* Progress Bar Enhancement */
+.progress-bar {
+    background: rgba(139, 92, 246, 0.1) !important;
+    border-radius: var(--radius-full) !important;
+    overflow: hidden;
+}
+
+.progress-fill {
+    background: var(--gradient-primary) !important;
+    box-shadow: 0 0 10px rgba(139, 92, 246, 0.3);
+}
+
+/* Vocabulary Item Enhancement */
+.vocabulary-item {
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg) !important;
+    border-left: 3px solid var(--accent-secondary) !important;
+    transition: all var(--transition-normal);
+}
+
+.vocabulary-item:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-md);
+    background: var(--accent-secondary-light);
+}
+
+.vocabulary-badge {
+    background: var(--gradient-primary) !important;
+    color: white !important;
+    border-radius: var(--radius-md) !important;
+    font-weight: 600;
+    font-size: 0.6875rem;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+}
+
+/* Dialogue Item Enhancement */
+.dialogue-item {
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg) !important;
+    border: 1px solid var(--border-color);
+    transition: all var(--transition-normal);
+}
+
+.dialogue-item:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--accent-secondary-light);
+}
+
+.speaker-label {
+    background: var(--gradient-primary) !important;
+    color: white !important;
+    border-radius: var(--radius-full) !important;
+    font-weight: 700;
+    box-shadow: var(--shadow-sm);
+}
+
+/* Footer Enhancement */
+.footer {
+    background: var(--gradient-header) !important;
+    color: white !important;
+    padding: 2rem 1.5rem;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.875rem;
+    text-align: center;
+    margin: 0;
+}
+
+.coffee-button {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    padding: 0.75rem 1.5rem !important;
+    border-radius: var(--radius-full) !important;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+    transition: all var(--transition-normal);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.coffee-button:hover {
+    background: white !important;
+    color: var(--accent-secondary) !important;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Mobile Toggle Button Enhancement */
+.mobile-episode-toggle {
+    background: var(--gradient-primary) !important;
+    box-shadow: var(--shadow-colored);
+    transition: all var(--transition-normal);
+}
+
+.mobile-episode-toggle:hover {
+    transform: scale(1.15) !important;
+    box-shadow: 0 15px 50px -15px rgba(139, 92, 246, 0.5);
+}
+
+/* Section Titles Enhancement */
+.section-title {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+/* Animated Gradient Background for Episode Detail */
+.episode-detail {
+    position: relative;
+}
+
+.episode-detail::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0) translateX(0);
+    }
+
+    50% {
+        transform: translateY(-20px) translateX(20px);
+    }
+}
+
+/* Shimmer Effect for Loading */
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+.loading {
+    background: linear-gradient(90deg,
+            var(--bg-secondary) 0%,
+            var(--bg-tertiary) 50%,
+            var(--bg-secondary) 100%);
+    background-size: 1000px 100%;
+    animation: shimmer 2s infinite;
+}
+
+/* Pulse Animation for Active Elements */
+@keyframes pulse-glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.4);
+    }
+
+    50% {
+        box-shadow: 0 0 0 10px rgba(139, 92, 246, 0);
+    }
+}
+
+.episode-item.active {
+    animation: pulse-glow 2s infinite;
+}

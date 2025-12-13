@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Green rounded square background -->
+  <rect width="100" height="100" rx="20" fill="#22c55e" />
+  
+  <!-- Open Book White Graphic -->
+  <path d="M25 35 Q 50 25 50 35 Q 50 25 75 35 V 75 Q 50 65 50 75 Q 50 65 25 75 Z" fill="white" />
+  
+  <!-- Spine Shadow/Detail -->
+  <path d="M50 35 L 50 75" stroke="#16a34a" stroke-width="3" stroke-linecap="round" />
+</svg>

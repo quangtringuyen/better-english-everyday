@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ============================================================================
+   SPOTIFY/YOUTUBE MUSIC INSPIRED DESIGN
+   Professional, proven UI/UX that users love
+   ============================================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color Palette - Spotify-inspired */
+    --bg-base: #121212;
+    --bg-elevated: #1a1a1a;
+    --bg-highlight: #242424;
+    --bg-press: #2a2a2a;
+
+    --text-base: #ffffff;
+    --text-subdued: #b3b3b3;
+    --text-bright: #ffffff;
+
+    --accent-primary: #1db954;
+    --accent-hover: #1ed760;
+    --accent-press: #169c46;
+
+    --border-subtle: #282828;
+    --border-strong: #404040;
+
+    /* Light theme */
+    --light-bg-base: #ffffff;
+    --light-bg-elevated: #f6f6f6;
+    --light-bg-highlight: #ebebeb;
+    --light-text-base: #000000;
+    --light-text-subdued: #6a6a6a;
+    --light-border: #d9d9d9;
+}
+
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg-base);
+    color: var(--text-base);
+    line-height: 1.6;
+}
+
+[data-theme="light"] {
+    --bg-base: var(--light-bg-base);
+    --bg-elevated: var(--light-bg-elevated);
+    --bg-highlight: var(--light-bg-highlight);
+    --bg-press: #e0e0e0;
+    --text-base: var(--light-text-base);
+    --text-subdued: var(--light-text-subdued);
+    --border-subtle: var(--light-border);
+    --border-strong: #b3b3b3;
+}
+
+/* ============================================================================
+   LAYOUT
+   ============================================================================ */
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Header - Sleek and minimal */
+.header {
+    background: var(--bg-elevated);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid var(--border-subtle);
+    flex-shrink: 0;
+}
+
+.header-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--text-base);
+    letter-spacing: -0.03em;
+}
+
+.search-container {
+    flex: 1;
+    max-width: 500px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    padding-left: 2.5rem;
+    background: var(--bg-highlight);
+    border: none;
+    border-radius: 500px;
+    color: var(--text-base);
+    font-size: 0.875rem;
+    transition: all 0.2s;
+}
+
+.search-input::placeholder {
+    color: var(--text-subdued);
+}
+
+.search-input:focus {
+    outline: 2px solid var(--accent-primary);
+    background: var(--bg-press);
+}
+
+.search-container::before {
+    content: '🔍';
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.6;
+}
+
+.theme-switcher {
+    display: flex;
+    gap: 0.5rem;
+    background: var(--bg-highlight);
+    padding: 0.25rem;
+    border-radius: 500px;
+}
+
+.theme-button {
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: none;
+    border-radius: 500px;
+    color: var(--text-subdued);
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.theme-button:hover {
+    color: var(--text-base);
+}
+
+.theme-button.active {
+    background: var(--bg-base);
+    color: var(--text-base);
+}
+
+/* Main Content - Spotify-style layout */
+.main-content {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    flex: 1;
+    overflow: hidden;
+}
+
+/* Sidebar - Episode List */
+.episode-list-container {
+    background: var(--bg-elevated);
+    border-right: 1px solid var(--border-subtle);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.episode-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0.5rem;
+}
+
+.episode-item {
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.episode-item:hover {
+    background: var(--bg-highlight);
+}
+
+.episode-item.active {
+    background: var(--bg-press);
+}
+
+.episode-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-base);
+    line-height: 1.3;
+}
+
+.episode-description {
+    font-size: 0.75rem;
+    color: var(--text-subdued);
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.episode-meta {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 0.25rem;
+}
+
+.level-badge {
+    padding: 0.125rem 0.5rem;
+    background: var(--accent-primary);
+    color: white;
+    border-radius: 4px;
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.episode-number {
+    font-size: 0.75rem;
+    color: var(--text-subdued);
+    font-weight: 500;
+}
+
+/* Main Content Area */
+.episode-detail {
+    background: var(--bg-base);
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+.episode-header {
+    margin-bottom: 2rem;
+}
+
+.episode-header h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    letter-spacing: -0.04em;
+}
+
+/* Audio Player - YouTube Music style */
+.audio-player {
+    background: var(--bg-elevated);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.audio-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.control-button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--bg-highlight);
+    border: none;
+    color: var(--text-base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 1.25rem;
+}
+
+.control-button:hover {
+    background: var(--bg-press);
+    transform: scale(1.05);
+}
+
+.control-button:active {
+    transform: scale(0.95);
+}
+
+.control-button.play-button {
+    width: 64px;
+    height: 64px;
+    background: var(--accent-primary);
+    color: white;
+    font-size: 1.75rem;
+}
+
+.control-button.play-button:hover {
+    background: var(--accent-hover);
+    transform: scale(1.08);
+}
+
+/* Progress Bar */
+.progress-container {
+    margin-bottom: 1rem;
+}
+
+.time-display {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: var(--text-subdued);
+    margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background: var(--bg-highlight);
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--accent-primary);
+    border-radius: 3px;
+    transition: width 0.1s linear;
+}
+
+.progress-bar:hover .progress-fill {
+    background: var(--accent-hover);
+}
+
+/* Additional Controls */
+.additional-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.volume-control {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex: 1;
+    max-width: 200px;
+}
+
+.volume-slider {
+    flex: 1;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--bg-highlight);
+    cursor: pointer;
+}
+
+.speed-control {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.speed-button {
+    padding: 0.375rem 0.75rem;
+    background: var(--bg-highlight);
+    border: none;
+    border-radius: 4px;
+    color: var(--text-subdued);
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.speed-button:hover {
+    background: var(--bg-press);
+    color: var(--text-base);
+}
+
+.speed-button.active {
+    background: var(--accent-primary);
+    color: white;
+}
+
+/* Transcript & Vocabulary */
+.transcript-section {
+    background: var(--bg-elevated);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: var(--text-base);
+}
+
+.dialogue-item {
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    background: var(--bg-highlight);
+    border-radius: 8px;
+    display: flex;
+    gap: 1rem;
+    transition: all 0.2s;
+}
+
+.dialogue-item:hover {
+    background: var(--bg-press);
+}
+
+.speaker-label {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--accent-primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.dialogue-text {
+    flex: 1;
+    color: var(--text-base);
+    line-height: 1.6;
+    padding-top: 0.5rem;
+}
+
+.vocabulary-item {
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    background: var(--bg-highlight);
+    border-radius: 8px;
+    border-left: 3px solid var(--accent-primary);
+    transition: all 0.2s;
+}
+
+.vocabulary-item:hover {
+    background: var(--bg-press);
+    border-left-color: var(--accent-hover);
+}
+
+.vocabulary-word {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-base);
+    margin-bottom: 0.5rem;
+}
+
+.vocabulary-definition {
+    color: var(--text-subdued);
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.vocabulary-badges {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.vocabulary-badge {
+    padding: 0.25rem 0.625rem;
+    background: var(--bg-base);
+    border-radius: 4px;
+    font-size: 0.625rem;
+    font-weight: 600;
+    color: var(--text-subdued);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Footer */
+.footer {
+    background: var(--bg-elevated);
+    border-top: 1px solid var(--border-subtle);
+    padding: 1.5rem 2rem;
+    flex-shrink: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    font-size: 0.75rem;
+    color: var(--text-subdued);
+}
+
+.coffee-button {
+    padding: 0.625rem 1.25rem;
+    background: var(--accent-primary);
+    color: white;
+    border: none;
+    border-radius: 500px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.coffee-button:hover {
+    background: var(--accent-hover);
+    transform: scale(1.05);
+}
+
+/* Mobile Toggle */
+.mobile-episode-toggle {
+    display: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-base);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--bg-highlight);
+    border-radius: 6px;
+    border: 3px solid var(--bg-base);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--bg-press);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+
+    .episode-list-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-height: 60vh;
+        border-right: none;
+        border-top: 1px solid var(--border-subtle);
+        transform: translateY(100%);
+        transition: transform 0.3s;
+        z-index: 100;
+    }
+
+    .episode-list-container.show {
+        transform: translateY(0);
+    }
+
+    .mobile-episode-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        width: 56px;
+        height: 56px;
+        background: var(--accent-primary);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        z-index: 101;
+    }
+
+    .mobile-episode-toggle:hover {
+        background: var(--accent-hover);
+    }
+
+    .episode-detail {
+        padding: 1.5rem;
+    }
+
+    .audio-player {
+        padding: 1.5rem;
+    }
+
+    .episode-header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 1rem;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-container {
+        max-width: 100%;
+    }
+
+    .control-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .control-button.play-button {
+        width: 56px;
+        height: 56px;
+    }
+}
