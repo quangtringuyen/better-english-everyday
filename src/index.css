@@ -1059,55 +1059,56 @@ a:hover {
     padding: 0.75rem 1rem;
   }
 
+  /* --- Mobile Header Layout (CSS Grid) --- */
   .header-content {
-    /* Remove flex-direction: column to allow row layout */
-    justify-content: flex-start;
-    /* Default */
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    /* Col 1: Title (shrinks), Col 2: Button */
+    grid-template-rows: auto auto;
+    /* Row 1: Header, Row 2: Theme */
     gap: 0.5rem;
+    align-items: center;
+    padding-bottom: 0.5rem;
   }
 
-  /* Row 1, Left: Title */
   .header-title {
+    grid-column: 1 / 2;
+    grid-row: 1;
     font-size: 1rem;
-    /* Smaller to prevent wrapping */
-    width: auto;
-    flex: 1;
-    /* Allow shrinking/growing */
-    min-width: 0;
-    /* Allow Flexbox truncate */
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    width: 100%;
+    margin: 0;
   }
 
   .header-logo {
-    height: 22px;
-    /* Slightly smaller */
-    width: 22px;
+    height: 20px;
+    width: 20px;
     flex-shrink: 0;
   }
 
-  /* Row 1, Right: Manual Button (Icon Only) */
   .manual-button {
-    margin-left: 0.5rem;
-    /* Gap from title */
+    grid-column: 2 / 3;
+    grid-row: 1;
+    margin: 0;
     padding: 0.4rem 0.6rem;
     font-size: 0.9rem;
     flex-shrink: 0;
-    /* Never wrap/shrink */
   }
 
   .manual-text {
     display: none;
-    /* Hide text on mobile to fit on same row */
   }
 
   /* Row 2: Theme Switcher */
   .theme-switcher {
+    grid-column: 1 / -1;
+    /* Full width */
+    grid-row: 2;
     width: 100%;
-    order: 3;
-    /* Force to bottom */
+    margin-top: 0;
     justify-content: space-between;
-    margin-top: 0.25rem;
   }
 
   .logo {
@@ -1131,10 +1132,59 @@ a:hover {
     justify-content: space-between;
   }
 
+  /* --- Mobile App Layout (Fixed Height + Scrollable Content) --- */
+  .app {
+    height: 100dvh !important;
+    /* Fixed viewport height */
+    overflow: hidden !important;
+    /* No body scroll */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Main container takes available space */
   .main-content {
-    grid-template-columns: 1fr;
-    gap: 0;
+    flex: 1;
+    overflow: hidden;
+    /* Contain children */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Episode wrapper takes full main space */
+  .episode-detail {
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     padding: 0;
+  }
+
+  /* Inner container from component */
+  .episode-detail-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* IMPORTANT */
+    height: 100%;
+  }
+
+  /* Header part of episode stays fixed */
+  .episode-fixed-header {
+    flex-shrink: 0;
+    z-index: 10;
+  }
+
+  /* SCROLLABLE AREA: Transcript scrolls here */
+  .episode-scroll-content {
+    flex: 1;
+    overflow-y: auto !important;
+    padding-bottom: 1rem;
+    height: auto !important;
+    -webkit-overflow-scrolling: touch;
+    /* Smooth scroll iOS */
   }
 
   .episode-list-container {
