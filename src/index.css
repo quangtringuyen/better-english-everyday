@@ -1115,15 +1115,15 @@ a:hover {
   .app {
     height: auto !important;
     min-height: 100dvh;
-    overflow: x-hidden;
-    /* Prevent horizontal scroll but allow vertical */
+    overflow-x: hidden;
+    overflow-y: auto !important;
   }
 
   .main-content {
     overflow: visible;
     height: auto;
     display: block;
-    /* Remove grid/flex constraints if any */
+    /* Remove grid/flex constraints */
   }
 
   .episode-detail {
