@@ -1056,8 +1056,8 @@ a:hover {
    RESPONSIVE DESIGN - Mobile First Approach
    ============================================================================ */
 
-/* Base Mobile Styles (320px+) */
-@media (max-width: 480px) {
+/* Base Mobile Styles (Updated to include larger phones/small tablets) */
+@media (max-width: 768px) {
   html {
     font-size: 14px;
   }
@@ -1068,12 +1068,12 @@ a:hover {
 
   /* --- Mobile Header Layout (CSS Grid) --- */
   .header-content {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto !important;
     /* Col 1: Title (shrinks), Col 2: Button */
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto !important;
     /* Row 1: Header, Row 2: Theme */
-    gap: 0.5rem;
+    gap: 0.5rem !important;
     align-items: center;
     padding-bottom: 0.5rem;
   }
@@ -1119,7 +1119,7 @@ a:hover {
   }
 
   .logo {
-    font-size: 1.25rem;
+    display: none;
   }
 
   .search-container {
