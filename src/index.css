@@ -1066,26 +1066,27 @@ a:hover {
     padding: 0.75rem 1rem;
   }
 
-  /* --- Mobile Header Layout (CSS Grid) --- */
+  /* --- Mobile Header Layout (FLEXBOX - More Robust) --- */
   .header-content {
-    display: grid !important;
-    grid-template-columns: minmax(0, 1fr) auto !important;
-    /* Col 1: Title (shrinks), Col 2: Button */
-    grid-template-rows: auto auto !important;
-    /* Row 1: Header, Row 2: Theme */
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
     gap: 0.5rem !important;
-    align-items: center;
     padding-bottom: 0.5rem;
   }
 
+  /* Item 1: Title (Grow, Shrink, Ellipsis) */
   .header-title {
-    grid-column: 1 / 2;
-    grid-row: 1;
+    flex: 1 1 auto !important;
+    /* Grow and Shrink */
+    min-width: 0 !important;
+    /* Allow shrinking below content size */
+    width: auto !important;
     font-size: 1rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 100%;
     margin: 0;
   }
 
@@ -1095,24 +1096,24 @@ a:hover {
     flex-shrink: 0;
   }
 
+  /* Item 2: Manual Button (Fixed size, No shrink) */
   .manual-button {
-    grid-column: 2 / 3;
-    grid-row: 1;
-    margin: 0;
+    flex: 0 0 auto !important;
+    /* Do not grow, do not shrink */
+    margin: 0 !important;
     padding: 0.4rem 0.6rem;
     font-size: 0.9rem;
-    flex-shrink: 0;
   }
 
   .manual-text {
     display: none;
   }
 
-  /* Row 2: Theme Switcher */
+  /* Item 3: Theme Switcher (Force new line) */
   .theme-switcher {
-    grid-column: 1 / -1;
-    /* Full width */
-    grid-row: 2;
+    flex: 1 0 100% !important;
+    /* Take full width, force wrap */
+    order: 3;
     width: 100%;
     margin-top: 0;
     justify-content: space-between;
@@ -1139,21 +1140,23 @@ a:hover {
     justify-content: space-between;
   }
 
-  /* --- Mobile App Layout (Fixed Height + Scrollable Content) --- */
+  /* --- Mobile App Layout --- */
   .app {
     height: 100dvh !important;
-    /* Fixed viewport height */
+    height: 100vh;
+    /* Fallback */
     overflow: hidden !important;
-    /* No body scroll */
     display: flex;
     flex-direction: column;
   }
 
-  /* Main container takes available space */
+  /* Main container */
   .main-content {
-    flex: 1;
+    flex: 1 1 auto;
+    /* Allow shrink */
+    min-height: 0;
+    /* CRITICAL for nested flex scrolling */
     overflow: hidden;
-    /* Contain children */
     display: flex;
     flex-direction: column;
   }
