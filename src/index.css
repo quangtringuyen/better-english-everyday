@@ -70,6 +70,10 @@
   --radius-xl: 1rem;
   --radius-2xl: 1.5rem;
   --radius-full: 9999px;
+
+  /* Scrollbar Vars */
+  --scrollbar-thumb: #cccccc;
+  --scrollbar-thumb-hover: #999999;
 }
 
 /* Dark Theme */
@@ -104,6 +108,9 @@
 
   --player-bg: #181818;
   --player-accent: #1DB954;
+
+  --scrollbar-thumb: #535353;
+  --scrollbar-thumb-hover: #808080;
 
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.6);
@@ -156,12 +163,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--border-color);
+  background: var(--scrollbar-thumb);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--border-hover);
+  background: var(--scrollbar-thumb-hover);
 }
 
 /* Typography */
