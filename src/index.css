@@ -1111,19 +1111,42 @@ a:hover {
     border-right: none;
   }
 
-  .episode-detail {
-    padding: 0;
-    height: 100%;
-    /* Changed from min-height: calc(100vh - 60px) to prevent overflow */
+  /* Allow natural scrolling on mobile to prevent squashed content */
+  .app {
+    height: auto !important;
+    min-height: 100dvh;
+    overflow: x-hidden;
+    /* Prevent horizontal scroll but allow vertical */
   }
 
-  .episode-fixed-header {
-    padding: 0.25rem;
+  .main-content {
+    overflow: visible;
+    height: auto;
+    display: block;
+    /* Remove grid/flex constraints if any */
+  }
+
+  .episode-detail {
+    padding: 0;
+    height: auto;
+    /* Let it grow */
+    overflow: visible;
   }
 
   .episode-scroll-content {
     padding: 0;
-    padding-bottom: 160px;
+    padding-bottom: 2rem;
+    height: auto !important;
+    overflow: visible !important;
+    max-height: none !important;
+    /* Remove any max-height limits */
+  }
+
+  /* Ensure header remains usable */
+  .episode-fixed-header {
+    position: relative;
+    /* Scroll with page */
+    padding: 0.25rem;
   }
 
   .episode-header h1 {
