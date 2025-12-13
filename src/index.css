@@ -1111,7 +1111,8 @@ a:hover {
 
   .episode-detail {
     padding: 0;
-    min-height: calc(100vh - 60px);
+    height: 100%;
+    /* Changed from min-height: calc(100vh - 60px) to prevent overflow */
   }
 
   .episode-fixed-header {
