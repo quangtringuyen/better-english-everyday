@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: better-english-everyday:latest
+    container_name: better-english-everyday
+    restart: always
+    ports:
+      - "8082:80" # NAS Port 8082 -> Container Port 80
+    volumes:
+      # Map the resources folder from NAS to the Nginx public folder
+      - ./resources:/usr/share/nginx/html/resources
