@@ -1373,10 +1373,7 @@ a:hover {
     font-size: 15px;
   }
 
-  .header-content {
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
+
 
   .search-container {
     flex: 1;
