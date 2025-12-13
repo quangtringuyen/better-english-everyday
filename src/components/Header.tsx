@@ -10,13 +10,15 @@ export const Header = ({ theme, onThemeChange, onOpenManual }: HeaderProps) => {
     return (
         <header className="header">
             <div className="header-content">
-                <h1 className="header-title">
-                    <img src="/book-icon.svg" alt="Logo" className="header-logo" /> Better English Everyday
-                </h1>
+                <div className="header-main-row">
+                    <h1 className="header-title">
+                        <img src="/book-icon.svg" alt="Logo" className="header-logo" /> Better English Everyday
+                    </h1>
 
-                <button className="manual-button" onClick={onOpenManual}>
-                    📖 <span className="manual-text">User Manual Guide</span>
-                </button>
+                    <button className="manual-button" onClick={onOpenManual}>
+                        📖 <span className="manual-text">User Manual Guide</span>
+                    </button>
+                </div>
 
                 <div className="theme-switcher">
                     <button
