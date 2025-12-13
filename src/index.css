@@ -1207,164 +1207,163 @@ a:hover {
     background: var(--bg-secondary);
   }
 
-  /* Smooth scroll iOS */
-}
-
-.episode-list-container {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  max-height: 40vh;
-  background: var(--bg-primary);
-  border-top: 1px solid var(--border-color);
-  box-shadow: 0 -4px 6px -1px rgb(0 0 0 / 0.1);
-  z-index: 100;
-  transform: translateY(100%);
-  transition: transform var(--transition-normal);
-}
-
-.episode-list-container.show {
-  transform: translateY(0);
-}
-
-.episode-list {
-  max-height: calc(40vh - 60px);
-  overflow-y: auto;
-}
-
-.episode-item {
-  padding: 1rem;
-  border-radius: 0;
-  border-left: none;
-  border-right: none;
-}
 
 
+  .episode-list-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 40vh;
+    background: var(--bg-primary);
+    border-top: 1px solid var(--border-color);
+    box-shadow: 0 -4px 6px -1px rgb(0 0 0 / 0.1);
+    z-index: 100;
+    transform: translateY(100%);
+    transition: transform var(--transition-normal);
+  }
 
-/* Ensure header remains usable */
-.episode-fixed-header {
-  position: relative;
-  /* Scroll with page */
-  padding: 0.25rem;
-}
+  .episode-list-container.show {
+    transform: translateY(0);
+  }
 
-.episode-header h1 {
-  font-size: 1.5rem;
-  line-height: 1.3;
-}
+  .episode-list {
+    max-height: calc(40vh - 60px);
+    overflow-y: auto;
+  }
 
-.episode-meta {
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
+  .episode-item {
+    padding: 1rem;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
 
-.level-badge,
-.episode-number {
-  font-size: 0.75rem;
-  padding: 0.25rem 0.75rem;
-}
 
-/* Audio Player Mobile */
-.audio-player {
-  padding: 1rem;
-  border-radius: 1rem 1rem 0 0;
-}
 
-.audio-controls {
-  gap: 0.28rem;
-}
+  /* Ensure header remains usable */
+  .episode-fixed-header {
+    position: relative;
+    /* Scroll with page */
+    padding: 0.25rem;
+  }
 
-.control-button {
-  width: 40px;
-  height: 40px;
-  font-size: 1rem;
-}
+  .episode-header h1 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
 
-.control-button.play-button {
-  width: 56px;
-  height: 56px;
-  font-size: 1.5rem;
-}
+  .episode-meta {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
 
-.time-display {
-  font-size: 0.75rem;
-}
+  .level-badge,
+  .episode-number {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+  }
 
-/* Transcript Mobile */
-.transcript-section {
-  padding: 1rem;
-}
+  /* Audio Player Mobile */
+  .audio-player {
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0;
+  }
 
-.section-title {
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-}
+  .audio-controls {
+    gap: 0.28rem;
+  }
 
-.dialogue-item {
-  padding: 0.75rem;
-  margin-bottom: 0.75rem;
-}
+  .control-button {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
 
-.speaker-label {
-  font-size: 0.875rem;
-  min-width: 32px;
-  height: 32px;
-}
+  .control-button.play-button {
+    width: 56px;
+    height: 56px;
+    font-size: 1.5rem;
+  }
 
-.dialogue-text {
-  font-size: 0.9375rem;
-  line-height: 1.6;
-}
+  .time-display {
+    font-size: 0.75rem;
+  }
 
-/* Vocabulary Mobile */
-.vocabulary-item {
-  padding: 0.875rem;
-  margin-bottom: 0.75rem;
-}
+  /* Transcript Mobile */
+  .transcript-section {
+    padding: 1rem;
+  }
 
-.vocabulary-word {
-  font-size: 1rem;
-}
+  .section-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
 
-.vocabulary-definition {
-  font-size: 0.875rem;
-}
+  .dialogue-item {
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
 
-.vocabulary-badge {
-  font-size: 0.6875rem;
-  padding: 0.25rem 0.5rem;
-}
+  .speaker-label {
+    font-size: 0.875rem;
+    min-width: 32px;
+    height: 32px;
+  }
 
-/* Mobile Navigation Toggle */
-.mobile-episode-toggle {
-  display: block;
-  position: fixed;
-  bottom: 2rem;
-  /* Bottom position - slightly higher for better placement */
-  right: 0.5rem;
-  /* Right position - moved to edge */
-  width: 56px;
-  height: 56px;
-  background: var(--accent-primary);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  box-shadow: var(--shadow-lg);
-  cursor: pointer;
-  z-index: 101;
-  font-size: 1.5rem;
-  transition: all var(--transition-fast);
-}
+  .dialogue-text {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+  }
 
-.mobile-episode-toggle:hover {
-  transform: scale(1.1);
-  background: var(--accent-primary-hover);
-}
+  /* Vocabulary Mobile */
+  .vocabulary-item {
+    padding: 0.875rem;
+    margin-bottom: 0.75rem;
+  }
 
-.mobile-episode-toggle:active {
-  transform: scale(0.95);
-}
+  .vocabulary-word {
+    font-size: 1rem;
+  }
+
+  .vocabulary-definition {
+    font-size: 0.875rem;
+  }
+
+  .vocabulary-badge {
+    font-size: 0.6875rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  /* Mobile Navigation Toggle */
+  .mobile-episode-toggle {
+    display: block;
+    position: fixed;
+    bottom: 2rem;
+    /* Bottom position - slightly higher for better placement */
+    right: 0.5rem;
+    /* Right position - moved to edge */
+    width: 56px;
+    height: 56px;
+    background: var(--accent-primary);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: var(--shadow-lg);
+    cursor: pointer;
+    z-index: 101;
+    font-size: 1.5rem;
+    transition: all var(--transition-fast);
+  }
+
+  .mobile-episode-toggle:hover {
+    transform: scale(1.1);
+    background: var(--accent-primary-hover);
+  }
+
+  .mobile-episode-toggle:active {
+    transform: scale(0.95);
+  }
 }
 
 /* Tablet Portrait (481px - 768px) */
