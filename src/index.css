@@ -294,8 +294,10 @@ a:hover {
 .header-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+  flex-wrap: wrap;
+  /* Allow wrapping for mobile */
+  gap: 1rem;
+  /* Consistent gap */
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -305,14 +307,22 @@ a:hover {
   font-weight: 700;
   color: var(--text-primary);
   white-space: nowrap;
-}
-
-.header-controls {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  flex: 1;
-  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+/* Desktop: Push controls to right & Order Theme before Manual */
+@media (min-width: 481px) {
+  .theme-switcher {
+    margin-left: auto;
+    /* Push to right */
+    order: 1;
+  }
+
+  .manual-button {
+    order: 2;
+  }
 }
 
 /* Search Bar */
@@ -1050,8 +1060,43 @@ a:hover {
   }
 
   .header-content {
-    flex-direction: column;
-    gap: 0.75rem;
+    /* Remove flex-direction: column to allow row layout */
+    justify-content: flex-start;
+    /* Default */
+    gap: 0.5rem;
+  }
+
+  /* Row 1, Left: Title */
+  .header-title {
+    font-size: 1.1rem;
+    width: auto;
+  }
+
+  .header-logo {
+    height: 24px;
+    width: 24px;
+  }
+
+  /* Row 1, Right: Manual Button (Icon Only) */
+  .manual-button {
+    margin-left: auto;
+    /* Push to right */
+    padding: 0.4rem 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  .manual-text {
+    display: none;
+    /* Hide text on mobile to fit on same row */
+  }
+
+  /* Row 2: Theme Switcher */
+  .theme-switcher {
+    width: 100%;
+    order: 3;
+    /* Force to bottom */
+    justify-content: space-between;
+    margin-top: 0.25rem;
   }
 
   .logo {
