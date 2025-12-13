@@ -1068,21 +1068,32 @@ a:hover {
 
   /* Row 1, Left: Title */
   .header-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    /* Smaller to prevent wrapping */
     width: auto;
+    flex: 1;
+    /* Allow shrinking/growing */
+    min-width: 0;
+    /* Allow Flexbox truncate */
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .header-logo {
-    height: 24px;
-    width: 24px;
+    height: 22px;
+    /* Slightly smaller */
+    width: 22px;
+    flex-shrink: 0;
   }
 
   /* Row 1, Right: Manual Button (Icon Only) */
   .manual-button {
-    margin-left: auto;
-    /* Push to right */
+    margin-left: 0.5rem;
+    /* Gap from title */
     padding: 0.4rem 0.6rem;
     font-size: 0.9rem;
+    flex-shrink: 0;
+    /* Never wrap/shrink */
   }
 
   .manual-text {
