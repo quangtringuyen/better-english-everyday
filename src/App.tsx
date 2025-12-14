@@ -43,6 +43,7 @@ function App() {
   const [isAdminMode, setIsAdminMode] = useState(false);
   const [completedEpisodes, setCompletedEpisodes] = useState<number[]>([]);
   const [favorites, setFavorites] = useState<number[]>([]);
+  const [totalVisits, setTotalVisits] = useState<number | null>(null);
 
   // Handle browser back/forward navigation
   useEffect(() => {
@@ -68,8 +69,18 @@ function App() {
     if (!hasVisited) {
       // Increment the counter
       fetch('https://api.countapi.xyz/hit/better-english-everyday/visits')
-        .then(() => sessionStorage.setItem('has_counted_visit', 'true'))
+        .then(res => res.json())
+        .then(data => {
+          setTotalVisits(data.value);
+          sessionStorage.setItem('has_counted_visit', 'true');
+        })
         .catch(e => console.error('Counter error', e));
+    } else {
+      // Just fetch current count without incrementing
+      fetch('https://api.countapi.xyz/get/better-english-everyday/visits')
+        .then(res => res.json())
+        .then(data => setTotalVisits(data.value))
+        .catch(e => console.error('Counter get error', e));
     }
   }, []);
 
@@ -334,6 +345,9 @@ function App() {
         </div>
         <p style={{ margin: 0, fontSize: '0.7rem', color: 'var(--text-secondary)', textAlign: 'center' }}>
           © {new Date().getFullYear()} Better English Everyday. All rights reserved. Developed by Tri Nguyen.
+        </p>
+        <p style={{ margin: 0, fontSize: '0.65rem', color: 'var(--text-secondary)', opacity: 0.8 }}>
+          Visitor Count: {totalVisits !== null ? totalVisits.toLocaleString() : '...'}
         </p>
       </footer>
       <UserManualModal isOpen={showManual} onClose={() => setShowManual(false)} />
