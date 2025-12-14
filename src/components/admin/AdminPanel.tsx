@@ -20,6 +20,25 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
     const [newPassword, setNewPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
 
+    // Analytics State
+    const [visitCount, setVisitCount] = useState<number | null>(null);
+    const [adminIp, setAdminIp] = useState<string>('');
+
+    // Fetch Analytics on mount
+    useEffect(() => {
+        // Get Visit Count
+        fetch('https://api.countapi.xyz/get/better-english-everyday/visits')
+            .then(res => res.json())
+            .then(data => setVisitCount(data.value))
+            .catch(err => console.error('Failed to fetch visits', err));
+
+        // Get Admin IP
+        fetch('https://api.ipify.org?format=json')
+            .then(res => res.json())
+            .then(data => setAdminIp(data.ip))
+            .catch(err => console.error('Failed to fetch IP', err));
+    }, []);
+
     // Load support settings from localStorage
     useEffect(() => {
         const savedLink = localStorage.getItem('supportLink');
@@ -223,6 +242,25 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                     <button onClick={onExit} style={{ padding: '0.5rem 1rem', background: '#333', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>
                         Exit
                     </button>
+                </div>
+            </div>
+
+            {/* Traffic Stats Section (NEW) */}
+            <div style={{ background: 'white', padding: '2rem', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)', marginBottom: '2rem' }}>
+                <h2 style={{ marginTop: 0, marginBottom: '1rem', color: '#333' }}>📊 Traffic Stats</h2>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
+                    <div style={{ padding: '1rem', background: '#f9f9f9', borderRadius: '8px', border: '1px solid #eee' }}>
+                        <div style={{ fontSize: '0.9rem', color: '#666', marginBottom: '0.5rem' }}>Total Visits</div>
+                        <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#1DB954' }}>
+                            {visitCount !== null ? visitCount.toLocaleString() : 'Loading...'}
+                        </div>
+                    </div>
+                    <div style={{ padding: '1rem', background: '#f9f9f9', borderRadius: '8px', border: '1px solid #eee' }}>
+                        <div style={{ fontSize: '0.9rem', color: '#666', marginBottom: '0.5rem' }}>Your IP Address</div>
+                        <div style={{ fontSize: '1.25rem', fontFamily: 'monospace', fontWeight: 'bold', color: '#333' }}>
+                            {adminIp || 'Loading...'}
+                        </div>
+                    </div>
                 </div>
             </div>
 

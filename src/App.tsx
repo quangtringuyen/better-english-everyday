@@ -62,6 +62,17 @@ function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
+  // Public Visitor Counter (Session based)
+  useEffect(() => {
+    const hasVisited = sessionStorage.getItem('has_counted_visit');
+    if (!hasVisited) {
+      // Increment the counter
+      fetch('https://api.countapi.xyz/hit/better-english-everyday/visits')
+        .then(() => sessionStorage.setItem('has_counted_visit', 'true'))
+        .catch(e => console.error('Counter error', e));
+    }
+  }, []);
+
   // Update URL when episode changes (Sync State -> URL)
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
