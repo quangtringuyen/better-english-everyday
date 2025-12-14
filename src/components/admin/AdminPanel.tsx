@@ -59,15 +59,6 @@ const VisitorLogTable = () => {
     );
 };
 
-// Add responsive styles
-const adminStyles = `
-  @media (max-width: 768px) {
-    .admin-panel { padding: 1rem !important; }
-    .admin-header { flex-direction: column; align-items: flex-start; gap: 1rem; }
-    .admin-header-actions { width: 100%; flex-wrap: wrap; }
-    .admin-header-actions button { flex: 1; }
-  }
-`;
 
 export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelProps) => {
     const [isAuthenticated, setIsAuthenticated] = useState(() => localStorage.getItem('admin_logged_in') === 'true');
