@@ -93,20 +93,25 @@
         text-align: center;
     }
 
-    /* Make buttons sit 2-per-row or wrap nicely */
+    /* Make buttons sit in one row */
     .admin-header-actions {
         width: 100%;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        /* Force one line */
         gap: 0.5rem;
+        overflow-x: auto;
+        /* Just in case extremely small screen */
     }
 
     .admin-header-actions button {
-        flex: 1 1 45%;
-        /* Approx 2 per row */
+        flex: 1;
+        /* Equal width */
         justify-content: center;
-        font-size: 0.85rem;
-        padding: 0.6rem;
+        font-size: 0.8rem;
+        /* Smaller text */
+        padding: 0.5rem;
+        white-space: nowrap;
     }
 
     .admin-section {

@@ -281,7 +281,7 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                         }}
                         title="Save directly to file (Chrome/Edge only)"
                     >
-                        💾 Save to File
+                        💾 Save
                     </button>
                     <button
                         onClick={handleDownloadJson}
@@ -296,10 +296,10 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                         }}
                         title="Download file to manually replace"
                     >
-                        ⬇️ Download JSON
+                        ⬇️ Json
                     </button>
                     <button onClick={handleLogout} style={{ padding: '0.5rem 1rem', background: '#333', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>
-                        Exit
+                        🚪 Exit
                     </button>
                 </div>
             </div>
