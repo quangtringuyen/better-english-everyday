@@ -367,45 +367,48 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                     </div>
                 </div>
             ) : (
-                <div className="admin-table-container" style={{ marginBottom: '2rem' }}>
-                    <table className="admin-table">
-                        <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>Title</th>
-                                <th>Category</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {episodes.map(ep => (
-                                <tr key={ep.id}>
-                                    <td>{ep.id}</td>
-                                    <td style={{ fontWeight: '500' }}>{ep.title}</td>
-                                    <td>
-                                        <span style={{ background: '#eee', padding: '0.25rem 0.5rem', borderRadius: '4px', fontSize: '0.85rem' }}>
-                                            {ep.folder}
-                                        </span>
-                                    </td>
-                                    <td>
-                                        <button
-                                            onClick={() => handleEdit(ep)}
-                                            style={{
-                                                cursor: 'pointer',
-                                                background: '#f0f0f0',
-                                                border: '1px solid #ddd',
-                                                padding: '0.5rem',
-                                                borderRadius: '4px'
-                                            }}
-                                            title="Edit"
-                                        >
-                                            ✏️
-                                        </button>
-                                    </td>
+                <div className="admin-section">
+                    <h2>Manage Episodes</h2>
+                    <div className="admin-table-container" style={{ boxShadow: 'none' }}>
+                        <table className="admin-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Title</th>
+                                    <th>Category</th>
+                                    <th>Actions</th>
                                 </tr>
-                            ))}
-                        </tbody>
-                    </table>
+                            </thead>
+                            <tbody>
+                                {episodes.map(ep => (
+                                    <tr key={ep.id}>
+                                        <td>{ep.id}</td>
+                                        <td style={{ fontWeight: '500' }}>{ep.title}</td>
+                                        <td>
+                                            <span style={{ background: '#eee', padding: '0.25rem 0.5rem', borderRadius: '4px', fontSize: '0.85rem' }}>
+                                                {ep.folder}
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <button
+                                                onClick={() => handleEdit(ep)}
+                                                style={{
+                                                    cursor: 'pointer',
+                                                    background: '#f0f0f0',
+                                                    border: '1px solid #ddd',
+                                                    padding: '0.5rem',
+                                                    borderRadius: '4px'
+                                                }}
+                                                title="Edit"
+                                            >
+                                                ✏️
+                                            </button>
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             )}
 

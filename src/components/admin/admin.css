@@ -182,6 +182,10 @@
     border-radius: 8px;
     overflow-x: auto;
     /* Allow horizontal scroll */
+    max-height: 500px;
+    /* Limit height so it doesn't push page too long */
+    overflow-y: auto;
+    /* Allow vertical scroll */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
