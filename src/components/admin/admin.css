@@ -252,3 +252,33 @@
 .btn-exit {
     background-color: #333;
 }
+/* Fixed Header Buttons Row (Replaces admin-header-actions) */
+.admin-header-buttons-row {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.admin-header-buttons-row button {
+  flex: 1; /* Force equal width */
+  min-width: 0; /* Allow shrinking past content width if needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .btn-label {
+      display: none !important; /* Force hide text */
+  }
+  
+  .admin-header-buttons-row button {
+      padding: 0.75rem;
+      font-size: 1.25rem;
+  }
+}

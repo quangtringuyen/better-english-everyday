@@ -264,7 +264,7 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
         <div className="admin-panel">
             <div className="admin-header">
                 <h1>Admin Dashboard</h1>
-                <div className="admin-header-actions">
+                <div className="admin-header-buttons-row">
                     <button
                         onClick={handleSaveToFile}
                         className="btn-header btn-save"
