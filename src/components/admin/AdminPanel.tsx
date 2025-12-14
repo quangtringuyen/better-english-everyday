@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { Episode } from '../../types';
-import './admin.css'; // Cache bust: 2025-12-14-11:56
+import './admin-responsive.css';
 
 interface AdminPanelProps {
     episodes: Episode[];
@@ -264,26 +264,26 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
         <div className="admin-panel">
             <div className="admin-header">
                 <h1>Admin Dashboard</h1>
-                <div className="admin-header-buttons-row">
+                <div className="admin-header-buttons">
                     <button
                         onClick={handleSaveToFile}
-                        className="btn-header btn-save"
+                        className="admin-btn admin-btn-save"
                         title="Save directly to file (Chrome/Edge only)"
                     >
-                        💾 <span className="btn-label">Save</span>
+                        💾 <span>Save</span>
                     </button>
                     <button
                         onClick={handleDownloadJson}
-                        className="btn-header btn-json"
+                        className="admin-btn admin-btn-json"
                         title="Download file to manually replace"
                     >
-                        ⬇️ <span className="btn-label">Json</span>
+                        ⬇️ <span>Json</span>
                     </button>
                     <button
                         onClick={handleLogout}
-                        className="btn-header btn-exit"
+                        className="admin-btn admin-btn-exit"
                     >
-                        🚪 <span className="btn-label">Exit</span>
+                        🚪 <span>Exit</span>
                     </button>
                 </div>
             </div>
