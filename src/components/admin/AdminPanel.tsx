@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { Episode } from '../../types';
+import './admin.css';
 
 interface AdminPanelProps {
     episodes: Episode[];
@@ -263,16 +264,15 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
     }
 
     return (
-        <div className="admin-panel" style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto', fontFamily: 'system-ui, sans-serif', backgroundColor: '#ffffff', minHeight: '100vh', color: '#000000' }}>
-            <style>{adminStyles}</style>
-            <div className="admin-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', borderBottom: '1px solid #ddd', paddingBottom: '1rem' }}>
-                <h1 style={{ margin: 0, color: '#333' }}>Admin Dashboard</h1>
-                <div className="admin-header-actions" style={{ display: 'flex', gap: '1rem' }}>
+        <div className="admin-panel">
+            <div className="admin-header">
+                <h1>Admin Dashboard</h1>
+                <div className="admin-header-actions">
                     <button
                         onClick={handleSaveToFile}
                         style={{
                             padding: '0.5rem 1rem',
-                            background: '#2563eb', // Blue
+                            background: '#2563eb',
                             color: 'white',
                             border: 'none',
                             borderRadius: '4px',
@@ -308,18 +308,18 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
             </div>
 
             {/* Traffic Stats Section (NEW) */}
-            <div style={{ background: 'white', padding: '2rem', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)', marginBottom: '2rem' }}>
-                <h2 style={{ marginTop: 0, marginBottom: '1rem', color: '#333' }}>📊 Traffic Stats</h2>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
-                    <div style={{ padding: '1rem', background: '#f9f9f9', borderRadius: '8px', border: '1px solid #eee' }}>
-                        <div style={{ fontSize: '0.9rem', color: '#666', marginBottom: '0.5rem' }}>Total Visits</div>
-                        <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#1DB954' }}>
+            <div className="admin-section">
+                <h2>📊 Traffic Stats</h2>
+                <div className="stat-grid">
+                    <div className="stat-card">
+                        <div className="stat-label">Total Visits</div>
+                        <div className="stat-value">
                             {visitCount !== null ? visitCount.toLocaleString() : 'Loading...'}
                         </div>
                     </div>
-                    <div style={{ padding: '1rem', background: '#f9f9f9', borderRadius: '8px', border: '1px solid #eee' }}>
-                        <div style={{ fontSize: '0.9rem', color: '#666', marginBottom: '0.5rem' }}>Your IP Address</div>
-                        <div style={{ fontSize: '1.25rem', fontFamily: 'monospace', fontWeight: 'bold', color: '#333' }}>
+                    <div className="stat-card">
+                        <div className="stat-label">Your IP Address</div>
+                        <div className="stat-value ip">
                             {adminIp || 'Loading...'}
                         </div>
                     </div>
@@ -335,8 +335,8 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
             </div>
 
             {/* Support Settings Section */}
-            <div style={{ background: 'white', padding: '2rem', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)', marginBottom: '2rem' }}>
-                <h2 style={{ marginTop: 0, marginBottom: '1.5rem', color: '#333' }}>☕ Support Settings</h2>
+            <div className="admin-section">
+                <h2>☕ Support Settings</h2>
 
                 <div style={{ marginBottom: '1.5rem' }}>
                     <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>Support Image (QR Code):</label>
@@ -405,55 +405,34 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
             </div>
 
             {/* Password Settings Section */}
-            <div style={{ background: 'white', padding: '2rem', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)', marginBottom: '2rem' }}>
-                <h2 style={{ marginTop: 0, marginBottom: '1.5rem', color: '#333' }}>🔒 Change Admin Password</h2>
+            <div className="admin-section">
+                <h2>🔒 Change Admin Password</h2>
 
-                <div style={{ marginBottom: '1.5rem' }}>
-                    <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>New Password:</label>
+                <div className="form-group">
+                    <label className="form-label">New Password:</label>
                     <input
                         type="password"
                         value={newPassword}
                         onChange={e => setNewPassword(e.target.value)}
                         placeholder="Enter new password (min 6 characters)"
-                        style={{
-                            width: '100%',
-                            padding: '0.75rem',
-                            border: '1px solid #ccc',
-                            borderRadius: '4px',
-                            fontSize: '1rem'
-                        }}
+                        className="form-input"
                     />
                 </div>
 
-                <div style={{ marginBottom: '1.5rem' }}>
-                    <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>Confirm Password:</label>
+                <div className="form-group">
+                    <label className="form-label">Confirm Password:</label>
                     <input
                         type="password"
                         value={confirmPassword}
                         onChange={e => setConfirmPassword(e.target.value)}
                         placeholder="Confirm new password"
-                        style={{
-                            width: '100%',
-                            padding: '0.75rem',
-                            border: '1px solid #ccc',
-                            borderRadius: '4px',
-                            fontSize: '1rem'
-                        }}
+                        className="form-input"
                     />
                 </div>
 
                 <button
                     onClick={handleChangePassword}
-                    style={{
-                        padding: '0.75rem 1.5rem',
-                        background: '#1DB954',
-                        color: 'white',
-                        border: 'none',
-                        borderRadius: '4px',
-                        cursor: 'pointer',
-                        fontWeight: '600',
-                        fontSize: '1rem'
-                    }}
+                    className="btn-primary"
                 >
                     🔐 Change Password
                 </button>
@@ -497,27 +476,27 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                     </div>
                 </div>
             ) : (
-                <div className="episode-table" style={{ background: 'white', borderRadius: '8px', overflowX: 'auto', boxShadow: '0 2px 8px rgba(0,0,0,0.1)' }}>
-                    <table style={{ width: '100%', minWidth: '600px', borderCollapse: 'collapse' }}>
+                <div className="admin-table-container">
+                    <table className="admin-table">
                         <thead>
-                            <tr style={{ background: '#f5f5f5', textAlign: 'left' }}>
-                                <th style={{ padding: '15px' }}>ID</th>
-                                <th style={{ padding: '15px' }}>Title</th>
-                                <th style={{ padding: '15px' }}>Category</th>
-                                <th style={{ padding: '15px' }}>Actions</th>
+                            <tr>
+                                <th>ID</th>
+                                <th>Title</th>
+                                <th>Category</th>
+                                <th>Actions</th>
                             </tr>
                         </thead>
                         <tbody>
                             {episodes.map(ep => (
-                                <tr key={ep.id} style={{ borderBottom: '1px solid #eee' }}>
-                                    <td style={{ padding: '15px' }}>{ep.id}</td>
-                                    <td style={{ padding: '15px', fontWeight: '500' }}>{ep.title}</td>
-                                    <td style={{ padding: '15px' }}>
+                                <tr key={ep.id}>
+                                    <td>{ep.id}</td>
+                                    <td style={{ fontWeight: '500' }}>{ep.title}</td>
+                                    <td>
                                         <span style={{ background: '#eee', padding: '0.25rem 0.5rem', borderRadius: '4px', fontSize: '0.85rem' }}>
                                             {ep.folder}
                                         </span>
                                     </td>
-                                    <td style={{ padding: '15px' }}>
+                                    <td>
                                         <button
                                             onClick={() => handleEdit(ep)}
                                             style={{
