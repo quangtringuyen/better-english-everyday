@@ -252,33 +252,41 @@
 .btn-exit {
     background-color: #333;
 }
+
 /* Fixed Header Buttons Row (Replaces admin-header-actions) */
 .admin-header-buttons-row {
-  display: flex;
-  gap: 8px;
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-between;
-  box-sizing: border-box;
+    display: grid;
+    /* Use Grid instead of Flex */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* Strict 3 columns */
+    gap: 8px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .admin-header-buttons-row button {
-  flex: 1; /* Force equal width */
-  min-width: 0; /* Allow shrinking past content width if needed */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  box-sizing: border-box;
+    width: 100%;
+    /* Fill the grid cell */
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    /* Standard padding */
 }
 
 @media (max-width: 768px) {
-  .btn-label {
-      display: none !important; /* Force hide text */
-  }
-  
-  .admin-header-buttons-row button {
-      padding: 0.75rem;
-      font-size: 1.25rem;
-  }
+    .btn-label {
+        display: none !important;
+        /* Force hide text */
+    }
+
+    .admin-header-buttons-row button {
+        padding: 0.75rem 0.25rem;
+        /* Taller but narrower padding */
+        font-size: 1.25rem;
+        /* Large icons */
+    }
 }
