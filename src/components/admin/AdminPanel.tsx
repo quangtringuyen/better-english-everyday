@@ -331,6 +331,84 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                 </div>
             </div>
 
+            {/* Episode Management Section (Moved Up) */}
+            {editingId ? (
+                <div className="admin-section">
+                    <h3 style={{ marginTop: 0 }}>Editing Episode {editingId}</h3>
+                    <div className="form-group">
+                        <label className="form-label">Title:</label>
+                        <input
+                            className="form-input"
+                            value={editForm.title || ''}
+                            onChange={e => setEditForm(prev => ({ ...prev, title: e.target.value }))}
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label className="form-label">Description:</label>
+                        <textarea
+                            className="form-input"
+                            style={{ minHeight: '100px', fontFamily: 'inherit' }}
+                            value={editForm.description || ''}
+                            onChange={e => setEditForm(prev => ({ ...prev, description: e.target.value }))}
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label className="form-label">Folder (Category):</label>
+                        <input
+                            className="form-input"
+                            value={editForm.folder || ''}
+                            onChange={e => setEditForm(prev => ({ ...prev, folder: e.target.value }))}
+                        />
+                    </div>
+
+                    <div style={{ display: 'flex', gap: '1rem' }}>
+                        <button onClick={handleSave} className="btn-primary">Save Changes</button>
+                        <button onClick={() => setEditingId(null)} style={{ padding: '0.75rem 1.5rem', background: '#ccc', color: '#333', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: '600' }}>Cancel</button>
+                    </div>
+                </div>
+            ) : (
+                <div className="admin-table-container" style={{ marginBottom: '2rem' }}>
+                    <table className="admin-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Title</th>
+                                <th>Category</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {episodes.map(ep => (
+                                <tr key={ep.id}>
+                                    <td>{ep.id}</td>
+                                    <td style={{ fontWeight: '500' }}>{ep.title}</td>
+                                    <td>
+                                        <span style={{ background: '#eee', padding: '0.25rem 0.5rem', borderRadius: '4px', fontSize: '0.85rem' }}>
+                                            {ep.folder}
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <button
+                                            onClick={() => handleEdit(ep)}
+                                            style={{
+                                                cursor: 'pointer',
+                                                background: '#f0f0f0',
+                                                border: '1px solid #ddd',
+                                                padding: '0.5rem',
+                                                borderRadius: '4px'
+                                            }}
+                                            title="Edit"
+                                        >
+                                            ✏️
+                                        </button>
+                                    </td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            )}
+
             {/* Support Settings Section */}
             <div className="admin-section">
                 <h2>☕ Support Settings</h2>
@@ -353,13 +431,7 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                                     reader.readAsDataURL(file);
                                 }
                             }}
-                            style={{
-                                padding: '0.5rem',
-                                border: '1px solid #ccc',
-                                borderRadius: '4px',
-                                fontSize: '0.9rem',
-                                width: '100%'
-                            }}
+                            className="form-input"
                         />
                         <p style={{ fontSize: '0.85rem', color: '#666', marginTop: '0.5rem', marginBottom: 0 }}>
                             Upload a new QR code or support image (JPG, PNG, etc.)
@@ -367,35 +439,20 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                     </div>
                 </div>
 
-                <div style={{ marginBottom: '1.5rem' }}>
-                    <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>Support Link URL:</label>
+                <div className="form-group">
+                    <label className="form-label">Support Link URL:</label>
                     <input
                         type="text"
                         value={supportLink}
                         onChange={e => setSupportLink(e.target.value)}
                         placeholder="https://buymeacoffee.com/username"
-                        style={{
-                            width: '100%',
-                            padding: '0.75rem',
-                            border: '1px solid #ccc',
-                            borderRadius: '4px',
-                            fontSize: '1rem'
-                        }}
+                        className="form-input"
                     />
                 </div>
 
                 <button
                     onClick={handleSaveSupportSettings}
-                    style={{
-                        padding: '0.75rem 1.5rem',
-                        background: '#FFDD00',
-                        color: '#000',
-                        border: 'none',
-                        borderRadius: '4px',
-                        cursor: 'pointer',
-                        fontWeight: '600',
-                        fontSize: '1rem'
-                    }}
+                    className="btn-warn"
                 >
                     💾 Save Support Settings
                 </button>
@@ -437,83 +494,6 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                     Default password: admin123 (if not changed)
                 </p>
             </div>
-
-            {editingId ? (
-                <div className="edit-form" style={{ background: 'white', padding: '2rem', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)' }}>
-                    <h3 style={{ marginTop: 0 }}>Editing Episode {editingId}</h3>
-                    <div style={{ marginBottom: '1rem' }}>
-                        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>Title:</label>
-                        <input
-                            style={{ width: '100%', padding: '0.75rem', border: '1px solid #ccc', borderRadius: '4px' }}
-                            value={editForm.title || ''}
-                            onChange={e => setEditForm(prev => ({ ...prev, title: e.target.value }))}
-                        />
-                    </div>
-                    <div style={{ marginBottom: '1rem' }}>
-                        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>Description:</label>
-                        <textarea
-                            style={{ width: '100%', padding: '0.75rem', minHeight: '100px', border: '1px solid #ccc', borderRadius: '4px' }}
-                            value={editForm.description || ''}
-                            onChange={e => setEditForm(prev => ({ ...prev, description: e.target.value }))}
-                        />
-                    </div>
-                    {/* Folder/Category */}
-                    <div style={{ marginBottom: '1rem' }}>
-                        <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>Folder (Category):</label>
-                        <input
-                            style={{ width: '100%', padding: '0.75rem', border: '1px solid #ccc', borderRadius: '4px' }}
-                            value={editForm.folder || ''}
-                            onChange={e => setEditForm(prev => ({ ...prev, folder: e.target.value }))}
-                        />
-                    </div>
-
-                    <div style={{ display: 'flex', gap: '1rem' }}>
-                        <button onClick={handleSave} style={{ padding: '0.75rem 1.5rem', background: '#1DB954', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: '600' }}>Save Changes</button>
-                        <button onClick={() => setEditingId(null)} style={{ padding: '0.75rem 1.5rem', background: '#ccc', color: '#333', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>Cancel</button>
-                    </div>
-                </div>
-            ) : (
-                <div className="admin-table-container">
-                    <table className="admin-table">
-                        <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>Title</th>
-                                <th>Category</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {episodes.map(ep => (
-                                <tr key={ep.id}>
-                                    <td>{ep.id}</td>
-                                    <td style={{ fontWeight: '500' }}>{ep.title}</td>
-                                    <td>
-                                        <span style={{ background: '#eee', padding: '0.25rem 0.5rem', borderRadius: '4px', fontSize: '0.85rem' }}>
-                                            {ep.folder}
-                                        </span>
-                                    </td>
-                                    <td>
-                                        <button
-                                            onClick={() => handleEdit(ep)}
-                                            style={{
-                                                cursor: 'pointer',
-                                                background: '#f0f0f0',
-                                                border: '1px solid #ddd',
-                                                padding: '0.5rem',
-                                                borderRadius: '4px'
-                                            }}
-                                            title="Edit"
-                                        >
-                                            ✏️
-                                        </button>
-                                    </td>
-                                </tr>
-                            ))}
-                        </tbody>
-                    </table>
-                </div>
-            )}
         </div>
     );
 };
