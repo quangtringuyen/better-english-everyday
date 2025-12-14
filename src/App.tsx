@@ -21,7 +21,20 @@ function App() {
   const { theme, setTheme } = useTheme();
   // Ensure we use number for ID, initialize with first cleaned episode ID
   const [allEpisodes, setAllEpisodes] = useState<any[]>(allEpisodesMapped);
-  const [selectedEpisodeId, setSelectedEpisodeId] = useState<number>(allEpisodesMapped[0]?.id || 1);
+
+  // Initialize from URL or default
+  const [selectedEpisodeId, setSelectedEpisodeId] = useState<number>(() => {
+    const params = new URLSearchParams(window.location.search);
+    const idParam = params.get('id');
+    if (idParam) {
+      const id = parseInt(idParam, 10);
+      if (allEpisodesMapped.some(e => e.id === id)) {
+        return id;
+      }
+    }
+    return allEpisodesMapped[0]?.id || 1;
+  });
+
   const [searchQuery, setSearchQuery] = useState('');
   const [showMobileEpisodeList, setShowMobileEpisodeList] = useState(false);
   const [showManual, setShowManual] = useState(false);
@@ -30,6 +43,36 @@ function App() {
   const [isAdminMode, setIsAdminMode] = useState(false);
   const [completedEpisodes, setCompletedEpisodes] = useState<number[]>([]);
   const [favorites, setFavorites] = useState<number[]>([]);
+
+  // Handle browser back/forward navigation
+  useEffect(() => {
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      const idParam = params.get('id');
+      if (idParam) {
+        const id = parseInt(idParam, 10);
+        // Only update if valid ID is found
+        if (allEpisodesMapped.some(e => e.id === id)) {
+          setSelectedEpisodeId(id);
+        }
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  // Update URL when episode changes (Sync State -> URL)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const currentParamId = params.get('id');
+
+    // Only push if the URL is different to avoid duplicate history entries/loops
+    if (currentParamId !== String(selectedEpisodeId)) {
+      const newUrl = `${window.location.pathname}?id=${selectedEpisodeId}`;
+      window.history.pushState({ id: selectedEpisodeId }, '', newUrl);
+    }
+  }, [selectedEpisodeId]);
 
   // Load state from localStorage
   useEffect(() => {
@@ -225,7 +268,7 @@ function App() {
         {showMobileEpisodeList ? '✕' : '☰'}
       </button>
 
-      <div style={{
+      <footer className="app-footer" style={{
         flexShrink: 0,
         backgroundColor: 'var(--bg-secondary)',
         borderTop: '1px solid var(--border-color)',
@@ -281,7 +324,7 @@ function App() {
         <p style={{ margin: 0, fontSize: '0.7rem', color: 'var(--text-secondary)', textAlign: 'center' }}>
           © {new Date().getFullYear()} Better English Everyday. All rights reserved. Developed by Tri Nguyen.
         </p>
-      </div>
+      </footer>
       <UserManualModal isOpen={showManual} onClose={() => setShowManual(false)} />
       <SupportModal isOpen={showSupport} onClose={() => setShowSupport(false)} />
       <FlashcardModal
@@ -289,7 +332,7 @@ function App() {
         onClose={() => setShowFlashcards(false)}
         vocabulary={selectedEpisode.transcript?.vocabulary || []}
       />
-    </div>
+    </div >
   );
 }
 
