@@ -267,38 +267,22 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                 <div className="admin-header-actions">
                     <button
                         onClick={handleSaveToFile}
-                        style={{
-                            padding: '0.5rem 1rem',
-                            background: '#2563eb',
-                            color: 'white',
-                            border: 'none',
-                            borderRadius: '4px',
-                            cursor: 'pointer',
-                            fontWeight: '600',
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '0.5rem'
-                        }}
+                        className="btn-header btn-save"
                         title="Save directly to file (Chrome/Edge only)"
                     >
                         💾 Save
                     </button>
                     <button
                         onClick={handleDownloadJson}
-                        style={{
-                            padding: '0.5rem 1rem',
-                            background: '#1DB954', // Green
-                            color: 'white',
-                            border: 'none',
-                            borderRadius: '4px',
-                            cursor: 'pointer',
-                            fontWeight: '600'
-                        }}
+                        className="btn-header btn-json"
                         title="Download file to manually replace"
                     >
                         ⬇️ Json
                     </button>
-                    <button onClick={handleLogout} style={{ padding: '0.5rem 1rem', background: '#333', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>
+                    <button
+                        onClick={handleLogout}
+                        className="btn-header btn-exit"
+                    >
                         🚪 Exit
                     </button>
                 </div>
