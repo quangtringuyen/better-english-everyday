@@ -232,7 +232,8 @@
 }
 
 .admin-header-buttons-row button {
-    flex: 1;
+    flex: 0 1 auto;
+    /* Don't grow on desktop */
     min-width: 0;
     display: flex;
     align-items: center;
@@ -246,25 +247,22 @@
 /* Mobile: Keep buttons in single row, icon-only */
 @media (max-width: 768px) {
     .admin-header-buttons-row {
-        flex-direction: row;
-        /* Keep horizontal */
         gap: 0.5rem;
+        /* 8px gap between buttons */
         width: 100%;
         max-width: 100%;
-        /* Prevent overflow */
         box-sizing: border-box;
     }
 
     .admin-header-buttons-row button {
-        flex: 1;
-        /* Equal width distribution */
+        flex: 1 1 0;
+        /* Equal flex basis, allow grow/shrink */
         min-width: 0;
-        /* Allow shrinking */
-        max-width: 33.333%;
-        /* Each button gets 1/3 of space */
+        width: calc((100% - 1rem) / 3);
+        /* (100% - 2 gaps) / 3 buttons */
+        max-width: calc((100% - 1rem) / 3);
         padding: 0.75rem 0.25rem;
         font-size: 1.5rem;
-        /* Larger icons for better tap targets */
         box-sizing: border-box;
     }
 
