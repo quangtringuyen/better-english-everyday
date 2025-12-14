@@ -84,17 +84,15 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
 
     // Fetch Analytics on mount
     useEffect(() => {
-        // Get Visit Count
-        fetch('https://api.countapi.xyz/get/better-english-everyday/visits')
-            .then(res => res.json())
-            .then(data => setVisitCount(data.value))
-            .catch(err => console.error('Failed to fetch visits', err));
+        // Get Visit Count from localStorage
+        const count = parseInt(localStorage.getItem('total_visits') || '0', 10);
+        setVisitCount(count);
 
         // Get Admin IP
         fetch('https://api.ipify.org?format=json')
             .then(res => res.json())
             .then(data => setAdminIp(data.ip))
-            .catch(err => console.error('Failed to fetch IP', err));
+            .catch(err => console.error('Failed to fetch IP:', err));
     }, []);
 
     // Load support settings from localStorage

@@ -83,24 +83,20 @@ function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
-  // Public Visitor Counter (Session based)
+  // Visitor Counter (localStorage based - since countapi.xyz is down)
   useEffect(() => {
     const hasVisited = sessionStorage.getItem('has_counted_visit');
+    const currentCount = parseInt(localStorage.getItem('total_visits') || '0', 10);
+
     if (!hasVisited) {
       // Increment the counter
-      fetch('https://api.countapi.xyz/hit/better-english-everyday/visits')
-        .then(res => res.json())
-        .then(data => {
-          setTotalVisits(data.value);
-          sessionStorage.setItem('has_counted_visit', 'true');
-        })
-        .catch(e => console.error('Counter error', e));
+      const newCount = currentCount + 1;
+      localStorage.setItem('total_visits', newCount.toString());
+      setTotalVisits(newCount);
+      sessionStorage.setItem('has_counted_visit', 'true');
     } else {
-      // Just fetch current count without incrementing
-      fetch('https://api.countapi.xyz/get/better-english-everyday/visits')
-        .then(res => res.json())
-        .then(data => setTotalVisits(data.value))
-        .catch(e => console.error('Counter get error', e));
+      // Just display current count
+      setTotalVisits(currentCount);
     }
   }, []);
 
