@@ -240,23 +240,27 @@
     padding: 0.75rem 1rem;
 }
 
-/* Mobile: Stack buttons vertically for guaranteed visibility */
+/* Mobile: Keep buttons in single row, icon-only */
 @media (max-width: 768px) {
     .admin-header-buttons-row {
-        flex-direction: column;
-        /* Stack vertically */
+        flex-direction: row;
+        /* Keep horizontal */
         gap: 0.5rem;
+        width: 100%;
     }
 
     .admin-header-buttons-row button {
-        width: 100%;
-        padding: 0.75rem;
-        font-size: 1rem;
-        justify-content: center;
+        flex: 1;
+        /* Equal width distribution */
+        min-width: 0;
+        /* Allow shrinking */
+        padding: 0.75rem 0.25rem;
+        font-size: 1.5rem;
+        /* Larger icons for better tap targets */
     }
 
-    /* Keep labels visible on mobile since we have vertical space */
+    /* Hide text labels on mobile to save space */
     .btn-label {
-        display: inline !important;
+        display: none !important;
     }
 }
