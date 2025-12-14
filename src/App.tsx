@@ -40,7 +40,13 @@ function App() {
   const [showManual, setShowManual] = useState(false);
   const [showFlashcards, setShowFlashcards] = useState(false);
   const [showSupport, setShowSupport] = useState(false);
-  const [isAdminMode, setIsAdminMode] = useState(false);
+  // Persist Admin Mode
+  const [isAdminMode, setIsAdminMode] = useState(() => localStorage.getItem('app_mode') === 'admin');
+
+  useEffect(() => {
+    localStorage.setItem('app_mode', isAdminMode ? 'admin' : 'app');
+  }, [isAdminMode]);
+
   const [completedEpisodes, setCompletedEpisodes] = useState<number[]>([]);
   const [favorites, setFavorites] = useState<number[]>([]);
   const [totalVisits, setTotalVisits] = useState<number | null>(null);

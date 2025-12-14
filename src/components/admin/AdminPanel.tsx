@@ -70,10 +70,15 @@ const adminStyles = `
 `;
 
 export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelProps) => {
-    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const [isAuthenticated, setIsAuthenticated] = useState(() => localStorage.getItem('admin_logged_in') === 'true');
     const [password, setPassword] = useState('');
     const [editingId, setEditingId] = useState<number | null>(null);
     const [editForm, setEditForm] = useState<Partial<Episode>>({});
+
+    const handleLogout = () => {
+        localStorage.removeItem('admin_logged_in');
+        onExit();
+    };
 
     // Support settings state
     const [supportLink, setSupportLink] = useState('https://buymeacoffee.com/quangtringuyen');
@@ -165,6 +170,7 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
     const handleLogin = () => {
         if (password === getStoredPassword()) {
             setIsAuthenticated(true);
+            localStorage.setItem('admin_logged_in', 'true');
         } else {
             alert('Wrong password');
         }
@@ -254,7 +260,7 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                         Login
                     </button>
                     <div style={{ marginTop: '1.5rem' }}>
-                        <button onClick={onExit} style={{ background: 'none', border: 'none', color: '#666', textDecoration: 'underline', cursor: 'pointer' }}>
+                        <button onClick={handleLogout} style={{ background: 'none', border: 'none', color: '#666', textDecoration: 'underline', cursor: 'pointer' }}>
                             ← Back to App
                         </button>
                     </div>
@@ -301,7 +307,7 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                     >
                         ⬇️ Download JSON
                     </button>
-                    <button onClick={onExit} style={{ padding: '0.5rem 1rem', background: '#333', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>
+                    <button onClick={handleLogout} style={{ padding: '0.5rem 1rem', background: '#333', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>
                         Exit
                     </button>
                 </div>
