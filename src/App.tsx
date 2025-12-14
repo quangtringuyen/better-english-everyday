@@ -342,12 +342,13 @@ function App() {
           >
             🔒
           </button>
+
+          <span style={{ fontSize: '0.7rem', color: 'var(--text-secondary)', opacity: 0.8, marginLeft: '0.5rem', borderLeft: '1px solid var(--border-color)', paddingLeft: '0.5rem' }}>
+            Visits: {totalVisits !== null ? totalVisits.toLocaleString() : '...'}
+          </span>
         </div>
         <p style={{ margin: 0, fontSize: '0.7rem', color: 'var(--text-secondary)', textAlign: 'center' }}>
           © {new Date().getFullYear()} Better English Everyday. All rights reserved. Developed by Tri Nguyen.
-        </p>
-        <p style={{ margin: 0, fontSize: '0.65rem', color: 'var(--text-secondary)', opacity: 0.8 }}>
-          Visitor Count: {totalVisits !== null ? totalVisits.toLocaleString() : '...'}
         </p>
       </footer>
       <UserManualModal isOpen={showManual} onClose={() => setShowManual(false)} />
