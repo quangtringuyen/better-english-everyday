@@ -40,12 +40,26 @@ function App() {
   const [showManual, setShowManual] = useState(false);
   const [showFlashcards, setShowFlashcards] = useState(false);
   const [showSupport, setShowSupport] = useState(false);
-  // Persist Admin Mode
-  const [isAdminMode, setIsAdminMode] = useState(() => localStorage.getItem('app_mode') === 'admin');
+  // Persist Admin Mode & Sync URL
+  const [isAdminMode, setIsAdminMode] = useState(() => {
+    return window.location.pathname === '/admin' || localStorage.getItem('app_mode') === 'admin';
+  });
 
   useEffect(() => {
     localStorage.setItem('app_mode', isAdminMode ? 'admin' : 'app');
-  }, [isAdminMode]);
+
+    if (isAdminMode) {
+      if (window.location.pathname !== '/admin') {
+        window.history.pushState(null, '', '/admin');
+      }
+    } else {
+      // If we are exiting admin mode (path is /admin), restore app URL
+      if (window.location.pathname === '/admin') {
+        const newUrl = `/?id=${selectedEpisodeId}`;
+        window.history.pushState(null, '', newUrl);
+      }
+    }
+  }, [isAdminMode, selectedEpisodeId]);
 
   const [completedEpisodes, setCompletedEpisodes] = useState<number[]>([]);
   const [favorites, setFavorites] = useState<number[]>([]);
@@ -92,15 +106,17 @@ function App() {
 
   // Update URL when episode changes (Sync State -> URL)
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const currentParamId = params.get('id');
+    const currentParams = new URLSearchParams(window.location.search);
+    const currentId = parseInt(currentParams.get('id') || '0', 10);
 
-    // Only push if the URL is different to avoid duplicate history entries/loops
-    if (currentParamId !== String(selectedEpisodeId)) {
-      const newUrl = `${window.location.pathname}?id=${selectedEpisodeId}`;
+    // Only sync if NOT in admin mode
+    if (!isAdminMode && currentId !== selectedEpisodeId) {
+      // Ensure we are at root path '/' when syncing episode
+      const basePath = window.location.pathname === '/admin' ? '/' : window.location.pathname;
+      const newUrl = `${basePath}?id=${selectedEpisodeId}`;
       window.history.pushState({ id: selectedEpisodeId }, '', newUrl);
     }
-  }, [selectedEpisodeId]);
+  }, [selectedEpisodeId, isAdminMode]);
 
   // Load state from localStorage
   useEffect(() => {
