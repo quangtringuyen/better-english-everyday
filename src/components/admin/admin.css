@@ -247,8 +247,8 @@
 /* Mobile: Keep buttons in single row, icon-only */
 @media (max-width: 768px) {
     .admin-header-buttons-row {
-        gap: 0.5rem;
-        /* 8px gap between buttons */
+        gap: 8px;
+        /* Use px for precise calculation */
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
@@ -258,9 +258,9 @@
         flex: 1 1 0;
         /* Equal flex basis, allow grow/shrink */
         min-width: 0;
-        width: calc((100% - 1rem) / 3);
-        /* (100% - 2 gaps) / 3 buttons */
-        max-width: calc((100% - 1rem) / 3);
+        width: calc((100% - 16px) / 3);
+        /* (100% - 2 gaps of 8px each) / 3 buttons */
+        max-width: calc((100% - 16px) / 3);
         padding: 0.75rem 0.25rem;
         font-size: 1.5rem;
         box-sizing: border-box;
