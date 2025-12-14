@@ -41,18 +41,22 @@ const VisitorLogTable = () => {
                 <thead>
                     <tr style={{ background: '#eee', textAlign: 'left' }}>
                         <th style={{ padding: '8px' }}>Time</th>
-                        <th style={{ padding: '8px' }}>IP</th>
+                        <th style={{ padding: '8px' }}>IP Address</th>
                         <th style={{ padding: '8px' }}>Path</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {logs.map((log, i) => (
-                        <tr key={i} style={{ borderBottom: '1px solid #eee' }}>
-                            <td style={{ padding: '8px' }}>{new Date(log.timestamp).toLocaleString()}</td>
-                            <td style={{ padding: '8px' }}>{log.ip}</td>
-                            <td style={{ padding: '8px' }}>{log.path}</td>
-                        </tr>
-                    ))}
+                    {logs.map((log, i) => {
+                        // Use forwarded_for (real client IP) if available, otherwise use direct IP
+                        const displayIp = log.forwarded_for || log.ip;
+                        return (
+                            <tr key={i} style={{ borderBottom: '1px solid #eee' }}>
+                                <td style={{ padding: '8px' }}>{new Date(log.timestamp).toLocaleString()}</td>
+                                <td style={{ padding: '8px', fontFamily: 'monospace' }}>{displayIp}</td>
+                                <td style={{ padding: '8px' }}>{log.path}</td>
+                            </tr>
+                        );
+                    })}
                 </tbody>
             </table>
         </div>
