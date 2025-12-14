@@ -253,40 +253,43 @@
     background-color: #333;
 }
 
-/* Fixed Header Buttons Row (Replaces admin-header-actions) */
+/* Fixed Header Buttons Row */
 .admin-header-buttons-row {
-    display: grid;
-    /* Use Grid instead of Flex */
-    grid-template-columns: 1fr 1fr 1fr;
-    /* Strict 3 columns */
+    display: flex;
     gap: 8px;
     width: 100%;
     box-sizing: border-box;
 }
 
 .admin-header-buttons-row button {
-    width: 100%;
-    /* Fill the grid cell */
+    flex: 1;
     min-width: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 0.5rem;
     white-space: nowrap;
     box-sizing: border-box;
-    padding: 0.5rem;
-    /* Standard padding */
+    padding: 0.75rem 1rem;
 }
 
+/* Mobile: Stack buttons vertically for guaranteed visibility */
 @media (max-width: 768px) {
-    .btn-label {
-        display: none !important;
-        /* Force hide text */
+    .admin-header-buttons-row {
+        flex-direction: column;
+        /* Stack vertically */
+        gap: 0.5rem;
     }
 
     .admin-header-buttons-row button {
-        padding: 0.75rem 0.25rem;
-        /* Taller but narrower padding */
-        font-size: 1.25rem;
-        /* Large icons */
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+        justify-content: center;
+    }
+
+    /* Keep labels visible on mobile since we have vertical space */
+    .btn-label {
+        display: inline !important;
     }
 }
