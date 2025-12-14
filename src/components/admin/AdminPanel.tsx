@@ -7,6 +7,67 @@ interface AdminPanelProps {
     onExit: () => void;
 }
 
+const VisitorLogTable = () => {
+    const [logs, setLogs] = useState<any[]>([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        fetch('/resources/visitors.log')
+            .then(res => {
+                if (!res.ok) throw new Error('No log file');
+                return res.text();
+            })
+            .then(text => {
+                const lines = text.trim().split('\n');
+                const parsed = lines.map(line => {
+                    try {
+                        const clean = line.trim().replace(/,$/, '');
+                        return JSON.parse(clean);
+                    } catch (e) { return null; }
+                }).filter(Boolean).reverse().slice(0, 50);
+                setLogs(parsed);
+                setLoading(false);
+            })
+            .catch(() => setLoading(false));
+    }, []);
+
+    if (loading) return <div style={{ padding: '1rem' }}>Loading logs...</div>;
+    if (logs.length === 0) return <div style={{ padding: '1rem' }}>No logs found yet.</div>;
+
+    return (
+        <div style={{ overflowX: 'auto' }}>
+            <table style={{ width: '100%', minWidth: '400px', fontSize: '0.85rem', borderCollapse: 'collapse' }}>
+                <thead>
+                    <tr style={{ background: '#eee', textAlign: 'left' }}>
+                        <th style={{ padding: '8px' }}>Time</th>
+                        <th style={{ padding: '8px' }}>IP</th>
+                        <th style={{ padding: '8px' }}>Path</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {logs.map((log, i) => (
+                        <tr key={i} style={{ borderBottom: '1px solid #eee' }}>
+                            <td style={{ padding: '8px' }}>{new Date(log.timestamp).toLocaleString()}</td>
+                            <td style={{ padding: '8px' }}>{log.ip}</td>
+                            <td style={{ padding: '8px' }}>{log.path}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div>
+    );
+};
+
+// Add responsive styles
+const adminStyles = `
+  @media (max-width: 768px) {
+    .admin-panel { padding: 1rem !important; }
+    .admin-header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+    .admin-header-actions { width: 100%; flex-wrap: wrap; }
+    .admin-header-actions button { flex: 1; }
+  }
+`;
+
 export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelProps) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [password, setPassword] = useState('');
@@ -203,9 +264,10 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
 
     return (
         <div className="admin-panel" style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto', fontFamily: 'system-ui, sans-serif', backgroundColor: '#ffffff', minHeight: '100vh', color: '#000000' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', borderBottom: '1px solid #ddd', paddingBottom: '1rem' }}>
+            <style>{adminStyles}</style>
+            <div className="admin-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', borderBottom: '1px solid #ddd', paddingBottom: '1rem' }}>
                 <h1 style={{ margin: 0, color: '#333' }}>Admin Dashboard</h1>
-                <div style={{ display: 'flex', gap: '1rem' }}>
+                <div className="admin-header-actions" style={{ display: 'flex', gap: '1rem' }}>
                     <button
                         onClick={handleSaveToFile}
                         style={{
@@ -260,6 +322,14 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                         <div style={{ fontSize: '1.25rem', fontFamily: 'monospace', fontWeight: 'bold', color: '#333' }}>
                             {adminIp || 'Loading...'}
                         </div>
+                    </div>
+                </div>
+
+                {/* Visitor Log (Latest 50) */}
+                <div style={{ marginTop: '1.5rem' }}>
+                    <h3 style={{ fontSize: '1.1rem', marginBottom: '1rem', color: '#555' }}>Recent Visitors (Log File)</h3>
+                    <div style={{ maxHeight: '300px', overflowY: 'auto', border: '1px solid #eee', borderRadius: '4px' }}>
+                        <VisitorLogTable />
                     </div>
                 </div>
             </div>
@@ -427,8 +497,8 @@ export const AdminPanel = ({ episodes, onUpdateEpisodes, onExit }: AdminPanelPro
                     </div>
                 </div>
             ) : (
-                <div className="episode-table" style={{ background: 'white', borderRadius: '8px', overflow: 'hidden', boxShadow: '0 2px 8px rgba(0,0,0,0.1)' }}>
-                    <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+                <div className="episode-table" style={{ background: 'white', borderRadius: '8px', overflowX: 'auto', boxShadow: '0 2px 8px rgba(0,0,0,0.1)' }}>
+                    <table style={{ width: '100%', minWidth: '600px', borderCollapse: 'collapse' }}>
                         <thead>
                             <tr style={{ background: '#f5f5f5', textAlign: 'left' }}>
                                 <th style={{ padding: '15px' }}>ID</th>
